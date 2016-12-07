@@ -42,6 +42,7 @@
   },
   "private": true,
   "dependencies": {
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.2",
+    "matcher-collection": "^1.0.4"
   }
 }

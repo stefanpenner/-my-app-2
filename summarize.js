@@ -2,6 +2,7 @@
 
 let fs = require('fs');
 let _ = require('lodash');
+let MatcherCollection = require('matcher-collection');
 
 module.exports.loadTree = loadTree
 function loadTree(path) {
@@ -36,6 +37,18 @@ function toTree(data) {
   return root;
 }
 
+function* keyIterator (obj, prefix='') {
+  for (let key in obj) {
+    let value = obj[key];
+
+    if (typeof value === 'object') {
+      yield* keyIterator(value, `${prefix}${key}.`);
+    } else {
+      yield `${prefix}${key}`;
+    }
+  }
+}
+
 function Node(_id, id, stats, children) {
   this._id = _id;
   this.id = id;
@@ -56,6 +69,10 @@ Node.prototype.preOrderIterator = function* (until) {
     }
   }
 };
+
+Node.prototype.statsIterator = function* () {
+  yield* keyIterator(this.stats);
+}
 
 Node.prototype.findDescendant = function(matcher) {
   for (const node of this.preOrderIterator()) {
@@ -90,22 +107,36 @@ function groupBy(iterator, fn) {
 }
 
 function sumStat(iterator, stat) {
+  return sumStats(iterator, stat);
+}
+
+function sumStats(iterator, ...patterns) {
+  let matcher = new MatcherCollection(patterns);
+
   return sumBy(iterator, function (node) {
-    let value = _.get(node, `stats.${stat}`);
+    let matchingStats = filterBy(node.statsIterator(), x => matcher.match(x));
+    return sumBy(matchingStats, function (stat) {
+      let value = _.get(node, `stats.${stat}`);
 
-    if (value) {
-      return value;
-    }
+      if (value) {
+        return value;
+      }
 
-    return 0;
+      return 0;
+    })
   });
 }
+
 // find me all the unique names, that match { broccoliNode: true, name: <any> }
 // all group by names
 //
 
 function allPlugins(iterator) {
-  return groupBy(filterBy(iterator, node => node.id.broccoliNode), node => node.id.name);
+  return filterBy(iterator, node => node.id.broccoliNode);
+}
+
+function allPluginsGrouped(iterator) {
+  return groupBy(allPlugins(iterator), node => node.id.name);
 }
 
 function summarizeGroups(groups) {
@@ -120,16 +151,40 @@ function summarizeGroups(groups) {
 function summarizePlugins(plugins) {
 }
 
+function untilBroccoliNode(child) {
+  return child.id.broccoliNode;
+}
+
 function summarizePlugin(plugin) {
   return {
     name: plugin.id.name,
-    selfTime:  formatNs(sumStat(plugin.preOrderIterator(child => child.id.broccoliNode), 'time.self')),
-    totalTime: formatNs(sumStat(plugin.preOrderIterator(), 'time.self'))
+    selfTime:   formatNs(sumStat(plugin.preOrderIterator(untilBroccoliNode), 'time.self')),
+    totalTime:  formatNs(sumStat(plugin.preOrderIterator(), 'time.self')),
+    io: {
+      self: {
+        ios:        formatNum(sumStats(plugin.preOrderIterator(untilBroccoliNode), 'fs.*.count')),
+        ioTime:     formatNs(sumStats(plugin.preOrderIterator(untilBroccoliNode), 'fs.*.time')),
+      },
+      total: {
+        ios:        formatNum(sumStats(plugin.preOrderIterator(), 'fs.*.count')),
+        ioTime:     formatNs(sumStats(plugin.preOrderIterator(), 'fs.*.time')),
+      }
+    }
   };
 }
 
+function* map(iterator, fn) {
+  for (let x of iterator) {
+    yield fn(x);
+  }
+}
+
 function formatNs(ns) {
-  return `${(ns/1e6).toFixed(2)}ms`;
+  return `${formatNum((ns/1e6).toFixed(2))}ms`;
+}
+
+function formatNum(x) {
+ return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
 function printBuildSummary(tree) {
@@ -146,8 +201,7 @@ function printBuildSummary(tree) {
       steps: sumBy(tree.preOrderIterator(), function() { return 1; })
     },
 
-    // plugins: summarizeGroup(allPlugins(tree.preOrderIterator())),
-    plugin: summarizePlugin(tree),
+    plugins: [[...map(allPlugins(tree.preOrderIterator()), summarizePlugin)][0]],
 
     pluginsByName: {
 
