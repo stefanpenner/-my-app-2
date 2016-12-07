@@ -4,6 +4,46 @@ let fs = require('fs');
 let _ = require('lodash');
 let MatcherCollection = require('matcher-collection');
 
+
+let fsReadPatterns = [
+  'accessSync',
+  'existsSync',
+  'fstatSync',
+  'lstat',
+  'lstatSync',
+  'mkdirSync',
+  'openSync',
+  'readFile',
+  'readFileSync',
+  'readSync',
+  'readdirSync',
+  'readlinkSync',
+  'realpathSync',
+  'statSync',
+].map(x => `fs.${x}.time`);
+
+let fsWritePatterns = [
+  'chmod',
+  'mkdir',
+  'open',
+  'rmdir',
+  'rmdirSync',
+  'symlinkSync',
+  'unlinkSync',
+  'write',
+  'writeFile',
+  'writeFileSync',
+  'writeSync',
+].map(x => `fs.${x}.time`);
+
+let fsOtherPatterns = [
+  'close',
+  'closeSync',
+].map(x => `fs.${x}.time`);
+
+
+
+
 module.exports.loadTree = loadTree
 function loadTree(path) {
   const json = JSON.parse(fs.readFileSync(path, 'UTF8'));
@@ -35,6 +75,27 @@ function toTree(data) {
   });
 
   return root;
+}
+
+function* unionIterator(...iterators) {
+  let seen = new WeakSet();
+  let seenp = Object.create(null);
+
+  for (let itr of iterators) {
+    for (let item of itr) {
+      if (typeof item === 'object') {
+        if (seen.has(item)) { continue; }
+
+        seen.add(item);
+      } else {
+        if (seenp[item]) { continue; }
+
+        seenp[item] = true;
+      }
+
+      yield item;
+    }
+  }
 }
 
 function* keyIterator (obj, prefix='') {
@@ -148,29 +209,53 @@ function summarizeGroups(groups) {
   });
 }
 
-function summarizePlugins(plugins) {
-}
-
 function untilBroccoliNode(child) {
   return child.id.broccoliNode;
 }
 
+function summarizePlugins(plugins) {
+  let generator = (...args) => {
+    return unionIterator(...plugins.map(x => x.preOrderIterator(...args)));
+  }
+
+  let name = plugins[0] && plugins[0].id.name || 'none';
+  let count = plugins.length;
+  let more = {
+    name,
+    count,
+  }
+
+  return summarizeNodes(generator, more);
+}
+
 function summarizePlugin(plugin) {
-  return {
-    name: plugin.id.name,
-    selfTime:   formatNs(sumStat(plugin.preOrderIterator(untilBroccoliNode), 'time.self')),
-    totalTime:  formatNs(sumStat(plugin.preOrderIterator(), 'time.self')),
+  let generator = plugin.preOrderIterator.bind(plugin);
+  return summarizeNodes(generator, { name: plugin.id.name });
+}
+
+function summarizeNodes(generator, more={}) {
+  return Object.assign({
+    selfTime:   formatNs(sumStat(generator(untilBroccoliNode), 'time.self')),
+    totalTime:  formatNs(sumStat(generator(), 'time.self')),
     io: {
       self: {
-        ios:        formatNum(sumStats(plugin.preOrderIterator(untilBroccoliNode), 'fs.*.count')),
-        ioTime:     formatNs(sumStats(plugin.preOrderIterator(untilBroccoliNode), 'fs.*.time')),
+        ios:        formatNum(sumStats(generator(untilBroccoliNode), 'fs.*.count')),
+        ioTime:     formatNs(sumStats(generator(untilBroccoliNode), 'fs.*.time')),
+
+        readTime:   formatNs(sumStats(generator(untilBroccoliNode), ...fsReadPatterns)),
+        writeTime:  formatNs(sumStats(generator(untilBroccoliNode), ...fsWritePatterns)),
+        otherTime:  formatNs(sumStats(generator(untilBroccoliNode), ...fsOtherPatterns)),
       },
       total: {
-        ios:        formatNum(sumStats(plugin.preOrderIterator(), 'fs.*.count')),
-        ioTime:     formatNs(sumStats(plugin.preOrderIterator(), 'fs.*.time')),
+        ios:        formatNum(sumStats(generator(), 'fs.*.count')),
+        ioTime:     formatNs(sumStats(generator(), 'fs.*.time')),
+
+        readTime:   formatNs(sumStats(generator(), ...fsReadPatterns)),
+        writeTime:  formatNs(sumStats(generator(), ...fsWritePatterns)),
+        otherTime:  formatNs(sumStats(generator(), ...fsOtherPatterns)),
       }
     }
-  };
+  }, more);
 }
 
 function* map(iterator, fn) {
@@ -178,6 +263,18 @@ function* map(iterator, fn) {
     yield fn(x);
   }
 }
+
+function mapValues(obj, fn) {
+  let result = Object.create(null);
+
+  for (let key in obj) {
+    let value = obj[key];
+    result[key] = fn(value);
+  }
+
+  return result;
+}
+
 
 function formatNs(ns) {
   return `${formatNum((ns/1e6).toFixed(2))}ms`;
@@ -203,11 +300,10 @@ function printBuildSummary(tree) {
 
     plugins: [[...map(allPlugins(tree.preOrderIterator()), summarizePlugin)][0]],
 
-    pluginsByName: {
-
-    }
+    pluginsByName: mapValues(allPluginsGrouped(tree.preOrderIterator()), summarizePlugins),
   }, null, 2));
 }
+
 
 let tree = loadTree('./broccoli-viz.0.json');
 printBuildSummary(tree);
