@@ -1,0 +1,9543 @@
+{
+  "summary": {
+    "buildCount": 0,
+    "output": "/Users/spenner/tmp/apps/my-app-2/tmp/broccoli_merge_trees-output_path-2JPCUvjG.tmp",
+    "totalNodes": 264
+  },
+  "nodes": [
+    {
+      "_id": 1,
+      "id": {
+        "name": "TreeMerger (allTrees)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 11820836
+        },
+        "fs": {
+          "realpathSync": {
+            "count": 5,
+            "time": 380971
+          },
+          "lstatSync": {
+            "count": 15,
+            "time": 263284
+          },
+          "readFileSync": {
+            "count": 4,
+            "time": 505907
+          },
+          "openSync": {
+            "count": 4,
+            "time": 183444
+          },
+          "fstatSync": {
+            "count": 4,
+            "time": 28093
+          },
+          "readSync": {
+            "count": 4,
+            "time": 83408
+          },
+          "closeSync": {
+            "count": 4,
+            "time": 44118
+          },
+          "statSync": {
+            "count": 2,
+            "time": 111828
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 195171
+          },
+          "existsSync": {
+            "count": 6,
+            "time": 307207
+          },
+          "readdirSync": {
+            "count": 1,
+            "time": 86761
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 550496
+          }
+        }
+      },
+      "children": [
+        2,
+        11,
+        171,
+        183,
+        186,
+        194,
+        200,
+        263,
+        264
+      ]
+    },
+    {
+      "_id": 2,
+      "id": {
+        "name": "ConfigReplace",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 109444325
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 109358
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 231844
+          },
+          "realpathSync": {
+            "count": 54,
+            "time": 16074606
+          },
+          "lstatSync": {
+            "count": 444,
+            "time": 7004655
+          },
+          "readFileSync": {
+            "count": 42,
+            "time": 12796287
+          },
+          "openSync": {
+            "count": 45,
+            "time": 2629704
+          },
+          "fstatSync": {
+            "count": 44,
+            "time": 327838
+          },
+          "readSync": {
+            "count": 44,
+            "time": 7580219
+          },
+          "closeSync": {
+            "count": 45,
+            "time": 825643
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 300276
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 26661
+          }
+        }
+      },
+      "children": [
+        3,
+        8
+      ]
+    },
+    {
+      "_id": 3,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 6672459
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 69779
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 189449
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 66518
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 149035
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 175437
+          }
+        }
+      },
+      "children": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "_id": 4,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 759517
+        }
+      },
+      "children": [
+        5
+      ]
+    },
+    {
+      "_id": 5,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 9394408
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 47674
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 6,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 1,
+          "entries": 1
+        },
+        "time": {
+          "self": 1803540
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 7,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 0,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 1,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1187176
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 1,
+            "time": 39928
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 100049
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 8,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4898043
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 271339
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 768931
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 356463
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 135753
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 363624
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 955263
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 119482
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 85699
+          }
+        }
+      },
+      "children": [
+        9
+      ]
+    },
+    {
+      "_id": 9,
+      "id": {
+        "name": "ConfigLoader",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 33469527
+        },
+        "fs": {
+          "realpathSync": {
+            "count": 5,
+            "time": 397398
+          },
+          "lstatSync": {
+            "count": 12,
+            "time": 259563
+          },
+          "readFileSync": {
+            "count": 8,
+            "time": 1064770
+          },
+          "openSync": {
+            "count": 10,
+            "time": 850594
+          },
+          "fstatSync": {
+            "count": 8,
+            "time": 69449
+          },
+          "readSync": {
+            "count": 8,
+            "time": 99138
+          },
+          "closeSync": {
+            "count": 10,
+            "time": 189476
+          },
+          "statSync": {
+            "count": 4,
+            "time": 158091
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 555890
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 161784
+          },
+          "readdirSync": {
+            "count": 3,
+            "time": 340293
+          },
+          "lstat": {
+            "count": 1,
+            "time": 140432
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 88799
+          },
+          "existsSync": {
+            "count": 12,
+            "time": 690980
+          },
+          "writeFileSync": {
+            "count": 2,
+            "time": 817567
+          },
+          "writeSync": {
+            "count": 2,
+            "time": 49531
+          }
+        }
+      },
+      "children": [
+        10
+      ]
+    },
+    {
+      "_id": 10,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/config",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3771845
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 35273
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 11,
+      "id": {
+        "name": "TreeMerger (vendor & appJS)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1503401
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 80694
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 189101
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 47900
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 368242
+          }
+        }
+      },
+      "children": [
+        12,
+        165,
+        169,
+        170
+      ]
+    },
+    {
+      "_id": 12,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 211846996
+        },
+        "fs": {
+          "statSync": {
+            "count": 12,
+            "time": 5861372
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 524570
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 372998
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 121178
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 164482
+          },
+          "lstat": {
+            "count": 1,
+            "time": 26306
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 20645
+          },
+          "openSync": {
+            "count": 11,
+            "time": 1625845
+          },
+          "fstatSync": {
+            "count": 10,
+            "time": 149679
+          },
+          "readSync": {
+            "count": 10,
+            "time": 6770627
+          },
+          "closeSync": {
+            "count": 11,
+            "time": 2611398
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 21467632
+          },
+          "write": {
+            "count": 1,
+            "time": 30413
+          },
+          "close": {
+            "count": 1,
+            "time": 21458
+          }
+        }
+      },
+      "children": [
+        13
+      ]
+    },
+    {
+      "_id": 13,
+      "id": {
+        "name": "TreeMerger (appAndDependencies)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2043963
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 108315
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 413757
+          },
+          "lstatSync": {
+            "count": 4,
+            "time": 65180
+          },
+          "symlinkSync": {
+            "count": 4,
+            "time": 538539
+          }
+        }
+      },
+      "children": [
+        14,
+        110,
+        158,
+        163,
+        164
+      ]
+    },
+    {
+      "_id": 14,
+      "id": {
+        "name": "TreeMerger (ExternalTree)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1086406
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 79401
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 328791
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 20055
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 147917
+          }
+        }
+      },
+      "children": [
+        15,
+        17,
+        108,
+        109
+      ]
+    },
+    {
+      "_id": 15,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2975080
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 147326
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 320459
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 300919
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 119151
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 373436
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 529675
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 40538
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 44334
+          }
+        }
+      },
+      "children": [
+        16
+      ]
+    },
+    {
+      "_id": 16,
+      "id": {
+        "name": "bower_components",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5507065
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 50373
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 17,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3506214
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 128251
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 346126
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 222001
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 213880
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 859515
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 485861
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 30853
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 72423
+          }
+        }
+      },
+      "children": [
+        18
+      ]
+    },
+    {
+      "_id": 18,
+      "id": {
+        "name": "TreeMerger (vendor)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 21674237
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 53348
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 162328
+          },
+          "lstatSync": {
+            "count": 9,
+            "time": 373377
+          },
+          "symlinkSync": {
+            "count": 9,
+            "time": 16854367
+          }
+        }
+      },
+      "children": [
+        19,
+        78,
+        83,
+        85,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        107
+      ]
+    },
+    {
+      "_id": 19,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 37982729
+        },
+        "fs": {
+          "statSync": {
+            "count": 155,
+            "time": 11068838
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 471379
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 86421
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 52143
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 95429
+          },
+          "readdirSync": {
+            "count": 38,
+            "time": 5619102
+          },
+          "lstat": {
+            "count": 1,
+            "time": 49859
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 27815
+          },
+          "openSync": {
+            "count": 1,
+            "time": 256410
+          },
+          "closeSync": {
+            "count": 1,
+            "time": 16625
+          }
+        }
+      },
+      "children": [
+        20
+      ]
+    },
+    {
+      "_id": 20,
+      "id": {
+        "name": "TreeMerger (addons)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5156754
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 69433
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 148436
+          },
+          "lstatSync": {
+            "count": 6,
+            "time": 190163
+          },
+          "symlinkSync": {
+            "count": 6,
+            "time": 1079028
+          }
+        }
+      },
+      "children": [
+        21,
+        40,
+        46,
+        52,
+        55,
+        61,
+        76,
+        77
+      ]
+    },
+    {
+      "_id": 21,
+      "id": {
+        "name": "Addon#treeFor (ember-data - addon)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1298617
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 71506
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 190030
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 32852
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 191187
+          }
+        }
+      },
+      "children": [
+        22,
+        28,
+        38,
+        39
+      ]
+    },
+    {
+      "_id": 22,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 20829634
+        },
+        "fs": {
+          "realpathSync": {
+            "count": 10,
+            "time": 1517456
+          },
+          "lstatSync": {
+            "count": 63,
+            "time": 857133
+          },
+          "readFileSync": {
+            "count": 7,
+            "time": 1739763
+          },
+          "openSync": {
+            "count": 7,
+            "time": 282814
+          },
+          "fstatSync": {
+            "count": 7,
+            "time": 49976
+          },
+          "readSync": {
+            "count": 7,
+            "time": 651449
+          },
+          "closeSync": {
+            "count": 7,
+            "time": 84228
+          },
+          "statSync": {
+            "count": 3,
+            "time": 126812
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 340337
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 190838
+          }
+        }
+      },
+      "children": [
+        23,
+        26,
+        27
+      ]
+    },
+    {
+      "_id": 23,
+      "id": {
+        "name": "Funnel: Addon JS",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 11639834
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 184502
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 794124
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 339414
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 123244
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 272209
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 639236
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 45746
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 40169
+          }
+        }
+      },
+      "children": [
+        24
+      ]
+    },
+    {
+      "_id": 24,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 163463
+        }
+      },
+      "children": [
+        25
+      ]
+    },
+    {
+      "_id": 25,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-inflector/addon",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5238942
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 39936
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 26,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 16,
+          "entries": 16,
+          "walk": {
+            "entries": 16,
+            "duration": "3.80 ms"
+          }
+        },
+        "time": {
+          "self": 5440837
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 8,
+            "time": 1009530
+          },
+          "statSync": {
+            "count": 16,
+            "time": 1021243
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 27,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 7,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 9,
+          "other": 0,
+          "processed": 9,
+          "linked": 0,
+          "processString": 9,
+          "persistentCacheHit": 9,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 52516639
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 7,
+            "time": 732468
+          },
+          "readFileSync": {
+            "count": 9,
+            "time": 1756286
+          },
+          "openSync": {
+            "count": 18,
+            "time": 3239930
+          },
+          "fstatSync": {
+            "count": 9,
+            "time": 155453
+          },
+          "readSync": {
+            "count": 9,
+            "time": 304230
+          },
+          "closeSync": {
+            "count": 18,
+            "time": 746899
+          },
+          "readFile": {
+            "count": 9,
+            "time": 414042
+          },
+          "writeFileSync": {
+            "count": 9,
+            "time": 4159362
+          },
+          "writeSync": {
+            "count": 9,
+            "time": 399130
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 28,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1800462
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 113847
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 379251
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 91717
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 124743
+          }
+        }
+      },
+      "children": [
+        29,
+        36,
+        37
+      ]
+    },
+    {
+      "_id": 29,
+      "id": {
+        "name": "Funnel: Addon JS",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3998161
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 295825
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 435652
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 378650
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 109229
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 969252
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 986600
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 63887
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 52933
+          }
+        }
+      },
+      "children": [
+        30
+      ]
+    },
+    {
+      "_id": 30,
+      "id": {
+        "name": "BroccoliMergeTrees",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3109490
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 109607
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 252803
+          },
+          "lstatSync": {
+            "count": 4,
+            "time": 193764
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 247400
+          }
+        }
+      },
+      "children": [
+        31,
+        32,
+        34,
+        35
+      ]
+    },
+    {
+      "_id": 31,
+      "id": {
+        "name": "Creator",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1879334
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 138780
+          },
+          "mkdirSync": {
+            "count": 4,
+            "time": 429020
+          },
+          "existsSync": {
+            "count": 1,
+            "time": 57675
+          },
+          "writeFileSync": {
+            "count": 1,
+            "time": 341693
+          },
+          "openSync": {
+            "count": 1,
+            "time": 170514
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 30184
+          },
+          "closeSync": {
+            "count": 1,
+            "time": 54417
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 32,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 119712
+        }
+      },
+      "children": [
+        33
+      ]
+    },
+    {
+      "_id": 33,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-data/addon",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5228144
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 41570
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 34,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 13,
+          "entries": 13
+        },
+        "time": {
+          "self": 2736901
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 2,
+            "time": 216378
+          },
+          "statSync": {
+            "count": 13,
+            "time": 644937
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 35,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 10,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 2005678
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 13,
+            "time": 357410
+          },
+          "symlinkSync": {
+            "count": 13,
+            "time": 1166468
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 36,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 100,
+          "entries": 100,
+          "walk": {
+            "entries": 100,
+            "duration": "14.71 ms"
+          }
+        },
+        "time": {
+          "self": 15120683
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 20,
+            "time": 2960297
+          },
+          "statSync": {
+            "count": 100,
+            "time": 9817157
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 37,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 19,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 81,
+          "other": 0,
+          "processed": 81,
+          "linked": 0,
+          "processString": 81,
+          "persistentCacheHit": 81,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 250368093
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 19,
+            "time": 2723886
+          },
+          "readFileSync": {
+            "count": 81,
+            "time": 22075605
+          },
+          "openSync": {
+            "count": 162,
+            "time": 27375709
+          },
+          "fstatSync": {
+            "count": 81,
+            "time": 1045500
+          },
+          "readSync": {
+            "count": 81,
+            "time": 8959536
+          },
+          "closeSync": {
+            "count": 162,
+            "time": 6522109
+          },
+          "realpathSync": {
+            "count": 3,
+            "time": 96490
+          },
+          "statSync": {
+            "count": 206,
+            "time": 35958920
+          },
+          "readdirSync": {
+            "count": 56,
+            "time": 7624831
+          },
+          "readFile": {
+            "count": 81,
+            "time": 2792489
+          },
+          "writeFileSync": {
+            "count": 81,
+            "time": 33063963
+          },
+          "writeSync": {
+            "count": 81,
+            "time": 3154572
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 38,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 3,
+          "entries": 3
+        },
+        "time": {
+          "self": 2152924
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 4,
+            "time": 489448
+          },
+          "statSync": {
+            "count": 4,
+            "time": 200481
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 39,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1184539
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 160472
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 62866
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 238709
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 40,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1431805
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 117516
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 301880
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 134780
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 96434
+          }
+        }
+      },
+      "children": [
+        41,
+        44,
+        45
+      ]
+    },
+    {
+      "_id": 41,
+      "id": {
+        "name": "Funnel: Addon JS",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3378705
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 154321
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 433443
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 644612
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 121556
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 302578
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 1023920
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 71496
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 49324
+          }
+        }
+      },
+      "children": [
+        42
+      ]
+    },
+    {
+      "_id": 42,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 375857
+        }
+      },
+      "children": [
+        43
+      ]
+    },
+    {
+      "_id": 43,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-ajax/addon",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4774683
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 45309
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 44,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 17,
+          "entries": 17,
+          "walk": {
+            "entries": 17,
+            "duration": "2.61 ms"
+          }
+        },
+        "time": {
+          "self": 3133856
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 6,
+            "time": 636558
+          },
+          "statSync": {
+            "count": 17,
+            "time": 1122521
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 45,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 5,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 12,
+          "other": 0,
+          "processed": 12,
+          "linked": 0,
+          "processString": 12,
+          "persistentCacheHit": 12,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 47273122
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 5,
+            "time": 634395
+          },
+          "readFileSync": {
+            "count": 12,
+            "time": 2828718
+          },
+          "openSync": {
+            "count": 24,
+            "time": 4335094
+          },
+          "fstatSync": {
+            "count": 12,
+            "time": 171596
+          },
+          "readSync": {
+            "count": 12,
+            "time": 896313
+          },
+          "closeSync": {
+            "count": 24,
+            "time": 1152895
+          },
+          "readFile": {
+            "count": 12,
+            "time": 329853
+          },
+          "writeFileSync": {
+            "count": 12,
+            "time": 5785235
+          },
+          "writeSync": {
+            "count": 12,
+            "time": 358650
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 46,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1389651
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 105779
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 397306
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 82803
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 121964
+          }
+        }
+      },
+      "children": [
+        47,
+        50,
+        51
+      ]
+    },
+    {
+      "_id": 47,
+      "id": {
+        "name": "Funnel: Addon JS",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3624740
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 195297
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 389884
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 470364
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 141911
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 343564
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 877445
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 54850
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 44290
+          }
+        }
+      },
+      "children": [
+        48
+      ]
+    },
+    {
+      "_id": 48,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 191807
+        }
+      },
+      "children": [
+        49
+      ]
+    },
+    {
+      "_id": 49,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-cli-app-version/addon",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3844570
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 40923
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 50,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 3,
+          "entries": 3,
+          "walk": {
+            "entries": 3,
+            "duration": "0.49 ms"
+          }
+        },
+        "time": {
+          "self": 1198751
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 3,
+            "time": 259599
+          },
+          "statSync": {
+            "count": 3,
+            "time": 158249
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 51,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 2,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 1,
+          "other": 0,
+          "processed": 1,
+          "linked": 0,
+          "processString": 1,
+          "persistentCacheHit": 1,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 2363630
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 2,
+            "time": 191440
+          },
+          "readFileSync": {
+            "count": 1,
+            "time": 145869
+          },
+          "openSync": {
+            "count": 2,
+            "time": 259437
+          },
+          "fstatSync": {
+            "count": 1,
+            "time": 11213
+          },
+          "readSync": {
+            "count": 1,
+            "time": 12586
+          },
+          "closeSync": {
+            "count": 2,
+            "time": 59755
+          },
+          "readFile": {
+            "count": 1,
+            "time": 33110
+          },
+          "writeFileSync": {
+            "count": 1,
+            "time": 301876
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 23292
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 52,
+      "id": {
+        "name": "Funnel: Addon JS",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4405031
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 189993
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 476537
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 419289
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 136883
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 667887
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 866612
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 57541
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 53131
+          }
+        }
+      },
+      "children": [
+        53
+      ]
+    },
+    {
+      "_id": 53,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 92415
+        }
+      },
+      "children": [
+        54
+      ]
+    },
+    {
+      "_id": 54,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-load-initializers/addon",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5812629
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 46360
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 55,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2528466
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 138384
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 1040830
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 91199
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 131114
+          }
+        }
+      },
+      "children": [
+        56,
+        59,
+        60
+      ]
+    },
+    {
+      "_id": 56,
+      "id": {
+        "name": "Funnel: Addon JS",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3001083
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 157914
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 515724
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 401873
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 124716
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 340493
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 715346
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 45038
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 66281
+          }
+        }
+      },
+      "children": [
+        57
+      ]
+    },
+    {
+      "_id": 57,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 86405
+        }
+      },
+      "children": [
+        58
+      ]
+    },
+    {
+      "_id": 58,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-resolver/addon",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5007107
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 43643
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 59,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 10,
+          "entries": 10,
+          "walk": {
+            "entries": 10,
+            "duration": "1.12 ms"
+          }
+        },
+        "time": {
+          "self": 1215265
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 4,
+            "time": 382626
+          },
+          "statSync": {
+            "count": 10,
+            "time": 590303
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 60,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 7,
+          "other": 0,
+          "processed": 7,
+          "linked": 0,
+          "processString": 7,
+          "persistentCacheHit": 7,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 77969919
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 3,
+            "time": 259894
+          },
+          "readFileSync": {
+            "count": 7,
+            "time": 1343143
+          },
+          "openSync": {
+            "count": 14,
+            "time": 2575316
+          },
+          "fstatSync": {
+            "count": 7,
+            "time": 116614
+          },
+          "readSync": {
+            "count": 7,
+            "time": 287753
+          },
+          "closeSync": {
+            "count": 14,
+            "time": 668596
+          },
+          "readFile": {
+            "count": 7,
+            "time": 504498
+          },
+          "writeFileSync": {
+            "count": 7,
+            "time": 3276366
+          },
+          "writeSync": {
+            "count": 7,
+            "time": 213441
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 61,
+      "id": {
+        "name": "Addon#compileAddon(ember-welcome-page) ",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1327028
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 80468
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 267535
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 37483
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 368536
+          }
+        }
+      },
+      "children": [
+        62,
+        68,
+        74,
+        75
+      ]
+    },
+    {
+      "_id": 62,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1290259
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 86302
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 245180
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 244776
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 116752
+          }
+        }
+      },
+      "children": [
+        63,
+        66,
+        67
+      ]
+    },
+    {
+      "_id": 63,
+      "id": {
+        "name": "Funnel: Addon JS",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4158693
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 159018
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 834405
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 564122
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 142016
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 319444
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 900427
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 61418
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 68357
+          }
+        }
+      },
+      "children": [
+        64
+      ]
+    },
+    {
+      "_id": 64,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 81385
+        }
+      },
+      "children": [
+        65
+      ]
+    },
+    {
+      "_id": 65,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-welcome-page/addon",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3632280
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 31788
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 66,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 7,
+          "entries": 7,
+          "walk": {
+            "entries": 7,
+            "duration": "1.42 ms"
+          }
+        },
+        "time": {
+          "self": 1542111
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 6,
+            "time": 779736
+          },
+          "statSync": {
+            "count": 7,
+            "time": 476044
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 67,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 5,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 2,
+          "other": 0,
+          "processed": 1,
+          "linked": 1,
+          "processString": 1,
+          "persistentCacheHit": 1,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 4763995
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 5,
+            "time": 1840621
+          },
+          "readFileSync": {
+            "count": 1,
+            "time": 202171
+          },
+          "openSync": {
+            "count": 2,
+            "time": 380257
+          },
+          "fstatSync": {
+            "count": 1,
+            "time": 17503
+          },
+          "readSync": {
+            "count": 1,
+            "time": 17647
+          },
+          "closeSync": {
+            "count": 2,
+            "time": 55669
+          },
+          "readFile": {
+            "count": 1,
+            "time": 33980
+          },
+          "writeFileSync": {
+            "count": 1,
+            "time": 399068
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 23143
+          },
+          "lstatSync": {
+            "count": 1,
+            "time": 47048
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 99240
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 68,
+      "id": {
+        "name": "TemplateCompiler",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 10552860
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 97708
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 230261
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 546958
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 213608
+          }
+        }
+      },
+      "children": [
+        69,
+        72,
+        73
+      ]
+    },
+    {
+      "_id": 69,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4734446
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 385982
+          },
+          "mkdirSync": {
+            "count": 7,
+            "time": 660449
+          },
+          "lstatSync": {
+            "count": 27,
+            "time": 448576
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 185607
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 757181
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 952608
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 71694
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 48517
+          }
+        }
+      },
+      "children": [
+        70
+      ]
+    },
+    {
+      "_id": 70,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 95705
+        }
+      },
+      "children": [
+        71
+      ]
+    },
+    {
+      "_id": 71,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-welcome-page/addon/templates",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5472895
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 52062
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 72,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 5,
+          "entries": 5,
+          "walk": {
+            "entries": 5,
+            "duration": "1.83 ms"
+          }
+        },
+        "time": {
+          "self": 1992902
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 5,
+            "time": 582667
+          },
+          "statSync": {
+            "count": 5,
+            "time": 364144
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 73,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 4,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 1,
+          "other": 0,
+          "processed": 1,
+          "linked": 0,
+          "processString": 1,
+          "persistentCacheHit": 1,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 61876244
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 4,
+            "time": 1969649
+          },
+          "readFileSync": {
+            "count": 2,
+            "time": 17897914
+          },
+          "openSync": {
+            "count": 3,
+            "time": 436703
+          },
+          "fstatSync": {
+            "count": 2,
+            "time": 40129
+          },
+          "readSync": {
+            "count": 2,
+            "time": 2148236
+          },
+          "closeSync": {
+            "count": 3,
+            "time": 132522
+          },
+          "readFile": {
+            "count": 1,
+            "time": 49414
+          },
+          "writeFileSync": {
+            "count": 1,
+            "time": 455910
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 23433
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 74,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 7,
+          "entries": 7
+        },
+        "time": {
+          "self": 2159980
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 10,
+            "time": 947847
+          },
+          "statSync": {
+            "count": 11,
+            "time": 525450
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 75,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 5,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 2,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 2914949
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 4,
+            "time": 432811
+          },
+          "lstatSync": {
+            "count": 28,
+            "time": 550421
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 409396
+          },
+          "realpathSync": {
+            "count": 1,
+            "time": 1346863
+          },
+          "statSync": {
+            "count": 4,
+            "time": 215026
+          },
+          "readlinkSync": {
+            "count": 4,
+            "time": 235593
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 76,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 8,
+          "entries": 8
+        },
+        "time": {
+          "self": 2043291
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 12,
+            "time": 846058
+          },
+          "statSync": {
+            "count": 13,
+            "time": 748347
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 77,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 8,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 3481823
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 130325
+          },
+          "lstatSync": {
+            "count": 53,
+            "time": 892058
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 880798
+          },
+          "realpathSync": {
+            "count": 3,
+            "time": 1998916
+          },
+          "statSync": {
+            "count": 8,
+            "time": 330749
+          },
+          "readlinkSync": {
+            "count": 8,
+            "time": 182995
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 78,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 96722926
+        },
+        "fs": {
+          "statSync": {
+            "count": 154,
+            "time": 7857262
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 452648
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 105719
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 103534
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 161720
+          },
+          "readdirSync": {
+            "count": 37,
+            "time": 5981080
+          },
+          "lstat": {
+            "count": 1,
+            "time": 21132
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 15396
+          },
+          "openSync": {
+            "count": 114,
+            "time": 5962669
+          },
+          "fstatSync": {
+            "count": 113,
+            "time": 929742
+          },
+          "readSync": {
+            "count": 113,
+            "time": 1462915
+          },
+          "closeSync": {
+            "count": 114,
+            "time": 2793315
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 380322
+          },
+          "write": {
+            "count": 1,
+            "time": 19047
+          },
+          "close": {
+            "count": 1,
+            "time": 19594
+          }
+        }
+      },
+      "children": [
+        79
+      ]
+    },
+    {
+      "_id": 79,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3862126
+        },
+        "fs": {
+          "statSync": {
+            "count": 5,
+            "time": 180311
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 229476
+          },
+          "lstatSync": {
+            "count": 12,
+            "time": 194910
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 63108
+          },
+          "realpathSync": {
+            "count": 1,
+            "time": 986653
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 63472
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 162111
+          }
+        }
+      },
+      "children": [
+        80,
+        81,
+        82
+      ]
+    },
+    {
+      "_id": 80,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2973956
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 156172
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 155526
+          },
+          "lstatSync": {
+            "count": 4,
+            "time": 86513
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 229772
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 500043
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 81,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 150,
+          "entries": 150,
+          "walk": {
+            "entries": 150,
+            "duration": "22.44 ms"
+          }
+        },
+        "time": {
+          "self": 22833442
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 37,
+            "time": 5851795
+          },
+          "statSync": {
+            "count": 150,
+            "time": 13905532
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 82,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 36,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 114,
+          "other": 0,
+          "processed": 113,
+          "linked": 1,
+          "processString": 113,
+          "persistentCacheHit": 0,
+          "persistentCachePrime": 113
+        },
+        "time": {
+          "self": 5846278731
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 36,
+            "time": 4308383
+          },
+          "readFileSync": {
+            "count": 226,
+            "time": 32845523
+          },
+          "openSync": {
+            "count": 339,
+            "time": 45197125
+          },
+          "fstatSync": {
+            "count": 226,
+            "time": 3149182
+          },
+          "readSync": {
+            "count": 226,
+            "time": 3337957
+          },
+          "closeSync": {
+            "count": 339,
+            "time": 9312370
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 1867366
+          },
+          "statSync": {
+            "count": 13,
+            "time": 2082816
+          },
+          "readdirSync": {
+            "count": 2,
+            "time": 203568
+          },
+          "readFile": {
+            "count": 113,
+            "time": 3689994
+          },
+          "accessSync": {
+            "count": 126,
+            "time": 6261857
+          },
+          "writeFile": {
+            "count": 114,
+            "time": 6243793
+          },
+          "open": {
+            "count": 114,
+            "time": 4559595
+          },
+          "mkdir": {
+            "count": 1,
+            "time": 153042
+          },
+          "write": {
+            "count": 113,
+            "time": 3097193
+          },
+          "close": {
+            "count": 113,
+            "time": 3407511
+          },
+          "chmod": {
+            "count": 113,
+            "time": 2779616
+          },
+          "writeFileSync": {
+            "count": 113,
+            "time": 50000589
+          },
+          "writeSync": {
+            "count": 113,
+            "time": 4260833
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 482194
+          },
+          "readlinkSync": {
+            "count": 4,
+            "time": 149438
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 141982
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 83,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 114860
+        }
+      },
+      "children": [
+        84
+      ]
+    },
+    {
+      "_id": 84,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-runtime-enumerable-includes-polyfill/vendor",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5367487
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 55419
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 85,
+      "id": {
+        "name": "BroccoliMergeTrees",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3554559
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 316474
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 272213
+          },
+          "lstatSync": {
+            "count": 6,
+            "time": 339278
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 379503
+          }
+        }
+      },
+      "children": [
+        86,
+        88,
+        92,
+        94,
+        95
+      ]
+    },
+    {
+      "_id": 86,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 113360
+        }
+      },
+      "children": [
+        87
+      ]
+    },
+    {
+      "_id": 87,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-cli-qunit/vendor",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4480316
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 48440
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 88,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4263741
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 122802
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 345534
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 154063
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 167732
+          }
+        }
+      },
+      "children": [
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "_id": 89,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/qunit-notifications",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 6117367
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 41520
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 90,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 2,
+          "entries": 2
+        },
+        "time": {
+          "self": 8507301
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 1,
+            "time": 624801
+          },
+          "statSync": {
+            "count": 14,
+            "time": 4091622
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 91,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 1,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1119676
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 159349
+          },
+          "lstatSync": {
+            "count": 1,
+            "time": 36697
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 127033
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 92,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 155693
+        }
+      },
+      "children": [
+        93
+      ]
+    },
+    {
+      "_id": 93,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/qunitjs",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5236967
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 38938
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 94,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 7,
+          "entries": 7
+        },
+        "time": {
+          "self": 2340860
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 3,
+            "time": 286986
+          },
+          "statSync": {
+            "count": 7,
+            "time": 1444473
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 95,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 4,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1549990
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 7,
+            "time": 160592
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 645673
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 96,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 126724
+        }
+      },
+      "children": [
+        97
+      ]
+    },
+    {
+      "_id": 97,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-load-initializers/vendor",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4684025
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 46672
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 98,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 126748
+        }
+      },
+      "children": [
+        99
+      ]
+    },
+    {
+      "_id": 99,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-resolver/vendor",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5418430
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 59477
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 100,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 145241
+        }
+      },
+      "children": [
+        101
+      ]
+    },
+    {
+      "_id": 101,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-welcome-page/vendor",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 6110901
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 78537
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 102,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 157645
+        }
+      },
+      "children": [
+        103
+      ]
+    },
+    {
+      "_id": 103,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/loader.js/lib",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 8995759
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 263420
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 104,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 132694
+        }
+      },
+      "children": [
+        105
+      ]
+    },
+    {
+      "_id": 105,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/vendor",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 7321120
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 66480
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 106,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 16,
+          "entries": 16
+        },
+        "time": {
+          "self": 2538235
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 9,
+            "time": 770698
+          },
+          "statSync": {
+            "count": 16,
+            "time": 1170700
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 107,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 7,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 9,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 7004933
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 121,
+            "time": 1575681
+          },
+          "symlinkSync": {
+            "count": 16,
+            "time": 1450674
+          },
+          "realpathSync": {
+            "count": 7,
+            "time": 4801526
+          },
+          "statSync": {
+            "count": 21,
+            "time": 782009
+          },
+          "readlinkSync": {
+            "count": 21,
+            "time": 409711
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 108,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 2,
+          "entries": 2
+        },
+        "time": {
+          "self": 612246
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 2,
+            "time": 166835
+          },
+          "statSync": {
+            "count": 2,
+            "time": 160303
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 109,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 2,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 2662960
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 24,
+            "time": 680111
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 1998309
+          },
+          "statSync": {
+            "count": 4,
+            "time": 209745
+          },
+          "readlinkSync": {
+            "count": 4,
+            "time": 100880
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 432314
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 110,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1904962
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 80091
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 295628
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 100008
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 438013
+          }
+        }
+      },
+      "children": [
+        111,
+        156,
+        157
+      ]
+    },
+    {
+      "_id": 111,
+      "id": {
+        "name": "TreeMerger (preprocessedApp & templates)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1333986
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 47050
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 134724
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 42236
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 148132
+          }
+        }
+      },
+      "children": [
+        112,
+        136,
+        154,
+        155
+      ]
+    },
+    {
+      "_id": 112,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2380348
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 90336
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 224221
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 225348
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 118267
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 282934
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 408241
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 23719
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 26550
+          }
+        }
+      },
+      "children": [
+        113
+      ]
+    },
+    {
+      "_id": 113,
+      "id": {
+        "name": "TreeMerger (app)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3013305
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 68208
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 229931
+          },
+          "lstatSync": {
+            "count": 7,
+            "time": 91451
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 478370
+          }
+        }
+      },
+      "children": [
+        114,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        134,
+        135
+      ]
+    },
+    {
+      "_id": 114,
+      "id": {
+        "name": "Addon#treeFor (ember-data - app)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1020786
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 56643
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 129373
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 94274
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 212018
+          }
+        }
+      },
+      "children": [
+        115,
+        117,
+        119,
+        120
+      ]
+    },
+    {
+      "_id": 115,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 151917
+        }
+      },
+      "children": [
+        116
+      ]
+    },
+    {
+      "_id": 116,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-inflector/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4533126
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 30799
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 117,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 166547
+        }
+      },
+      "children": [
+        118
+      ]
+    },
+    {
+      "_id": 118,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-data/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4696242
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 75388
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 119,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 3,
+          "entries": 3
+        },
+        "time": {
+          "self": 2137227
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 2,
+            "time": 642302
+          },
+          "statSync": {
+            "count": 3,
+            "time": 735680
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 120,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 468903
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 3,
+            "time": 83360
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 294063
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 121,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 389519
+        }
+      },
+      "children": [
+        122
+      ]
+    },
+    {
+      "_id": 122,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-ajax/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4205627
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 43692
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 123,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3136271
+        }
+      },
+      "children": [
+        124
+      ]
+    },
+    {
+      "_id": 124,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-cli-app-version/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 8094964
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 104220
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 125,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 142220
+        }
+      },
+      "children": [
+        126
+      ]
+    },
+    {
+      "_id": 126,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-export-application-global/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 8645232
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 70617
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 127,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 122198
+        }
+      },
+      "children": [
+        128
+      ]
+    },
+    {
+      "_id": 128,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-resolver/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 6511551
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 80978
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 129,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 116601
+        }
+      },
+      "children": [
+        130
+      ]
+    },
+    {
+      "_id": 130,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-welcome-page/app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 7743931
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 926104
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 131,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3614282
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 94645
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 186677
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 68547
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 92805
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 181237
+          }
+        }
+      },
+      "children": [
+        132,
+        133
+      ]
+    },
+    {
+      "_id": 132,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 18,
+          "entries": 18
+        },
+        "time": {
+          "self": 9264602
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 9,
+            "time": 783935
+          },
+          "statSync": {
+            "count": 22,
+            "time": 2317376
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 133,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 7,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 11,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 2706529
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 11,
+            "time": 319225
+          },
+          "symlinkSync": {
+            "count": 11,
+            "time": 1189946
+          },
+          "mkdirSync": {
+            "count": 7,
+            "time": 460800
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 134,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 27,
+          "entries": 27
+        },
+        "time": {
+          "self": 8352528
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 16,
+            "time": 1620380
+          },
+          "statSync": {
+            "count": 33,
+            "time": 5251447
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 135,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 9,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 18,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 8051970
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 122,
+            "time": 1822684
+          },
+          "realpathSync": {
+            "count": 7,
+            "time": 4467841
+          },
+          "statSync": {
+            "count": 21,
+            "time": 971616
+          },
+          "readlinkSync": {
+            "count": 21,
+            "time": 402731
+          },
+          "symlinkSync": {
+            "count": 24,
+            "time": 1753156
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 202796
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 136,
+      "id": {
+        "name": "TemplateCompiler",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1945604
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 80501
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 287461
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 95369
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 73070
+          }
+        }
+      },
+      "children": [
+        137,
+        152,
+        153
+      ]
+    },
+    {
+      "_id": 137,
+      "id": {
+        "name": "addonPreprocessTree(template)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4152730
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 119595
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 268157
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 39763
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 210213
+          }
+        }
+      },
+      "children": [
+        138,
+        142,
+        150,
+        151
+      ]
+    },
+    {
+      "_id": 138,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4489330
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 173043
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 356219
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 305724
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 123158
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 291581
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 742509
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 66844
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 87581
+          }
+        }
+      },
+      "children": [
+        139
+      ]
+    },
+    {
+      "_id": 139,
+      "id": {
+        "name": "BroccoliMergeTrees",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 769681
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 93634
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 181779
+          }
+        }
+      },
+      "children": [
+        140,
+        141
+      ]
+    },
+    {
+      "_id": 140,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 0,
+          "entries": 0
+        },
+        "time": {
+          "self": 71397
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 141,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 0,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 17846
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 142,
+      "id": {
+        "name": "TreeMerge (templates)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1271730
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 242988
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 205660
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 48062
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 351663
+          }
+        }
+      },
+      "children": [
+        143,
+        145,
+        148,
+        149
+      ]
+    },
+    {
+      "_id": 143,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2471503
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 119546
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 318662
+          },
+          "lstatSync": {
+            "count": 23,
+            "time": 293871
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 107330
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 258385
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 638447
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 41818
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 36599
+          }
+        }
+      },
+      "children": [
+        144
+      ]
+    },
+    {
+      "_id": 144,
+      "id": {
+        "name": "UnwatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 62916
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 145,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1307875
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 62610
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 151965
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 28947
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 57040
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 75610
+          }
+        }
+      },
+      "children": [
+        146,
+        147
+      ]
+    },
+    {
+      "_id": 146,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 0,
+          "entries": 0
+        },
+        "time": {
+          "self": 2945755
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 9,
+            "time": 637948
+          },
+          "statSync": {
+            "count": 22,
+            "time": 673726
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 147,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 0,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 21459
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 148,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 1,
+          "entries": 1
+        },
+        "time": {
+          "self": 399545
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 2,
+            "time": 180721
+          },
+          "statSync": {
+            "count": 1,
+            "time": 44715
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 149,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 173916
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 1,
+            "time": 16236
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 109250
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 150,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 5,
+          "entries": 5
+        },
+        "time": {
+          "self": 1381480
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 6,
+            "time": 422540
+          },
+          "statSync": {
+            "count": 7,
+            "time": 344433
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 151,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 2,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1151864
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 2,
+            "time": 163177
+          },
+          "lstatSync": {
+            "count": 3,
+            "time": 114603
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 273075
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 152,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 6,
+          "entries": 6,
+          "walk": {
+            "entries": 6,
+            "duration": "0.83 ms"
+          }
+        },
+        "time": {
+          "self": 932851
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 4,
+            "time": 350560
+          },
+          "statSync": {
+            "count": 6,
+            "time": 386941
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 153,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 3,
+          "other": 0,
+          "processed": 2,
+          "linked": 1,
+          "processString": 2,
+          "persistentCacheHit": 2,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 105532520
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 3,
+            "time": 213089
+          },
+          "readFileSync": {
+            "count": 3,
+            "time": 19731293
+          },
+          "openSync": {
+            "count": 5,
+            "time": 652380
+          },
+          "fstatSync": {
+            "count": 3,
+            "time": 27907
+          },
+          "readSync": {
+            "count": 3,
+            "time": 1367601
+          },
+          "closeSync": {
+            "count": 5,
+            "time": 174529
+          },
+          "readFile": {
+            "count": 2,
+            "time": 84724
+          },
+          "writeFileSync": {
+            "count": 2,
+            "time": 811901
+          },
+          "writeSync": {
+            "count": 2,
+            "time": 62132
+          },
+          "lstatSync": {
+            "count": 1,
+            "time": 81191
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 90909
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 154,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 18,
+          "entries": 18
+        },
+        "time": {
+          "self": 2763906
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 8,
+            "time": 850174
+          },
+          "statSync": {
+            "count": 22,
+            "time": 1312292
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 155,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 11,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 7,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 15857350
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 3,
+            "time": 629501
+          },
+          "lstatSync": {
+            "count": 185,
+            "time": 3125430
+          },
+          "realpathSync": {
+            "count": 10,
+            "time": 10416943
+          },
+          "statSync": {
+            "count": 39,
+            "time": 1519066
+          },
+          "readlinkSync": {
+            "count": 39,
+            "time": 1672796
+          },
+          "symlinkSync": {
+            "count": 15,
+            "time": 3672704
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 156,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 38,
+          "entries": 38,
+          "walk": {
+            "entries": 38,
+            "duration": "5.52 ms"
+          }
+        },
+        "time": {
+          "self": 5608316
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 12,
+            "time": 1668741
+          },
+          "statSync": {
+            "count": 38,
+            "time": 3114463
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 157,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 11,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 27,
+          "other": 0,
+          "processed": 20,
+          "linked": 7,
+          "processString": 20,
+          "persistentCacheHit": 20,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 153496481
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 11,
+            "time": 950067
+          },
+          "readFileSync": {
+            "count": 20,
+            "time": 3155725
+          },
+          "openSync": {
+            "count": 40,
+            "time": 5770013
+          },
+          "fstatSync": {
+            "count": 20,
+            "time": 222908
+          },
+          "readSync": {
+            "count": 20,
+            "time": 230328
+          },
+          "closeSync": {
+            "count": 40,
+            "time": 1178983
+          },
+          "statSync": {
+            "count": 35,
+            "time": 1290700
+          },
+          "readdirSync": {
+            "count": 2,
+            "time": 133722
+          },
+          "readFile": {
+            "count": 20,
+            "time": 435798
+          },
+          "writeFileSync": {
+            "count": 20,
+            "time": 6049676
+          },
+          "writeSync": {
+            "count": 20,
+            "time": 435972
+          },
+          "lstatSync": {
+            "count": 133,
+            "time": 2034667
+          },
+          "realpathSync": {
+            "count": 7,
+            "time": 20886066
+          },
+          "readlinkSync": {
+            "count": 26,
+            "time": 479222
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 1066814
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 158,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1521200
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 69013
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 159646
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 29007
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 41965
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 115369
+          }
+        }
+      },
+      "children": [
+        159,
+        161,
+        162
+      ]
+    },
+    {
+      "_id": 159,
+      "id": {
+        "name": "ConfigReplace",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 13672163
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 83947
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 263571
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 49008
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 194295
+          },
+          "openSync": {
+            "count": 22,
+            "time": 2780681
+          },
+          "fstatSync": {
+            "count": 12,
+            "time": 86868
+          },
+          "readSync": {
+            "count": 12,
+            "time": 283010
+          },
+          "closeSync": {
+            "count": 22,
+            "time": 796223
+          },
+          "writeSync": {
+            "count": 10,
+            "time": 498841
+          },
+          "readFileSync": {
+            "count": 1,
+            "time": 409086
+          }
+        }
+      },
+      "children": [
+        160
+      ]
+    },
+    {
+      "_id": 160,
+      "id": {
+        "name": "UnwatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 70779
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 161,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 12,
+          "entries": 10
+        },
+        "time": {
+          "self": 388104
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 162,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 2,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 10,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 2280417
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 2,
+            "time": 258911
+          },
+          "lstatSync": {
+            "count": 10,
+            "time": 376703
+          },
+          "symlinkSync": {
+            "count": 10,
+            "time": 962903
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 163,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 34,
+          "entries": 34
+        },
+        "time": {
+          "self": 3192241
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 8,
+            "time": 765828
+          },
+          "statSync": {
+            "count": 36,
+            "time": 1298162
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 164,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 21,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 13,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 22457386
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 327,
+            "time": 3527133
+          },
+          "realpathSync": {
+            "count": 19,
+            "time": 9499549
+          },
+          "statSync": {
+            "count": 63,
+            "time": 2116481
+          },
+          "readlinkSync": {
+            "count": 63,
+            "time": 988058
+          },
+          "symlinkSync": {
+            "count": 32,
+            "time": 10458039
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 643889
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 165,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 22381504
+        },
+        "fs": {
+          "statSync": {
+            "count": 47,
+            "time": 4138634
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 544989
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 34417
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 75130
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 122694
+          },
+          "readdirSync": {
+            "count": 14,
+            "time": 2338705
+          },
+          "lstat": {
+            "count": 1,
+            "time": 27997
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 12046
+          },
+          "openSync": {
+            "count": 25,
+            "time": 2138140
+          },
+          "fstatSync": {
+            "count": 24,
+            "time": 165742
+          },
+          "readSync": {
+            "count": 24,
+            "time": 187842
+          },
+          "closeSync": {
+            "count": 25,
+            "time": 221277
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 33305
+          },
+          "write": {
+            "count": 1,
+            "time": 20786
+          },
+          "close": {
+            "count": 1,
+            "time": 11754
+          }
+        }
+      },
+      "children": [
+        166
+      ]
+    },
+    {
+      "_id": 166,
+      "id": {
+        "name": "TreeMerger (appJS  & processedEmberCLITree)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 871400
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 58421
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 164057
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 33750
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 196363
+          }
+        }
+      },
+      "children": [
+        167,
+        168
+      ]
+    },
+    {
+      "_id": 167,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 30,
+          "entries": 30
+        },
+        "time": {
+          "self": 4118336
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 6,
+            "time": 554586
+          },
+          "statSync": {
+            "count": 42,
+            "time": 2371772
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 168,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 11,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 19,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 17102077
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 414,
+            "time": 4412073
+          },
+          "realpathSync": {
+            "count": 27,
+            "time": 10565592
+          },
+          "statSync": {
+            "count": 64,
+            "time": 2063645
+          },
+          "readlinkSync": {
+            "count": 64,
+            "time": 1030355
+          },
+          "symlinkSync": {
+            "count": 28,
+            "time": 4764109
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 318711
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 169,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 5,
+          "entries": 5
+        },
+        "time": {
+          "self": 926390
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 4,
+            "time": 532789
+          },
+          "statSync": {
+            "count": 6,
+            "time": 181614
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 170,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 4,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 596699
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 88172
+          },
+          "lstatSync": {
+            "count": 4,
+            "time": 73359
+          },
+          "symlinkSync": {
+            "count": 4,
+            "time": 358023
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 171,
+      "id": {
+        "name": "styles",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 723314
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 40282
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 155551
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 37404
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 148025
+          }
+        }
+      },
+      "children": [
+        172,
+        180,
+        181,
+        182
+      ]
+    },
+    {
+      "_id": 172,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1081274
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 50062
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 166376
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 24440
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 50509
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 122382
+          }
+        }
+      },
+      "children": [
+        173,
+        178,
+        179
+      ]
+    },
+    {
+      "_id": 173,
+      "id": {
+        "name": "TreeMerger (stylesAndVendor)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 946114
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 43575
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 189642
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 57620
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 202121
+          }
+        }
+      },
+      "children": [
+        174,
+        176,
+        177
+      ]
+    },
+    {
+      "_id": 174,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3550476
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 134201
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 589169
+          },
+          "lstatSync": {
+            "count": 23,
+            "time": 208434
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 96120
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 259241
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 415571
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 25713
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 44657
+          }
+        }
+      },
+      "children": [
+        175
+      ]
+    },
+    {
+      "_id": 175,
+      "id": {
+        "name": "UnwatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 74145
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 176,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 3,
+          "entries": 3
+        },
+        "time": {
+          "self": 360656
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 2,
+            "time": 131214
+          },
+          "statSync": {
+            "count": 3,
+            "time": 81271
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 177,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 0,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1146931
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 25,
+            "time": 309887
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 237494
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 754993
+          },
+          "statSync": {
+            "count": 4,
+            "time": 111958
+          },
+          "readlinkSync": {
+            "count": 4,
+            "time": 90502
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 178,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 2,
+          "entries": 2
+        },
+        "time": {
+          "self": 626447
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 1,
+            "time": 130445
+          },
+          "statSync": {
+            "count": 1,
+            "time": 55133
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 179,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 1,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 279781
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 57811
+          },
+          "lstatSync": {
+            "count": 1,
+            "time": 29405
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 101417
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 180,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2911965
+        },
+        "fs": {
+          "statSync": {
+            "count": 5,
+            "time": 168997
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 256239
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 29371
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 46096
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 75555
+          },
+          "lstat": {
+            "count": 1,
+            "time": 24377
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 12819
+          },
+          "openSync": {
+            "count": 3,
+            "time": 338332
+          },
+          "fstatSync": {
+            "count": 2,
+            "time": 19123
+          },
+          "readSync": {
+            "count": 2,
+            "time": 22219
+          },
+          "closeSync": {
+            "count": 3,
+            "time": 83966
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 22021
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 181,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 3,
+          "entries": 3
+        },
+        "time": {
+          "self": 685101
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 4,
+            "time": 292748
+          },
+          "statSync": {
+            "count": 4,
+            "time": 188618
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 182,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 2,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1472418
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 61732
+          },
+          "lstatSync": {
+            "count": 24,
+            "time": 353389
+          },
+          "realpathSync": {
+            "count": 1,
+            "time": 1032308
+          },
+          "statSync": {
+            "count": 6,
+            "time": 241891
+          },
+          "readlinkSync": {
+            "count": 6,
+            "time": 102945
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 161449
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 183,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1109565
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 61657
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 139693
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 34214
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 52342
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 82418
+          }
+        }
+      },
+      "children": [
+        184,
+        185
+      ]
+    },
+    {
+      "_id": 184,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 3,
+          "entries": 3
+        },
+        "time": {
+          "self": 1409378
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 1,
+            "time": 159342
+          },
+          "statSync": {
+            "count": 2,
+            "time": 794104
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 185,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 2,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 369239
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 65901
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 55034
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 125753
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 186,
+      "id": {
+        "name": "TreeMerge (public)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 762028
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 41842
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 110287
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 46843
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 179410
+          }
+        }
+      },
+      "children": [
+        187,
+        190,
+        192,
+        193
+      ]
+    },
+    {
+      "_id": 187,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2683618
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 109223
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 292981
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 407697
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 122556
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 254313
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 683973
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 44308
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 55121
+          }
+        }
+      },
+      "children": [
+        188
+      ]
+    },
+    {
+      "_id": 188,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 121549
+        }
+      },
+      "children": [
+        189
+      ]
+    },
+    {
+      "_id": 189,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-welcome-page/public",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 8430253
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 49751
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 190,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 126979
+        }
+      },
+      "children": [
+        191
+      ]
+    },
+    {
+      "_id": 191,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/public",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5169840
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 53652
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 192,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 3,
+          "entries": 3
+        },
+        "time": {
+          "self": 1030865
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 2,
+            "time": 188969
+          },
+          "statSync": {
+            "count": 3,
+            "time": 615441
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 193,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 2,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 1197731
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 16,
+            "time": 348414
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 260847
+          },
+          "realpathSync": {
+            "count": 1,
+            "time": 773406
+          },
+          "statSync": {
+            "count": 2,
+            "time": 127004
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 75764
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 194,
+      "id": {
+        "name": "ConfigReplace",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4491941
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 99531
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 156686
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 36515
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 183428
+          },
+          "openSync": {
+            "count": 4,
+            "time": 464337
+          },
+          "fstatSync": {
+            "count": 3,
+            "time": 39626
+          },
+          "readSync": {
+            "count": 3,
+            "time": 233260
+          },
+          "closeSync": {
+            "count": 4,
+            "time": 79357
+          },
+          "readFileSync": {
+            "count": 1,
+            "time": 464022
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 25838
+          }
+        }
+      },
+      "children": [
+        195
+      ]
+    },
+    {
+      "_id": 195,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1501656
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 50549
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 100643
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 72402
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 90140
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 118435
+          }
+        }
+      },
+      "children": [
+        196,
+        198,
+        199
+      ]
+    },
+    {
+      "_id": 196,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 117580
+        }
+      },
+      "children": [
+        197
+      ]
+    },
+    {
+      "_id": 197,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/tests",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4282260
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 29956
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 198,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 2,
+          "entries": 1
+        },
+        "time": {
+          "self": 253629
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 199,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 1,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 416497
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 89967
+          },
+          "lstatSync": {
+            "count": 1,
+            "time": 105595
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 90059
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 200,
+      "id": {
+        "name": "BroccoliMergeTrees",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 869905
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 63135
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 148204
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 31825
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 133951
+          }
+        }
+      },
+      "children": [
+        201,
+        230,
+        261,
+        262
+      ]
+    },
+    {
+      "_id": 201,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 13546353
+        },
+        "fs": {
+          "statSync": {
+            "count": 48,
+            "time": 2382789
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 421005
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 26995
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 48377
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 60858
+          },
+          "readdirSync": {
+            "count": 16,
+            "time": 1577173
+          },
+          "lstat": {
+            "count": 1,
+            "time": 37244
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 14910
+          },
+          "openSync": {
+            "count": 19,
+            "time": 1260099
+          },
+          "fstatSync": {
+            "count": 18,
+            "time": 107471
+          },
+          "readSync": {
+            "count": 18,
+            "time": 111551
+          },
+          "closeSync": {
+            "count": 19,
+            "time": 203233
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 25341
+          },
+          "write": {
+            "count": 1,
+            "time": 27519
+          },
+          "close": {
+            "count": 1,
+            "time": 16892
+          }
+        }
+      },
+      "children": [
+        202
+      ]
+    },
+    {
+      "_id": 202,
+      "id": {
+        "name": "TreeMerger (appTestTrees)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1412646
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 61765
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 122204
+          },
+          "lstatSync": {
+            "count": 5,
+            "time": 73351
+          },
+          "symlinkSync": {
+            "count": 5,
+            "time": 380862
+          }
+        }
+      },
+      "children": [
+        203,
+        207,
+        214,
+        221,
+        228,
+        229
+      ]
+    },
+    {
+      "_id": 203,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1958632
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 94259
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 247125
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 129012
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 150168
+          }
+        }
+      },
+      "children": [
+        204,
+        205,
+        206
+      ]
+    },
+    {
+      "_id": 204,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2570285
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 138053
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 423522
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 339480
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 141877
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 229950
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 520779
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 41235
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 46853
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 205,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 16,
+          "entries": 16,
+          "walk": {
+            "entries": 16,
+            "duration": "5.77 ms"
+          }
+        },
+        "time": {
+          "self": 5887175
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 7,
+            "time": 1327429
+          },
+          "statSync": {
+            "count": 16,
+            "time": 3929393
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 206,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 6,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 10,
+          "other": 0,
+          "processed": 6,
+          "linked": 4,
+          "processString": 6,
+          "persistentCacheHit": 6,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 112225026
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 6,
+            "time": 567680
+          },
+          "lstatSync": {
+            "count": 4,
+            "time": 277567
+          },
+          "symlinkSync": {
+            "count": 4,
+            "time": 754348
+          },
+          "readFileSync": {
+            "count": 6,
+            "time": 1543953
+          },
+          "openSync": {
+            "count": 12,
+            "time": 2895638
+          },
+          "fstatSync": {
+            "count": 6,
+            "time": 136240
+          },
+          "readSync": {
+            "count": 6,
+            "time": 117217
+          },
+          "closeSync": {
+            "count": 12,
+            "time": 746621
+          },
+          "statSync": {
+            "count": 9,
+            "time": 199713
+          },
+          "readdirSync": {
+            "count": 2,
+            "time": 137351
+          },
+          "readFile": {
+            "count": 6,
+            "time": 261000
+          },
+          "writeFileSync": {
+            "count": 6,
+            "time": 3529123
+          },
+          "writeSync": {
+            "count": 6,
+            "time": 277670
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 207,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2631121
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 399937
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 436403
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 33865
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 85555
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 187069
+          }
+        }
+      },
+      "children": [
+        208,
+        212,
+        213
+      ]
+    },
+    {
+      "_id": 208,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4540959
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 303196
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 602254
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 359141
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 167080
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 310418
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 640657
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 49934
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 50686
+          }
+        }
+      },
+      "children": [
+        209
+      ]
+    },
+    {
+      "_id": 209,
+      "id": {
+        "name": "JSHint app",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 8470366
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 225375
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 478098
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 117989
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 147915
+          },
+          "readdirSync": {
+            "count": 1,
+            "time": 174065
+          },
+          "readFileSync": {
+            "count": 1,
+            "time": 538413
+          },
+          "openSync": {
+            "count": 1,
+            "time": 64393
+          },
+          "fstatSync": {
+            "count": 1,
+            "time": 20165
+          },
+          "readSync": {
+            "count": 1,
+            "time": 293590
+          },
+          "closeSync": {
+            "count": 1,
+            "time": 31190
+          }
+        }
+      },
+      "children": [
+        210,
+        211
+      ]
+    },
+    {
+      "_id": 210,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 18,
+          "entries": 18,
+          "walk": {
+            "entries": 18,
+            "duration": "3.16 ms"
+          }
+        },
+        "time": {
+          "self": 3319090
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 8,
+            "time": 1097373
+          },
+          "statSync": {
+            "count": 18,
+            "time": 1755544
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 211,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 7,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 11,
+          "other": 0,
+          "processed": 4,
+          "linked": 7,
+          "processString": 4,
+          "persistentCacheHit": 4,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 20158243
+        },
+        "fs": {
+          "readFileSync": {
+            "count": 4,
+            "time": 770597
+          },
+          "openSync": {
+            "count": 8,
+            "time": 1337808
+          },
+          "fstatSync": {
+            "count": 4,
+            "time": 55551
+          },
+          "readSync": {
+            "count": 4,
+            "time": 69309
+          },
+          "closeSync": {
+            "count": 8,
+            "time": 333449
+          },
+          "readFile": {
+            "count": 4,
+            "time": 117626
+          },
+          "writeFileSync": {
+            "count": 4,
+            "time": 1653233
+          },
+          "writeSync": {
+            "count": 4,
+            "time": 130724
+          },
+          "mkdirSync": {
+            "count": 7,
+            "time": 761390
+          },
+          "lstatSync": {
+            "count": 112,
+            "time": 2483157
+          },
+          "realpathSync": {
+            "count": 7,
+            "time": 6749423
+          },
+          "statSync": {
+            "count": 21,
+            "time": 1628855
+          },
+          "readlinkSync": {
+            "count": 21,
+            "time": 612362
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 1732182
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 212,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 20,
+          "entries": 20,
+          "walk": {
+            "entries": 20,
+            "duration": "2.92 ms"
+          }
+        },
+        "time": {
+          "self": 3128778
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 10,
+            "time": 1229792
+          },
+          "statSync": {
+            "count": 20,
+            "time": 1374138
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 213,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 9,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 11,
+          "other": 0,
+          "processed": 4,
+          "linked": 7,
+          "processString": 4,
+          "persistentCacheHit": 0,
+          "persistentCachePrime": 4
+        },
+        "time": {
+          "self": 77959855
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 9,
+            "time": 608371
+          },
+          "readFileSync": {
+            "count": 8,
+            "time": 1055535
+          },
+          "openSync": {
+            "count": 12,
+            "time": 1311422
+          },
+          "fstatSync": {
+            "count": 8,
+            "time": 91000
+          },
+          "readSync": {
+            "count": 8,
+            "time": 118680
+          },
+          "closeSync": {
+            "count": 12,
+            "time": 285384
+          },
+          "statSync": {
+            "count": 30,
+            "time": 1082919
+          },
+          "readdirSync": {
+            "count": 2,
+            "time": 190674
+          },
+          "readFile": {
+            "count": 4,
+            "time": 115984
+          },
+          "accessSync": {
+            "count": 9,
+            "time": 284696
+          },
+          "writeFile": {
+            "count": 4,
+            "time": 140630
+          },
+          "open": {
+            "count": 4,
+            "time": 81247
+          },
+          "write": {
+            "count": 4,
+            "time": 83374
+          },
+          "close": {
+            "count": 4,
+            "time": 53953
+          },
+          "chmod": {
+            "count": 4,
+            "time": 79844
+          },
+          "writeFileSync": {
+            "count": 4,
+            "time": 1519469
+          },
+          "writeSync": {
+            "count": 4,
+            "time": 213473
+          },
+          "lstatSync": {
+            "count": 119,
+            "time": 1289581
+          },
+          "realpathSync": {
+            "count": 7,
+            "time": 3547373
+          },
+          "readlinkSync": {
+            "count": 21,
+            "time": 352401
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 563761
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 214,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1233557
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 117734
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 246484
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 30804
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 56527
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 60439
+          }
+        }
+      },
+      "children": [
+        215,
+        219,
+        220
+      ]
+    },
+    {
+      "_id": 215,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3765157
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 169586
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 359422
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 242009
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 136374
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 261501
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 555341
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 43625
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 41823
+          }
+        }
+      },
+      "children": [
+        216
+      ]
+    },
+    {
+      "_id": 216,
+      "id": {
+        "name": "JSHint tests",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2313294
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 404239
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 236083
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 81697
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 79845
+          },
+          "readdirSync": {
+            "count": 1,
+            "time": 83800
+          },
+          "readFileSync": {
+            "count": 1,
+            "time": 83486
+          },
+          "openSync": {
+            "count": 1,
+            "time": 26247
+          },
+          "fstatSync": {
+            "count": 1,
+            "time": 8142
+          },
+          "readSync": {
+            "count": 1,
+            "time": 10312
+          },
+          "closeSync": {
+            "count": 1,
+            "time": 7958
+          }
+        }
+      },
+      "children": [
+        217,
+        218
+      ]
+    },
+    {
+      "_id": 217,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 14,
+          "entries": 14,
+          "walk": {
+            "entries": 14,
+            "duration": "0.75 ms"
+          }
+        },
+        "time": {
+          "self": 805163
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 5,
+            "time": 268839
+          },
+          "statSync": {
+            "count": 14,
+            "time": 377181
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 218,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 4,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 10,
+          "other": 0,
+          "processed": 6,
+          "linked": 4,
+          "processString": 6,
+          "persistentCacheHit": 6,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 11183112
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 4,
+            "time": 113478
+          },
+          "symlinkSync": {
+            "count": 4,
+            "time": 268577
+          },
+          "mkdirSync": {
+            "count": 4,
+            "time": 221750
+          },
+          "readFileSync": {
+            "count": 6,
+            "time": 844480
+          },
+          "openSync": {
+            "count": 12,
+            "time": 1750979
+          },
+          "fstatSync": {
+            "count": 6,
+            "time": 69535
+          },
+          "readSync": {
+            "count": 6,
+            "time": 67990
+          },
+          "closeSync": {
+            "count": 12,
+            "time": 358020
+          },
+          "readFile": {
+            "count": 6,
+            "time": 127825
+          },
+          "writeFileSync": {
+            "count": 6,
+            "time": 2102608
+          },
+          "writeSync": {
+            "count": 6,
+            "time": 148703
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 219,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 16,
+          "entries": 16,
+          "walk": {
+            "entries": 16,
+            "duration": "1.32 ms"
+          }
+        },
+        "time": {
+          "self": 1378923
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 7,
+            "time": 448437
+          },
+          "statSync": {
+            "count": 16,
+            "time": 741806
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 220,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 6,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 10,
+          "other": 0,
+          "processed": 6,
+          "linked": 4,
+          "processString": 6,
+          "persistentCacheHit": 0,
+          "persistentCachePrime": 6
+        },
+        "time": {
+          "self": 74671397
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 6,
+            "time": 361981
+          },
+          "lstatSync": {
+            "count": 72,
+            "time": 916041
+          },
+          "realpathSync": {
+            "count": 4,
+            "time": 2757460
+          },
+          "statSync": {
+            "count": 25,
+            "time": 915774
+          },
+          "readlinkSync": {
+            "count": 16,
+            "time": 257955
+          },
+          "symlinkSync": {
+            "count": 4,
+            "time": 348041
+          },
+          "readFileSync": {
+            "count": 12,
+            "time": 1253984
+          },
+          "openSync": {
+            "count": 18,
+            "time": 1546145
+          },
+          "fstatSync": {
+            "count": 12,
+            "time": 126155
+          },
+          "readSync": {
+            "count": 12,
+            "time": 135171
+          },
+          "closeSync": {
+            "count": 18,
+            "time": 342018
+          },
+          "readdirSync": {
+            "count": 2,
+            "time": 116209
+          },
+          "readFile": {
+            "count": 6,
+            "time": 123463
+          },
+          "accessSync": {
+            "count": 9,
+            "time": 219213
+          },
+          "writeFile": {
+            "count": 6,
+            "time": 213152
+          },
+          "open": {
+            "count": 6,
+            "time": 118407
+          },
+          "write": {
+            "count": 6,
+            "time": 95357
+          },
+          "close": {
+            "count": 6,
+            "time": 74966
+          },
+          "chmod": {
+            "count": 6,
+            "time": 90622
+          },
+          "writeFileSync": {
+            "count": 6,
+            "time": 1687875
+          },
+          "writeSync": {
+            "count": 6,
+            "time": 111418
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 221,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1113599
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 106025
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 209967
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 29791
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 57407
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 73665
+          }
+        }
+      },
+      "children": [
+        222,
+        226,
+        227
+      ]
+    },
+    {
+      "_id": 222,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2116729
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 112061
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 356913
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 233799
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 88783
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 211110
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 377331
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 24034
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 44155
+          }
+        }
+      },
+      "children": [
+        223
+      ]
+    },
+    {
+      "_id": 223,
+      "id": {
+        "name": "JSHint templates",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3205580
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 95676
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 161414
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 94540
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 93341
+          },
+          "readdirSync": {
+            "count": 4,
+            "time": 809390
+          },
+          "readFileSync": {
+            "count": 1,
+            "time": 116424
+          },
+          "openSync": {
+            "count": 1,
+            "time": 34213
+          },
+          "fstatSync": {
+            "count": 1,
+            "time": 12661
+          },
+          "readSync": {
+            "count": 1,
+            "time": 13405
+          },
+          "closeSync": {
+            "count": 1,
+            "time": 10268
+          }
+        }
+      },
+      "children": [
+        224,
+        225
+      ]
+    },
+    {
+      "_id": 224,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 6,
+          "entries": 6,
+          "walk": {
+            "entries": 6,
+            "duration": "1.19 ms"
+          }
+        },
+        "time": {
+          "self": 1278875
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 4,
+            "time": 461313
+          },
+          "statSync": {
+            "count": 6,
+            "time": 586245
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 225,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 3,
+          "other": 0,
+          "processed": 0,
+          "linked": 3,
+          "processString": 0,
+          "persistentCacheHit": 0,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 935481
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 3,
+            "time": 219447
+          },
+          "lstatSync": {
+            "count": 3,
+            "time": 144059
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 236921
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 226,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 8,
+          "entries": 8,
+          "walk": {
+            "entries": 8,
+            "duration": "0.84 ms"
+          }
+        },
+        "time": {
+          "self": 908852
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 6,
+            "time": 398252
+          },
+          "statSync": {
+            "count": 8,
+            "time": 340203
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 227,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 5,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 3,
+          "other": 0,
+          "processed": 0,
+          "linked": 3,
+          "processString": 0,
+          "persistentCacheHit": 0,
+          "persistentCachePrime": 0
+        },
+        "time": {
+          "self": 3769961
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 5,
+            "time": 251683
+          },
+          "lstatSync": {
+            "count": 83,
+            "time": 901505
+          },
+          "realpathSync": {
+            "count": 3,
+            "time": 2791313
+          },
+          "statSync": {
+            "count": 21,
+            "time": 676767
+          },
+          "readlinkSync": {
+            "count": 21,
+            "time": 333766
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 283335
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 228,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 33,
+          "entries": 33
+        },
+        "time": {
+          "self": 5154178
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 22,
+            "time": 1722247
+          },
+          "statSync": {
+            "count": 49,
+            "time": 2415655
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 229,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 13,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 20,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 6279583
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 6,
+            "time": 472320
+          },
+          "lstatSync": {
+            "count": 103,
+            "time": 1401244
+          },
+          "realpathSync": {
+            "count": 5,
+            "time": 2207508
+          },
+          "statSync": {
+            "count": 10,
+            "time": 328255
+          },
+          "readlinkSync": {
+            "count": 10,
+            "time": 151730
+          },
+          "symlinkSync": {
+            "count": 27,
+            "time": 2395228
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 230,
+      "id": {
+        "name": "TreeMerger (testFiles)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1245317
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 66716
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 168220
+          },
+          "lstatSync": {
+            "count": 3,
+            "time": 50566
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 249017
+          }
+        }
+      },
+      "children": [
+        231,
+        235,
+        258,
+        259,
+        260
+      ]
+    },
+    {
+      "_id": 231,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1005887
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 74031
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 150306
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 34035
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 53203
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 72126
+          }
+        }
+      },
+      "children": [
+        232,
+        233,
+        234
+      ]
+    },
+    {
+      "_id": 232,
+      "id": {
+        "name": "UnwatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 39041
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 233,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 1,
+          "entries": 1
+        },
+        "time": {
+          "self": 98293
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 234,
+      "id": {
+        "name": "applyPatch"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 0,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 1,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 258102
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 1,
+            "time": 118817
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 84256
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 235,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 20597070
+        },
+        "fs": {
+          "statSync": {
+            "count": 33,
+            "time": 1743638
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 301419
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 29905
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 62772
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 94737
+          },
+          "readdirSync": {
+            "count": 6,
+            "time": 636165
+          },
+          "lstat": {
+            "count": 1,
+            "time": 23596
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 12356
+          },
+          "openSync": {
+            "count": 30,
+            "time": 1899117
+          },
+          "fstatSync": {
+            "count": 29,
+            "time": 182489
+          },
+          "readSync": {
+            "count": 29,
+            "time": 1477314
+          },
+          "closeSync": {
+            "count": 30,
+            "time": 277002
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 164357
+          },
+          "write": {
+            "count": 1,
+            "time": 21203
+          },
+          "close": {
+            "count": 1,
+            "time": 11097
+          }
+        }
+      },
+      "children": [
+        236
+      ]
+    },
+    {
+      "_id": 236,
+      "id": {
+        "name": "BroccoliMergeTrees",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 826173
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 68010
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 119791
+          },
+          "lstatSync": {
+            "count": 4,
+            "time": 51657
+          },
+          "symlinkSync": {
+            "count": 4,
+            "time": 225754
+          }
+        }
+      },
+      "children": [
+        237,
+        256,
+        257
+      ]
+    },
+    {
+      "_id": 237,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2385152
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 103679
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 207498
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 217012
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 88418
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 215389
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 422033
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 23560
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 36999
+          }
+        }
+      },
+      "children": [
+        238
+      ]
+    },
+    {
+      "_id": 238,
+      "id": {
+        "name": "Babel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 1397798
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 102058
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 366256
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 33957
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 58088
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 72776
+          }
+        }
+      },
+      "children": [
+        239,
+        254,
+        255
+      ]
+    },
+    {
+      "_id": 239,
+      "id": {
+        "name": "TreeMerger (addon-test-support)",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 792797
+        },
+        "fs": {
+          "statSync": {
+            "count": 2,
+            "time": 54203
+          },
+          "mkdirSync": {
+            "count": 2,
+            "time": 116137
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 34677
+          },
+          "symlinkSync": {
+            "count": 2,
+            "time": 146981
+          }
+        }
+      },
+      "children": [
+        240,
+        249,
+        252,
+        253
+      ]
+    },
+    {
+      "_id": 240,
+      "id": {
+        "name": "BroccoliMergeTrees",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 2459036
+        },
+        "fs": {
+          "statSync": {
+            "count": 3,
+            "time": 125940
+          },
+          "mkdirSync": {
+            "count": 3,
+            "time": 169705
+          },
+          "lstatSync": {
+            "count": 6,
+            "time": 410559
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 316740
+          }
+        }
+      },
+      "children": [
+        241,
+        243,
+        245,
+        247,
+        248
+      ]
+    },
+    {
+      "_id": 241,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 107475
+        }
+      },
+      "children": [
+        242
+      ]
+    },
+    {
+      "_id": 242,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-qunit/lib",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 5512530
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 80719
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 243,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 100829
+        }
+      },
+      "children": [
+        244
+      ]
+    },
+    {
+      "_id": 244,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-test-helpers/lib",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 7011117
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 56909
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 245,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 107142
+        }
+      },
+      "children": [
+        246
+      ]
+    },
+    {
+      "_id": 246,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/klassy/lib",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 4522008
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 58748
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 247,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 6,
+          "entries": 6
+        },
+        "time": {
+          "self": 1979713
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 3,
+            "time": 440281
+          },
+          "statSync": {
+            "count": 6,
+            "time": 1053499
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 248,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 2,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 4,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 695193
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 6,
+            "time": 116007
+          },
+          "symlinkSync": {
+            "count": 6,
+            "time": 426054
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 249,
+      "id": {
+        "name": "Funnel",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3167094
+        },
+        "fs": {
+          "statSync": {
+            "count": 4,
+            "time": 167885
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 390402
+          },
+          "lstatSync": {
+            "count": 25,
+            "time": 375105
+          },
+          "rmdirSync": {
+            "count": 2,
+            "time": 132234
+          },
+          "symlinkSync": {
+            "count": 3,
+            "time": 275397
+          },
+          "realpathSync": {
+            "count": 2,
+            "time": 926014
+          },
+          "readlinkSync": {
+            "count": 2,
+            "time": 52981
+          },
+          "unlinkSync": {
+            "count": 1,
+            "time": 51659
+          }
+        }
+      },
+      "children": [
+        250
+      ]
+    },
+    {
+      "_id": 250,
+      "id": {
+        "name": "WatchedDir",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 129806
+        }
+      },
+      "children": [
+        251
+      ]
+    },
+    {
+      "_id": 251,
+      "id": {
+        "name": "/Users/spenner/tmp/apps/my-app-2/node_modules/ember-cli-test-loader/addon-test-support",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 6392932
+        },
+        "fs": {
+          "existsSync": {
+            "count": 1,
+            "time": 38691
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 252,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 7,
+          "entries": 7
+        },
+        "time": {
+          "self": 953229
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 2,
+            "time": 318044
+          },
+          "statSync": {
+            "count": 7,
+            "time": 377396
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 253,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 4,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 4222361
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 103,
+            "time": 1062647
+          },
+          "symlinkSync": {
+            "count": 7,
+            "time": 653030
+          },
+          "realpathSync": {
+            "count": 6,
+            "time": 3243928
+          },
+          "statSync": {
+            "count": 18,
+            "time": 664571
+          },
+          "readlinkSync": {
+            "count": 18,
+            "time": 332834
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 254,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 26,
+          "entries": 26,
+          "walk": {
+            "entries": 26,
+            "duration": "9.25 ms"
+          }
+        },
+        "time": {
+          "self": 9553412
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 5,
+            "time": 674395
+          },
+          "statSync": {
+            "count": 26,
+            "time": 7872140
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 255,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 4,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 22,
+          "other": 0,
+          "processed": 22,
+          "linked": 0,
+          "processString": 22,
+          "persistentCacheHit": 0,
+          "persistentCachePrime": 22
+        },
+        "time": {
+          "self": 728542513
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 4,
+            "time": 395974
+          },
+          "readFileSync": {
+            "count": 44,
+            "time": 6445591
+          },
+          "openSync": {
+            "count": 66,
+            "time": 6086110
+          },
+          "fstatSync": {
+            "count": 44,
+            "time": 475631
+          },
+          "readSync": {
+            "count": 44,
+            "time": 1134843
+          },
+          "closeSync": {
+            "count": 66,
+            "time": 1392748
+          },
+          "statSync": {
+            "count": 9,
+            "time": 375820
+          },
+          "readdirSync": {
+            "count": 2,
+            "time": 180329
+          },
+          "readFile": {
+            "count": 22,
+            "time": 438754
+          },
+          "accessSync": {
+            "count": 12,
+            "time": 507177
+          },
+          "writeFile": {
+            "count": 22,
+            "time": 726429
+          },
+          "open": {
+            "count": 22,
+            "time": 444406
+          },
+          "write": {
+            "count": 22,
+            "time": 391020
+          },
+          "close": {
+            "count": 22,
+            "time": 493091
+          },
+          "chmod": {
+            "count": 22,
+            "time": 680182
+          },
+          "writeFileSync": {
+            "count": 22,
+            "time": 6689631
+          },
+          "writeSync": {
+            "count": 22,
+            "time": 635001
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 256,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 21,
+          "entries": 21
+        },
+        "time": {
+          "self": 1608907
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 6,
+            "time": 352742
+          },
+          "statSync": {
+            "count": 22,
+            "time": 854433
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 257,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 12,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 9,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 11421898
+        },
+        "fs": {
+          "lstatSync": {
+            "count": 301,
+            "time": 3027136
+          },
+          "realpathSync": {
+            "count": 18,
+            "time": 8842064
+          },
+          "statSync": {
+            "count": 61,
+            "time": 2250778
+          },
+          "readlinkSync": {
+            "count": 61,
+            "time": 1083239
+          },
+          "symlinkSync": {
+            "count": 20,
+            "time": 1616388
+          },
+          "mkdirSync": {
+            "count": 1,
+            "time": 42261
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 258,
+      "id": {
+        "name": "Concat",
+        "broccoliNode": true
+      },
+      "stats": {
+        "own": {},
+        "time": {
+          "self": 3584960
+        },
+        "fs": {
+          "statSync": {
+            "count": 5,
+            "time": 738739
+          },
+          "mkdirSync": {
+            "count": 5,
+            "time": 304219
+          },
+          "lstatSync": {
+            "count": 2,
+            "time": 32614
+          },
+          "rmdirSync": {
+            "count": 1,
+            "time": 48708
+          },
+          "symlinkSync": {
+            "count": 1,
+            "time": 81662
+          },
+          "lstat": {
+            "count": 1,
+            "time": 71515
+          },
+          "rmdir": {
+            "count": 1,
+            "time": 13771
+          },
+          "openSync": {
+            "count": 3,
+            "time": 274554
+          },
+          "fstatSync": {
+            "count": 2,
+            "time": 14321
+          },
+          "readSync": {
+            "count": 2,
+            "time": 169435
+          },
+          "closeSync": {
+            "count": 3,
+            "time": 52298
+          },
+          "writeSync": {
+            "count": 1,
+            "time": 19417
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 259,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 5,
+          "entries": 5
+        },
+        "time": {
+          "self": 904850
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 5,
+            "time": 275170
+          },
+          "statSync": {
+            "count": 6,
+            "time": 425910
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 260,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 4,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 996502
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 58382
+          },
+          "lstatSync": {
+            "count": 21,
+            "time": 195310
+          },
+          "symlinkSync": {
+            "count": 4,
+            "time": 236647
+          },
+          "realpathSync": {
+            "count": 1,
+            "time": 494975
+          },
+          "statSync": {
+            "count": 3,
+            "time": 83894
+          },
+          "readlinkSync": {
+            "count": 3,
+            "time": 38397
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 261,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 7,
+          "entries": 7
+        },
+        "time": {
+          "self": 723882
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 4,
+            "time": 242925
+          },
+          "statSync": {
+            "count": 8,
+            "time": 289287
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 262,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 1,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 6,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 2360668
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 100635
+          },
+          "lstatSync": {
+            "count": 70,
+            "time": 559689
+          },
+          "realpathSync": {
+            "count": 4,
+            "time": 1615058
+          },
+          "statSync": {
+            "count": 11,
+            "time": 360539
+          },
+          "readlinkSync": {
+            "count": 11,
+            "time": 163908
+          },
+          "symlinkSync": {
+            "count": 6,
+            "time": 416701
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 263,
+      "id": {
+        "name": "derivePatches"
+      },
+      "stats": {
+        "own": {
+          "patches": 20,
+          "entries": 20
+        },
+        "time": {
+          "self": 1764652
+        },
+        "fs": {
+          "readdirSync": {
+            "count": 11,
+            "time": 538716
+          },
+          "statSync": {
+            "count": 23,
+            "time": 857031
+          }
+        }
+      },
+      "children": []
+    },
+    {
+      "_id": 264,
+      "id": {
+        "name": "applyPatches"
+      },
+      "stats": {
+        "own": {
+          "mkdir": 3,
+          "rmdir": 0,
+          "unlink": 0,
+          "change": 0,
+          "create": 17,
+          "other": 0,
+          "processed": 0,
+          "linked": 0
+        },
+        "time": {
+          "self": 10284077
+        },
+        "fs": {
+          "mkdirSync": {
+            "count": 1,
+            "time": 100957
+          },
+          "lstatSync": {
+            "count": 288,
+            "time": 2971834
+          },
+          "realpathSync": {
+            "count": 17,
+            "time": 7781561
+          },
+          "statSync": {
+            "count": 49,
+            "time": 1724705
+          },
+          "readlinkSync": {
+            "count": 49,
+            "time": 822567
+          },
+          "symlinkSync": {
+            "count": 19,
+            "time": 1531206
+          }
+        }
+      },
+      "children": []
+    }
+  ]
+}

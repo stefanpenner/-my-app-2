@@ -1,7 +1,10 @@
 /*jshint node:true*/
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
-
+process.on('SIGINT', function() {
+  console.log('WAIT')
+  process.exit(22);
+})
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
