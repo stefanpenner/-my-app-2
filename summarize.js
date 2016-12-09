@@ -284,11 +284,11 @@ function formatNum(x) {
  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-function printBuildSummary(tree) {
+function _computeBuildSummary(tree) {
   let totalTimeNS = sumStat(tree.preOrderIterator(), 'time.self');
   let totalTime = formatNs(totalTimeNS);
 
-  console.log(JSON.stringify({
+  return {
     totalTime,
     CacheHit:   `N/A%`,
     build: {
@@ -301,9 +301,20 @@ function printBuildSummary(tree) {
     plugins: [[...map(allPlugins(tree.preOrderIterator()), summarizePlugin)][0]],
 
     pluginsByName: mapValues(allPluginsGrouped(tree.preOrderIterator()), summarizePlugins),
-  }, null, 2));
+  };
 }
 
+function printBuildSummary(tree) {
+  console.log(JSON.stringify(computeBuildSummary(tree), null, 2));
+}
 
-let tree = loadTree('./broccoli-viz.0.json');
-printBuildSummary(tree);
+function computeBuildSummary(json) {
+  return _computeBuildSummary(toTree(json));
+}
+
+module.exports = {
+  computeBuildSummary,
+}
+
+// let tree = loadTree('./broccoli-viz.0.json');
+// printBuildSummary(tree);

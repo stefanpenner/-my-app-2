@@ -15,12 +15,13 @@
   - [-] source of build:
   - [x] how many build steps:
   - [ ] summarize all FS
+  ✓
 
 * Summarize Plugins
- * how much time is spent in a plugin type
- * how much time is spent in a plugin instance
+ - [x] how much time is spent in a plugin type
+ - [x] how much time is spent in a plugin instance
    * how much time in "inputTree" reading
-   * totalTime
+   - [x] totalTime
 
 * Summarize FS
  * Summary FS for each "Plugin Type"

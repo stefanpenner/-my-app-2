@@ -44,5 +44,10 @@
   "dependencies": {
     "lodash": "^4.17.2",
     "matcher-collection": "^1.0.4"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/summarize-build-info"
+    ]
   }
 }
