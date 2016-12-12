@@ -70,6 +70,7 @@ function toTree(data) {
       if (!nodes[id]) {
         throw new Error('uwot ' + id);
       }
+      nodes[id].parent = node;
       return nodes[id];
     });
   });
@@ -115,6 +116,7 @@ function Node(_id, id, stats, children) {
   this.id = id;
   this.stats = stats;
   this.children = children;
+  this.parent = undefined;
 }
 
 Node.prototype.preOrderIterator = function* (until) {
@@ -130,6 +132,26 @@ Node.prototype.preOrderIterator = function* (until) {
     }
   }
 };
+
+Node.prototype.ancestor = function (match=(x => true)) {
+  let node = this;
+
+  while(node = node.parent) {
+    if (match(node)) {
+      return node;
+    }
+  }
+
+  return null;
+}
+
+Node.prototype.descendant = function (match=(x => true)) {
+  for (let desc of this.preOrderIterator()) {
+    if (match(desc)) {
+      return desc;
+    }
+  }
+}
 
 Node.prototype.statsIterator = function* () {
   yield* keyIterator(this.stats);
@@ -233,10 +255,33 @@ function summarizePlugin(plugin) {
   return summarizeNodes(generator, { name: plugin.id.name });
 }
 
+function addonNamesFor(iterator) {
+  let addonsItr = map(iterator, x => x.ancestor(y => /Addon#treeFor/.test(y.id.name)));
+  let addonNamesItr = map(addonsItr, node => {
+    if (!node) {
+      return '';
+    }
+
+    let match = /Addon#treeFor \((.*) - (\w*)\)/.exec(node.id.name);
+    if (match) {
+      return match[1];
+    }
+
+    match = /node_modules\/([^/]*)\/addon$/.exec(node.id.name);
+
+    return match ? match[1] : '';
+  });
+
+  return _.uniq([...addonNamesItr]).join(', ');
+
+  return result.join(', ');
+}
+
 function summarizeNodes(generator, more={}) {
   return Object.assign({
     selfTime:   formatNs(sumStat(generator(untilBroccoliNode), 'time.self')),
     totalTime:  formatNs(sumStat(generator(), 'time.self')),
+    addon:      addonNamesFor(generator()),
     io: {
       self: {
         ios:        formatNum(sumStats(generator(untilBroccoliNode), 'fs.*.count')),
@@ -284,37 +329,59 @@ function formatNum(x) {
  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-function _computeBuildSummary(tree) {
+function unformatNum(s) {
+  return parseFloat(s.replace(',', ''));
+}
+
+function bySelfTime(a, b) {
+  return unformatNum(b.selfTime) - unformatNum(a.selfTime);
+}
+
+function mostExpensive(items, options={}) {
+  let from = 0;
+  let cutoff = options.cutoff || 0.05;
+  let totalTime = unformatNum(items[0].totalTime);
+  items.sort(bySelfTime);
+  let until = items.findIndex(x => (unformatNum(x.selfTime) / totalTime) < cutoff);
+
+  return until > -1 ? items.slice(0, until) : items.slice(0, 10);
+}
+
+function computeBuildSummary(json, options) {
+  let tree = toTree(json);
   let totalTimeNS = sumStat(tree.preOrderIterator(), 'time.self');
   let totalTime = formatNs(totalTimeNS);
+
+  let plugins = [...map(allPlugins(tree.preOrderIterator()), summarizePlugin)];
+  let pluginsByName = Object.values(mapValues(allPluginsGrouped(tree.preOrderIterator()), summarizePlugins));
 
   return {
     totalTime,
     CacheHit:   `N/A%`,
     build: {
-      reason: {
-        type: 'initial' // rebuild, which will include additional info like "watchman file info"
+      type: json.summary.build.type,
+      count: json.summary.build.count,
+      outputChangedFiles: json.summary.build.outputChangedFiles,
+      inputChangedFiles: {
+        primary: json.summary.build.primaryFile,
+        changedFiles: json.summary.build.changedFiles,
+        total: json.summary.build.changedFileCount,
       },
       steps: sumBy(tree.preOrderIterator(), function() { return 1; })
     },
 
-    plugins: [[...map(allPlugins(tree.preOrderIterator()), summarizePlugin)][0]],
-
-    pluginsByName: mapValues(allPluginsGrouped(tree.preOrderIterator()), summarizePlugins),
+    plugins: mostExpensive(plugins, options),
+    pluginsByName: mostExpensive(pluginsByName, options),
   };
 }
 
-function printBuildSummary(tree) {
-  console.log(JSON.stringify(computeBuildSummary(tree), null, 2));
-}
-
-function computeBuildSummary(json) {
-  return _computeBuildSummary(toTree(json));
+function printBuildSummary(json, options) {
+  console.log(JSON.stringify(computeBuildSummary(json, options), null, 2));
 }
 
 module.exports = {
   computeBuildSummary,
 }
 
-// let tree = loadTree('./broccoli-viz.0.json');
-// printBuildSummary(tree);
+// let json = JSON.parse(fs.readFileSync('./broccoli-viz.0.json', 'UTF8'));
+// printBuildSummary(json);
