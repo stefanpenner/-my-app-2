@@ -3,6 +3,7 @@
 let fs = require('fs');
 let _ = require('lodash');
 let MatcherCollection = require('matcher-collection');
+let tree = require('heimdalljs-tree');
 
 
 let fsReadPatterns = [
@@ -42,42 +43,6 @@ let fsOtherPatterns = [
 ].map(x => `fs.${x}.time`);
 
 
-
-
-module.exports.loadTree = loadTree
-function loadTree(path) {
-  const json = JSON.parse(fs.readFileSync(path, 'UTF8'));
-
-  return toTree(json);
-}
-
-
-function toTree(data) {
-  let root = null;
-  let nodes = {};
-
-  data.nodes.forEach(function (a) {
-    let node = nodes[a._id] = new Node(a._id, a.id, a.stats, a.children);
-
-    if (root === null) {
-      root = node;
-    }
-  });
-
-  Object.keys(nodes).forEach(function(id) {
-    let node = nodes[id];
-    node.children = node.children.map(function(id) {
-      if (!nodes[id]) {
-        throw new Error('uwot ' + id);
-      }
-      nodes[id].parent = node;
-      return nodes[id];
-    });
-  });
-
-  return root;
-}
-
 function* unionIterator(...iterators) {
   let seen = new WeakSet();
   let seenp = Object.create(null);
@@ -99,72 +64,6 @@ function* unionIterator(...iterators) {
   }
 }
 
-function* keyIterator (obj, prefix='') {
-  for (let key in obj) {
-    let value = obj[key];
-
-    if (typeof value === 'object') {
-      yield* keyIterator(value, `${prefix}${key}.`);
-    } else {
-      yield `${prefix}${key}`;
-    }
-  }
-}
-
-function Node(_id, id, stats, children) {
-  this._id = _id;
-  this.id = id;
-  this.stats = stats;
-  this.children = children;
-  this.parent = undefined;
-}
-
-Node.prototype.preOrderIterator = function* (until) {
-  yield this;
-
-  for (let child of this.children) {
-    if (until && until(child)) {
-      continue;
-    }
-
-    for (let descendant of child.preOrderIterator()) {
-      yield descendant;
-    }
-  }
-};
-
-Node.prototype.ancestor = function (match=(x => true)) {
-  let node = this;
-
-  while(node = node.parent) {
-    if (match(node)) {
-      return node;
-    }
-  }
-
-  return null;
-}
-
-Node.prototype.descendant = function (match=(x => true)) {
-  for (let desc of this.preOrderIterator()) {
-    if (match(desc)) {
-      return desc;
-    }
-  }
-}
-
-Node.prototype.statsIterator = function* () {
-  yield* keyIterator(this.stats);
-}
-
-Node.prototype.findDescendant = function(matcher) {
-  for (const node of this.preOrderIterator()) {
-    if(matcher(node.id)) {
-      return node;
-    }
-  }
-};
-
 function sumBy(iterator, fn) {
   let result = 0;
   for (let x of iterator) {
@@ -176,6 +75,14 @@ function sumBy(iterator, fn) {
 function* filterBy(iterator, fn) {
   for (let x of iterator) {
     if(fn(x)) { yield x; }
+  }
+}
+
+function ancestorMatching(node, match) {
+  for (let ancestor of node.ancestorsIterator()) {
+    if (match(ancestor)) {
+      return ancestor;
+    }
   }
 }
 
@@ -197,10 +104,8 @@ function sumStats(iterator, ...patterns) {
   let matcher = new MatcherCollection(patterns);
 
   return sumBy(iterator, function (node) {
-    let matchingStats = filterBy(node.statsIterator(), x => matcher.match(x));
-    return sumBy(matchingStats, function (stat) {
-      let value = _.get(node, `stats.${stat}`);
-
+    let matchingStats = filterBy(node.statsIterator(), ([x,_]) => matcher.match(x));
+    return sumBy(matchingStats, function ([name, value]) {
       if (value) {
         return value;
       }
@@ -215,11 +120,11 @@ function sumStats(iterator, ...patterns) {
 //
 
 function allPlugins(iterator) {
-  return filterBy(iterator, node => node.id.broccoliNode);
+  return filterBy(iterator, node => node.label.broccoliNode);
 }
 
 function allPluginsGrouped(iterator) {
-  return groupBy(allPlugins(iterator), node => node.id.name);
+  return groupBy(allPlugins(iterator), node => node.label.name);
 }
 
 function summarizeGroups(groups) {
@@ -232,7 +137,7 @@ function summarizeGroups(groups) {
 }
 
 function untilBroccoliNode(child) {
-  return child.id.broccoliNode;
+  return child.label.broccoliNode;
 }
 
 function summarizePlugins(plugins) {
@@ -240,7 +145,7 @@ function summarizePlugins(plugins) {
     return unionIterator(...plugins.map(x => x.preOrderIterator(...args)));
   }
 
-  let name = plugins[0] && plugins[0].id.name || 'none';
+  let name = plugins[0] && plugins[0].label.name || 'none';
   let count = plugins.length;
   let more = {
     name,
@@ -252,22 +157,22 @@ function summarizePlugins(plugins) {
 
 function summarizePlugin(plugin) {
   let generator = plugin.preOrderIterator.bind(plugin);
-  return summarizeNodes(generator, { name: plugin.id.name });
+  return summarizeNodes(generator, { name: plugin.label.name });
 }
 
 function addonNamesFor(iterator) {
-  let addonsItr = map(iterator, x => x.ancestor(y => /Addon#treeFor/.test(y.id.name)));
+  let addonsItr = map(iterator, x => ancestorMatching(x, y => /Addon#treeFor/.test(y.label.name)));
   let addonNamesItr = map(addonsItr, node => {
     if (!node) {
       return '';
     }
 
-    let match = /Addon#treeFor \((.*) - (\w*)\)/.exec(node.id.name);
+    let match = /Addon#treeFor \((.*) - (\w*)\)/.exec(node.label.name);
     if (match) {
       return match[1];
     }
 
-    match = /node_modules\/([^/]*)\/addon$/.exec(node.id.name);
+    match = /node_modules\/([^/]*)\/addon$/.exec(node.label.name);
 
     return match ? match[1] : '';
   });
@@ -347,8 +252,8 @@ function mostExpensive(items, options={}) {
   return until > -1 ? items.slice(0, until) : items.slice(0, 10);
 }
 
-function computeBuildSummary(json, options) {
-  let tree = toTree(json);
+function computeBuildSummary(analytics, options) {
+  let tree = analytics.buildTree;
   let totalTimeNS = sumStat(tree.preOrderIterator(), 'time.self');
   let totalTime = formatNs(totalTimeNS);
 
@@ -359,13 +264,13 @@ function computeBuildSummary(json, options) {
     totalTime,
     CacheHit:   `N/A%`,
     build: {
-      type: json.summary.build.type,
-      count: json.summary.build.count,
-      outputChangedFiles: json.summary.build.outputChangedFiles,
+      type: analytics.summary.build.type,
+      count: analytics.summary.build.count,
+      outputChangedFiles: analytics.summary.build.outputChangedFiles,
       inputChangedFiles: {
-        primary: json.summary.build.primaryFile,
-        changedFiles: json.summary.build.changedFiles,
-        total: json.summary.build.changedFileCount,
+        primary: analytics.summary.build.primaryFile,
+        changedFiles: analytics.summary.build.changedFiles,
+        total: analytics.summary.build.changedFileCount,
       },
       steps: sumBy(tree.preOrderIterator(), function() { return 1; })
     },
@@ -383,5 +288,9 @@ module.exports = {
   computeBuildSummary,
 }
 
-// let json = JSON.parse(fs.readFileSync('./broccoli-viz.0.json', 'UTF8'));
-// printBuildSummary(json);
+
+let json = JSON.parse(fs.readFileSync('./broccoli-viz.0.json', 'UTF8'));
+printBuildSummary({
+  summary: json.summary,
+  buildTree: tree.loadFromFile('./broccoli-viz.0.json'),
+});
