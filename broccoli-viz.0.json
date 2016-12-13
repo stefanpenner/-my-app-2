@@ -5,7 +5,6 @@
       "count": 0,
       "outputChangedFiles": [
         "assets/failed.png",
-        "assets/my-app-2.css",
         "assets/my-app-2.js",
         "assets/my-app-2.map",
         "assets/passed.png",
@@ -25,7 +24,7 @@
         "tests/index.html"
       ]
     },
-    "output": "/Users/dhamilto/src/stefanpenner/-my-app-2/tmp/broccoli_merge_trees-output_path-wcvkIdcm.tmp",
+    "output": "/Users/dhamilto/src/stefanpenner/-my-app-2/tmp/broccoli_merge_trees-output_path-ekNtmt77.tmp",
     "totalNodes": 274
   },
   "nodes": [
@@ -38,56 +37,56 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 7567512
+          "self": 7617642
         },
         "fs": {
           "realpathSync": {
             "count": 5,
-            "time": 133348
+            "time": 138705
           },
           "lstatSync": {
             "count": 15,
-            "time": 148679
+            "time": 115004
           },
           "readFileSync": {
             "count": 5,
-            "time": 348044
+            "time": 276106
           },
           "openSync": {
             "count": 5,
-            "time": 155143
+            "time": 105486
           },
           "fstatSync": {
             "count": 5,
-            "time": 28261
+            "time": 19675
           },
           "readSync": {
             "count": 5,
-            "time": 32460
+            "time": 27490
           },
           "closeSync": {
             "count": 5,
-            "time": 36267
+            "time": 29684
           },
           "statSync": {
             "count": 2,
-            "time": 49514
+            "time": 51841
           },
           "mkdirSync": {
             "count": 2,
-            "time": 221459
+            "time": 210740
           },
           "existsSync": {
             "count": 6,
-            "time": 164682
+            "time": 156241
           },
           "readdirSync": {
             "count": 1,
-            "time": 54353
+            "time": 55609
           },
           "symlinkSync": {
             "count": 7,
-            "time": 801322
+            "time": 573632
           }
         }
       },
@@ -112,52 +111,52 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 48639289
+          "self": 64232794
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 81625
+            "time": 80464
           },
           "mkdirSync": {
             "count": 3,
-            "time": 193700
+            "time": 134471
           },
           "realpathSync": {
             "count": 54,
-            "time": 6584074
+            "time": 7936827
           },
           "lstatSync": {
             "count": 444,
-            "time": 2475287
+            "time": 2813654
           },
           "readFileSync": {
             "count": 42,
-            "time": 2681264
+            "time": 9046703
           },
           "openSync": {
             "count": 45,
-            "time": 1277746
+            "time": 1732509
           },
           "fstatSync": {
             "count": 44,
-            "time": 190010
+            "time": 231805
           },
           "readSync": {
             "count": 44,
-            "time": 424858
+            "time": 5912011
           },
           "closeSync": {
             "count": 45,
-            "time": 333359
+            "time": 561318
           },
           "symlinkSync": {
             "count": 2,
-            "time": 95124
+            "time": 109130
           },
           "writeSync": {
             "count": 1,
-            "time": 18744
+            "time": 20368
           }
         }
       },
@@ -175,28 +174,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 6028179
+          "self": 5430246
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 49977
+            "time": 59641
           },
           "mkdirSync": {
             "count": 2,
-            "time": 129139
+            "time": 113204
           },
           "lstatSync": {
             "count": 2,
-            "time": 108234
+            "time": 56107
           },
           "rmdirSync": {
             "count": 1,
-            "time": 106529
+            "time": 126242
           },
           "symlinkSync": {
             "count": 1,
-            "time": 75959
+            "time": 94961
           }
         }
       },
@@ -215,7 +214,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 424932
+          "self": 479590
         }
       },
       "children": [
@@ -231,12 +230,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 5308448
+          "self": 6388281
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 29157
+            "time": 27856
           }
         }
       },
@@ -253,7 +252,7 @@
           "entries": 1
         },
         "time": {
-          "self": 1651113
+          "self": 1329678
         }
       },
       "children": []
@@ -275,16 +274,16 @@
           "linked": 0
         },
         "time": {
-          "self": 787239
+          "self": 892229
         },
         "fs": {
           "lstatSync": {
             "count": 1,
-            "time": 37448
+            "time": 39650
           },
           "symlinkSync": {
             "count": 1,
-            "time": 145491
+            "time": 99986
           }
         }
       },
@@ -299,40 +298,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2809454
+          "self": 2840399
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 108678
+            "time": 104013
           },
           "mkdirSync": {
             "count": 5,
-            "time": 412185
+            "time": 266999
           },
           "lstatSync": {
             "count": 21,
-            "time": 174507
+            "time": 178233
           },
           "rmdirSync": {
             "count": 2,
-            "time": 76396
+            "time": 86127
           },
           "symlinkSync": {
             "count": 3,
-            "time": 178626
+            "time": 186619
           },
           "realpathSync": {
             "count": 2,
-            "time": 430042
+            "time": 585820
           },
           "readlinkSync": {
             "count": 2,
-            "time": 32853
+            "time": 84907
           },
           "unlinkSync": {
             "count": 1,
-            "time": 59132
+            "time": 40924
           }
         }
       },
@@ -349,72 +348,72 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 18231080
+          "self": 20583248
         },
         "fs": {
           "realpathSync": {
             "count": 5,
-            "time": 230237
+            "time": 244882
           },
           "lstatSync": {
             "count": 12,
-            "time": 160840
+            "time": 216191
           },
           "readFileSync": {
             "count": 10,
-            "time": 683270
+            "time": 720860
           },
           "openSync": {
             "count": 12,
-            "time": 565951
+            "time": 558598
           },
           "fstatSync": {
             "count": 10,
-            "time": 46289
+            "time": 64113
           },
           "readSync": {
             "count": 10,
-            "time": 72175
+            "time": 72246
           },
           "closeSync": {
             "count": 12,
-            "time": 160645
+            "time": 175833
           },
           "statSync": {
             "count": 4,
-            "time": 106476
+            "time": 107644
           },
           "mkdirSync": {
             "count": 5,
-            "time": 324534
+            "time": 360765
           },
           "symlinkSync": {
             "count": 1,
-            "time": 74064
+            "time": 109580
           },
           "readdirSync": {
             "count": 3,
-            "time": 195071
+            "time": 196222
           },
           "lstat": {
             "count": 1,
-            "time": 74124
+            "time": 78513
           },
           "rmdir": {
             "count": 1,
-            "time": 101437
+            "time": 94314
           },
           "existsSync": {
             "count": 12,
-            "time": 331656
+            "time": 331065
           },
           "writeFileSync": {
             "count": 2,
-            "time": 568365
+            "time": 621239
           },
           "writeSync": {
             "count": 2,
-            "time": 37541
+            "time": 75346
           }
         }
       },
@@ -431,12 +430,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2621874
+          "self": 3674992
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 32833
+            "time": 37453
           }
         }
       },
@@ -451,24 +450,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 825184
+          "self": 969762
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 40298
+            "time": 42845
           },
           "mkdirSync": {
             "count": 2,
-            "time": 114358
+            "time": 94674
           },
           "lstatSync": {
             "count": 2,
-            "time": 23559
+            "time": 33147
           },
           "symlinkSync": {
             "count": 2,
-            "time": 185331
+            "time": 248297
           }
         }
       },
@@ -488,64 +487,64 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 121641973
+          "self": 144148385
         },
         "fs": {
           "statSync": {
             "count": 12,
-            "time": 385924
+            "time": 1531031
           },
           "mkdirSync": {
             "count": 5,
-            "time": 273219
+            "time": 367337
           },
           "lstatSync": {
             "count": 2,
-            "time": 25974
+            "time": 27761
           },
           "rmdirSync": {
             "count": 1,
-            "time": 43673
+            "time": 45518
           },
           "symlinkSync": {
             "count": 1,
-            "time": 99048
+            "time": 85341
           },
           "lstat": {
             "count": 1,
-            "time": 13994
+            "time": 20341
           },
           "rmdir": {
             "count": 1,
-            "time": 6352
+            "time": 9972
           },
           "openSync": {
             "count": 11,
-            "time": 781488
+            "time": 818537
           },
           "fstatSync": {
             "count": 10,
-            "time": 83657
+            "time": 79318
           },
           "readSync": {
             "count": 10,
-            "time": 2114755
+            "time": 5709765
           },
           "closeSync": {
             "count": 11,
-            "time": 2132714
+            "time": 2020162
           },
           "writeSync": {
             "count": 1,
-            "time": 1491615
+            "time": 2179189
           },
           "write": {
             "count": 1,
-            "time": 22333
+            "time": 25717
           },
           "close": {
             "count": 1,
-            "time": 19117
+            "time": 19255
           }
         }
       },
@@ -562,24 +561,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 840685
+          "self": 699301
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 39124
+            "time": 42779
           },
           "mkdirSync": {
             "count": 2,
-            "time": 70966
+            "time": 82329
           },
           "lstatSync": {
             "count": 4,
-            "time": 39228
+            "time": 59821
           },
           "symlinkSync": {
             "count": 4,
-            "time": 321023
+            "time": 148398
           }
         }
       },
@@ -600,24 +599,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1007528
+          "self": 1467271
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 33574
+            "time": 38476
           },
           "mkdirSync": {
             "count": 2,
-            "time": 59842
+            "time": 231653
           },
           "lstatSync": {
             "count": 2,
-            "time": 29955
+            "time": 39989
           },
           "symlinkSync": {
             "count": 2,
-            "time": 620953
+            "time": 812685
           }
         }
       },
@@ -637,40 +636,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 7587676
+          "self": 8277101
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 107879
+            "time": 97699
           },
           "mkdirSync": {
             "count": 3,
-            "time": 161252
+            "time": 142444
           },
           "lstatSync": {
             "count": 21,
-            "time": 255246
+            "time": 252259
           },
           "rmdirSync": {
             "count": 2,
-            "time": 136114
+            "time": 137561
           },
           "symlinkSync": {
             "count": 3,
-            "time": 208835
+            "time": 223378
           },
           "realpathSync": {
             "count": 2,
-            "time": 495668
+            "time": 493468
           },
           "readlinkSync": {
             "count": 2,
-            "time": 48799
+            "time": 40504
           },
           "unlinkSync": {
             "count": 1,
-            "time": 38011
+            "time": 39751
           }
         }
       },
@@ -687,12 +686,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2624182
+          "self": 3011438
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 17087
+            "time": 16292
           }
         }
       },
@@ -707,40 +706,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1579601
+          "self": 2109602
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 109682
+            "time": 151051
           },
           "mkdirSync": {
             "count": 3,
-            "time": 161264
+            "time": 206746
           },
           "lstatSync": {
             "count": 21,
-            "time": 126081
+            "time": 233258
           },
           "rmdirSync": {
             "count": 2,
-            "time": 73347
+            "time": 75070
           },
           "symlinkSync": {
             "count": 3,
-            "time": 159044
+            "time": 227625
           },
           "realpathSync": {
             "count": 2,
-            "time": 300271
+            "time": 585039
           },
           "readlinkSync": {
             "count": 2,
-            "time": 26666
+            "time": 50168
           },
           "unlinkSync": {
             "count": 1,
-            "time": 25794
+            "time": 59826
           }
         }
       },
@@ -757,24 +756,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2374973
+          "self": 2269632
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 51521
+            "time": 47983
           },
           "mkdirSync": {
             "count": 2,
-            "time": 99345
+            "time": 92674
           },
           "lstatSync": {
             "count": 9,
-            "time": 182197
+            "time": 170272
           },
           "symlinkSync": {
             "count": 9,
-            "time": 511346
+            "time": 594853
           }
         }
       },
@@ -801,48 +800,48 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 15880946
+          "self": 16779812
         },
         "fs": {
           "statSync": {
             "count": 155,
-            "time": 6017523
+            "time": 5599233
           },
           "mkdirSync": {
             "count": 5,
-            "time": 322537
+            "time": 339997
           },
           "lstatSync": {
             "count": 2,
-            "time": 18377
+            "time": 22338
           },
           "rmdirSync": {
             "count": 1,
-            "time": 34659
+            "time": 40960
           },
           "symlinkSync": {
             "count": 1,
-            "time": 84279
+            "time": 42685
           },
           "readdirSync": {
             "count": 38,
-            "time": 2435872
+            "time": 2294422
           },
           "lstat": {
             "count": 1,
-            "time": 19599
+            "time": 30452
           },
           "rmdir": {
             "count": 1,
-            "time": 14734
+            "time": 20564
           },
           "openSync": {
             "count": 1,
-            "time": 113981
+            "time": 236327
           },
           "closeSync": {
             "count": 1,
-            "time": 9630
+            "time": 15458
           }
         }
       },
@@ -859,24 +858,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1337089
+          "self": 1394381
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 45744
+            "time": 56529
           },
           "mkdirSync": {
             "count": 2,
-            "time": 107782
+            "time": 136365
           },
           "lstatSync": {
             "count": 6,
-            "time": 78236
+            "time": 59246
           },
           "symlinkSync": {
             "count": 6,
-            "time": 267422
+            "time": 261460
           }
         }
       },
@@ -900,24 +899,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 961816
+          "self": 1254637
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 59872
+            "time": 66176
           },
           "mkdirSync": {
             "count": 2,
-            "time": 106170
+            "time": 129303
           },
           "lstatSync": {
             "count": 2,
-            "time": 28453
+            "time": 18496
           },
           "symlinkSync": {
             "count": 2,
-            "time": 130001
+            "time": 89724
           }
         }
       },
@@ -937,40 +936,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2396461
+          "self": 1916560
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 91772
+            "time": 112990
           },
           "mkdirSync": {
             "count": 3,
-            "time": 145306
+            "time": 186241
           },
           "lstatSync": {
             "count": 21,
-            "time": 184840
+            "time": 172235
           },
           "rmdirSync": {
             "count": 2,
-            "time": 109712
+            "time": 85480
           },
           "symlinkSync": {
             "count": 3,
-            "time": 154192
+            "time": 189752
           },
           "realpathSync": {
             "count": 2,
-            "time": 320280
+            "time": 339126
           },
           "readlinkSync": {
             "count": 2,
-            "time": 23422
+            "time": 25623
           },
           "unlinkSync": {
             "count": 1,
-            "time": 25723
+            "time": 44784
           }
         }
       },
@@ -987,52 +986,52 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 13236533
+          "self": 16866259
         },
         "fs": {
           "realpathSync": {
             "count": 10,
-            "time": 1013492
+            "time": 1154715
           },
           "lstatSync": {
             "count": 63,
-            "time": 456615
+            "time": 465406
           },
           "readFileSync": {
             "count": 7,
-            "time": 521475
+            "time": 1890013
           },
           "openSync": {
             "count": 7,
-            "time": 179671
+            "time": 185651
           },
           "fstatSync": {
             "count": 7,
-            "time": 30346
+            "time": 32148
           },
           "readSync": {
             "count": 7,
-            "time": 59102
+            "time": 1298577
           },
           "closeSync": {
             "count": 7,
-            "time": 47898
+            "time": 72360
           },
           "statSync": {
             "count": 3,
-            "time": 66892
+            "time": 79657
           },
           "mkdirSync": {
             "count": 3,
-            "time": 145318
+            "time": 185970
           },
           "rmdirSync": {
             "count": 1,
-            "time": 83511
+            "time": 143657
           },
           "symlinkSync": {
             "count": 1,
-            "time": 118769
+            "time": 97561
           }
         }
       },
@@ -1051,40 +1050,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3097533
+          "self": 2651994
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 163527
+            "time": 136576
           },
           "mkdirSync": {
             "count": 3,
-            "time": 272449
+            "time": 245646
           },
           "lstatSync": {
             "count": 25,
-            "time": 345187
+            "time": 441650
           },
           "rmdirSync": {
             "count": 2,
-            "time": 141119
+            "time": 129546
           },
           "symlinkSync": {
             "count": 3,
-            "time": 308962
+            "time": 226879
           },
           "realpathSync": {
             "count": 2,
-            "time": 777603
+            "time": 719821
           },
           "readlinkSync": {
             "count": 2,
-            "time": 59332
+            "time": 50107
           },
           "unlinkSync": {
             "count": 1,
-            "time": 65123
+            "time": 31464
           }
         }
       },
@@ -1101,7 +1100,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 132950
+          "self": 98235
         }
       },
       "children": [
@@ -1117,12 +1116,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2483713
+          "self": 2645110
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 44707
+            "time": 25885
           }
         }
       },
@@ -1139,20 +1138,20 @@
           "entries": 15,
           "walk": {
             "entries": 15,
-            "duration": "2.59 ms"
+            "duration": "2.08 ms"
           }
         },
         "time": {
-          "self": 3721982
+          "self": 3006877
         },
         "fs": {
           "readdirSync": {
             "count": 7,
-            "time": 590488
+            "time": 508650
           },
           "statSync": {
             "count": 15,
-            "time": 756212
+            "time": 686607
           }
         }
       },
@@ -1178,44 +1177,44 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 36991392
+          "self": 33413467
         },
         "fs": {
           "mkdirSync": {
             "count": 6,
-            "time": 378368
+            "time": 413451
           },
           "readFileSync": {
             "count": 9,
-            "time": 1947331
+            "time": 1158930
           },
           "openSync": {
             "count": 18,
-            "time": 2133864
+            "time": 1816798
           },
           "fstatSync": {
             "count": 9,
-            "time": 148093
+            "time": 78107
           },
           "readSync": {
             "count": 9,
-            "time": 115979
+            "time": 245487
           },
           "closeSync": {
             "count": 18,
-            "time": 569318
+            "time": 426509
           },
           "readFile": {
             "count": 9,
-            "time": 268316
+            "time": 311310
           },
           "writeFileSync": {
             "count": 9,
-            "time": 3144174
+            "time": 2287487
           },
           "writeSync": {
             "count": 9,
-            "time": 184220
+            "time": 314660
           }
         }
       },
@@ -1230,40 +1229,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1326238
+          "self": 1359001
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 82262
+            "time": 73940
           },
           "mkdirSync": {
             "count": 3,
-            "time": 133013
+            "time": 126682
           },
           "lstatSync": {
             "count": 21,
-            "time": 136725
+            "time": 153821
           },
           "rmdirSync": {
             "count": 2,
-            "time": 67815
+            "time": 84340
           },
           "symlinkSync": {
             "count": 3,
-            "time": 139939
+            "time": 151829
           },
           "realpathSync": {
             "count": 2,
-            "time": 264406
+            "time": 309405
           },
           "readlinkSync": {
             "count": 2,
-            "time": 21191
+            "time": 20677
           },
           "unlinkSync": {
             "count": 1,
-            "time": 23388
+            "time": 21757
           }
         }
       },
@@ -1280,28 +1279,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1904869
+          "self": 1947329
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 59045
+            "time": 49047
           },
           "mkdirSync": {
             "count": 3,
-            "time": 115741
+            "time": 101519
           },
           "lstatSync": {
             "count": 2,
-            "time": 40517
+            "time": 45340
           },
           "rmdirSync": {
             "count": 1,
-            "time": 213311
+            "time": 207876
           },
           "symlinkSync": {
             "count": 1,
-            "time": 73414
+            "time": 78822
           }
         }
       },
@@ -1320,40 +1319,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1650710
+          "self": 1708644
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 92376
+            "time": 88871
           },
           "mkdirSync": {
             "count": 3,
-            "time": 120771
+            "time": 145022
           },
           "lstatSync": {
             "count": 21,
-            "time": 174332
+            "time": 180499
           },
           "rmdirSync": {
             "count": 2,
-            "time": 100405
+            "time": 80729
           },
           "symlinkSync": {
             "count": 3,
-            "time": 158786
+            "time": 176064
           },
           "realpathSync": {
             "count": 2,
-            "time": 336702
+            "time": 386596
           },
           "readlinkSync": {
             "count": 2,
-            "time": 32048
+            "time": 33678
           },
           "unlinkSync": {
             "count": 1,
-            "time": 25969
+            "time": 84412
           }
         }
       },
@@ -1370,24 +1369,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1408621
+          "self": 1462898
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 37796
+            "time": 44435
           },
           "mkdirSync": {
             "count": 2,
-            "time": 63151
+            "time": 93513
           },
           "lstatSync": {
             "count": 2,
-            "time": 57727
+            "time": 42499
           },
           "symlinkSync": {
             "count": 2,
-            "time": 169318
+            "time": 148372
           }
         }
       },
@@ -1407,36 +1406,36 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1094335
+          "self": 1065338
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 79330
+            "time": 69518
           },
           "mkdirSync": {
             "count": 4,
-            "time": 132087
+            "time": 128619
           },
           "existsSync": {
             "count": 1,
-            "time": 46256
+            "time": 47619
           },
           "writeFileSync": {
             "count": 1,
-            "time": 303083
+            "time": 280423
           },
           "openSync": {
             "count": 1,
-            "time": 139939
+            "time": 127810
           },
           "writeSync": {
             "count": 1,
-            "time": 30480
+            "time": 26152
           },
           "closeSync": {
             "count": 1,
-            "time": 84188
+            "time": 64195
           }
         }
       },
@@ -1451,7 +1450,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 79528
+          "self": 65104
         }
       },
       "children": [
@@ -1467,12 +1466,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2575374
+          "self": 2586157
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 64300
+            "time": 27570
           }
         }
       },
@@ -1489,16 +1488,16 @@
           "entries": 13
         },
         "time": {
-          "self": 2181564
+          "self": 2088782
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 214375
+            "time": 142319
           },
           "statSync": {
             "count": 13,
-            "time": 349752
+            "time": 389787
           }
         }
       },
@@ -1521,16 +1520,16 @@
           "linked": 0
         },
         "time": {
-          "self": 1807489
+          "self": 1918084
         },
         "fs": {
           "lstatSync": {
             "count": 13,
-            "time": 271341
+            "time": 257249
           },
           "symlinkSync": {
             "count": 13,
-            "time": 946421
+            "time": 916301
           }
         }
       },
@@ -1547,20 +1546,20 @@
           "entries": 99,
           "walk": {
             "entries": 99,
-            "duration": "9.55 ms"
+            "duration": "9.09 ms"
           }
         },
         "time": {
-          "self": 9735401
+          "self": 9743312
         },
         "fs": {
           "readdirSync": {
             "count": 19,
-            "time": 1823393
+            "time": 1393802
           },
           "statSync": {
             "count": 99,
-            "time": 4745063
+            "time": 4595065
           }
         }
       },
@@ -1586,56 +1585,56 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 94150107
+          "self": 147436725
         },
         "fs": {
           "mkdirSync": {
             "count": 18,
-            "time": 1031741
+            "time": 1015927
           },
           "readFileSync": {
             "count": 81,
-            "time": 8522440
+            "time": 15478407
           },
           "openSync": {
             "count": 162,
-            "time": 16089665
+            "time": 17964966
           },
           "fstatSync": {
             "count": 81,
-            "time": 615661
+            "time": 697018
           },
           "readSync": {
             "count": 81,
-            "time": 760578
+            "time": 6042766
           },
           "closeSync": {
             "count": 162,
-            "time": 3657664
+            "time": 3984974
           },
           "realpathSync": {
             "count": 3,
-            "time": 37062
+            "time": 45945
           },
           "statSync": {
             "count": 206,
-            "time": 4009252
+            "time": 13041890
           },
           "readdirSync": {
             "count": 56,
-            "time": 1944189
+            "time": 2329683
           },
           "readFile": {
             "count": 81,
-            "time": 1084579
+            "time": 1247388
           },
           "writeFileSync": {
             "count": 81,
-            "time": 19213036
+            "time": 21306903
           },
           "writeSync": {
             "count": 81,
-            "time": 1522515
+            "time": 2028244
           }
         }
       },
@@ -1652,16 +1651,16 @@
           "entries": 3
         },
         "time": {
-          "self": 1337719
+          "self": 1186714
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 224093
+            "time": 199743
           },
           "statSync": {
             "count": 4,
-            "time": 138020
+            "time": 117457
           }
         }
       },
@@ -1684,20 +1683,20 @@
           "linked": 0
         },
         "time": {
-          "self": 417101
+          "self": 472793
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 60060
+            "time": 69663
           },
           "lstatSync": {
             "count": 2,
-            "time": 34769
+            "time": 33929
           },
           "symlinkSync": {
             "count": 2,
-            "time": 90194
+            "time": 89540
           }
         }
       },
@@ -1712,40 +1711,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1357395
+          "self": 1952880
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 80492
+            "time": 101415
           },
           "mkdirSync": {
             "count": 3,
-            "time": 118630
+            "time": 141437
           },
           "lstatSync": {
             "count": 21,
-            "time": 140783
+            "time": 333473
           },
           "rmdirSync": {
             "count": 2,
-            "time": 77627
+            "time": 105545
           },
           "symlinkSync": {
             "count": 3,
-            "time": 147182
+            "time": 189226
           },
           "realpathSync": {
             "count": 2,
-            "time": 281146
+            "time": 606927
           },
           "readlinkSync": {
             "count": 2,
-            "time": 20569
+            "time": 62715
           },
           "unlinkSync": {
             "count": 1,
-            "time": 21422
+            "time": 45262
           }
         }
       },
@@ -1762,28 +1761,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 615086
+          "self": 890632
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 49587
+            "time": 131308
           },
           "mkdirSync": {
             "count": 3,
-            "time": 87142
+            "time": 151217
           },
           "lstatSync": {
             "count": 2,
-            "time": 18879
+            "time": 21780
           },
           "rmdirSync": {
             "count": 1,
-            "time": 33837
+            "time": 35422
           },
           "symlinkSync": {
             "count": 1,
-            "time": 47694
+            "time": 51071
           }
         }
       },
@@ -1802,40 +1801,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1512817
+          "self": 1700561
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 87295
+            "time": 85119
           },
           "mkdirSync": {
             "count": 3,
-            "time": 114267
+            "time": 138870
           },
           "lstatSync": {
             "count": 25,
-            "time": 184171
+            "time": 197467
           },
           "rmdirSync": {
             "count": 2,
-            "time": 110193
+            "time": 116368
           },
           "symlinkSync": {
             "count": 3,
-            "time": 168044
+            "time": 174388
           },
           "realpathSync": {
             "count": 2,
-            "time": 338283
+            "time": 362398
           },
           "readlinkSync": {
             "count": 2,
-            "time": 24929
+            "time": 23356
           },
           "unlinkSync": {
             "count": 1,
-            "time": 26007
+            "time": 24531
           }
         }
       },
@@ -1852,7 +1851,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 61135
+          "self": 76657
         }
       },
       "children": [
@@ -1868,12 +1867,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2397202
+          "self": 2787276
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 21295
+            "time": 32636
           }
         }
       },
@@ -1890,20 +1889,20 @@
           "entries": 16,
           "walk": {
             "entries": 16,
-            "duration": "1.00 ms"
+            "duration": "1.06 ms"
           }
         },
         "time": {
-          "self": 1076773
+          "self": 1156308
         },
         "fs": {
           "readdirSync": {
             "count": 5,
-            "time": 371068
+            "time": 305566
           },
           "statSync": {
             "count": 16,
-            "time": 538655
+            "time": 606591
           }
         }
       },
@@ -1929,44 +1928,44 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 18271892
+          "self": 24107605
         },
         "fs": {
           "mkdirSync": {
             "count": 4,
-            "time": 248598
+            "time": 343904
           },
           "readFileSync": {
             "count": 12,
-            "time": 1398164
+            "time": 1931308
           },
           "openSync": {
             "count": 24,
-            "time": 2565696
+            "time": 2847935
           },
           "fstatSync": {
             "count": 12,
-            "time": 150375
+            "time": 171311
           },
           "readSync": {
             "count": 12,
-            "time": 112007
+            "time": 465567
           },
           "closeSync": {
             "count": 24,
-            "time": 707607
+            "time": 703039
           },
           "readFile": {
             "count": 12,
-            "time": 203033
+            "time": 263416
           },
           "writeFileSync": {
             "count": 12,
-            "time": 3096808
+            "time": 3611473
           },
           "writeSync": {
             "count": 12,
-            "time": 252167
+            "time": 311104
           }
         }
       },
@@ -1981,40 +1980,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1822035
+          "self": 3051786
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 111391
+            "time": 116410
           },
           "mkdirSync": {
             "count": 3,
-            "time": 151192
+            "time": 201494
           },
           "lstatSync": {
             "count": 21,
-            "time": 211768
+            "time": 374622
           },
           "rmdirSync": {
             "count": 2,
-            "time": 112674
+            "time": 236642
           },
           "symlinkSync": {
             "count": 3,
-            "time": 210570
+            "time": 284093
           },
           "realpathSync": {
             "count": 2,
-            "time": 423997
+            "time": 664446
           },
           "readlinkSync": {
             "count": 2,
-            "time": 39626
+            "time": 58471
           },
           "unlinkSync": {
             "count": 1,
-            "time": 49300
+            "time": 41274
           }
         }
       },
@@ -2031,28 +2030,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 838495
+          "self": 899278
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 46299
+            "time": 58972
           },
           "mkdirSync": {
             "count": 3,
-            "time": 98789
+            "time": 113784
           },
           "lstatSync": {
             "count": 2,
-            "time": 33617
+            "time": 33782
           },
           "rmdirSync": {
             "count": 1,
-            "time": 63214
+            "time": 60256
           },
           "symlinkSync": {
             "count": 1,
-            "time": 77152
+            "time": 76180
           }
         }
       },
@@ -2071,40 +2070,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1775484
+          "self": 2261865
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 102327
+            "time": 121847
           },
           "mkdirSync": {
             "count": 3,
-            "time": 154298
+            "time": 189363
           },
           "lstatSync": {
             "count": 25,
-            "time": 286064
+            "time": 282697
           },
           "rmdirSync": {
             "count": 2,
-            "time": 94254
+            "time": 147425
           },
           "symlinkSync": {
             "count": 3,
-            "time": 221754
+            "time": 251086
           },
           "realpathSync": {
             "count": 2,
-            "time": 568412
+            "time": 560381
           },
           "readlinkSync": {
             "count": 2,
-            "time": 51726
+            "time": 37135
           },
           "unlinkSync": {
             "count": 1,
-            "time": 35175
+            "time": 32049
           }
         }
       },
@@ -2121,7 +2120,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 49038
+          "self": 81157
         }
       },
       "children": [
@@ -2137,12 +2136,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2490376
+          "self": 2871301
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 20752
+            "time": 23636
           }
         }
       },
@@ -2159,20 +2158,20 @@
           "entries": 2,
           "walk": {
             "entries": 2,
-            "duration": "0.88 ms"
+            "duration": "0.97 ms"
           }
         },
         "time": {
-          "self": 1046628
+          "self": 1119522
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 174447
+            "time": 317351
           },
           "statSync": {
             "count": 2,
-            "time": 113044
+            "time": 118546
           }
         }
       },
@@ -2198,44 +2197,44 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 1742118
+          "self": 1939491
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 89110
+            "time": 100419
           },
           "readFileSync": {
             "count": 1,
-            "time": 153561
+            "time": 147091
           },
           "openSync": {
             "count": 2,
-            "time": 279558
+            "time": 249954
           },
           "fstatSync": {
             "count": 1,
-            "time": 11575
+            "time": 11793
           },
           "readSync": {
             "count": 1,
-            "time": 15700
+            "time": 16457
           },
           "closeSync": {
             "count": 2,
-            "time": 69259
+            "time": 78227
           },
           "readFile": {
             "count": 1,
-            "time": 25461
+            "time": 29286
           },
           "writeFileSync": {
             "count": 1,
-            "time": 324325
+            "time": 331669
           },
           "writeSync": {
             "count": 1,
-            "time": 24585
+            "time": 28909
           }
         }
       },
@@ -2250,40 +2249,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1690473
+          "self": 1809206
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 117941
+            "time": 145180
           },
           "mkdirSync": {
             "count": 3,
-            "time": 164922
+            "time": 203585
           },
           "lstatSync": {
             "count": 21,
-            "time": 201860
+            "time": 198734
           },
           "rmdirSync": {
             "count": 2,
-            "time": 87884
+            "time": 89765
           },
           "symlinkSync": {
             "count": 3,
-            "time": 180011
+            "time": 166573
           },
           "realpathSync": {
             "count": 2,
-            "time": 432854
+            "time": 413237
           },
           "readlinkSync": {
             "count": 2,
-            "time": 37339
+            "time": 32385
           },
           "unlinkSync": {
             "count": 1,
-            "time": 31704
+            "time": 31433
           }
         }
       },
@@ -2300,28 +2299,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1939086
+          "self": 2497817
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 65167
+            "time": 90322
           },
           "mkdirSync": {
             "count": 3,
-            "time": 142274
+            "time": 179650
           },
           "lstatSync": {
             "count": 2,
-            "time": 41312
+            "time": 25273
           },
           "rmdirSync": {
             "count": 1,
-            "time": 66655
+            "time": 45154
           },
           "symlinkSync": {
             "count": 1,
-            "time": 83388
+            "time": 57026
           }
         }
       },
@@ -2340,40 +2339,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2913970
+          "self": 2146455
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 125960
+            "time": 136477
           },
           "mkdirSync": {
             "count": 3,
-            "time": 167075
+            "time": 186629
           },
           "lstatSync": {
             "count": 25,
-            "time": 298860
+            "time": 269413
           },
           "rmdirSync": {
             "count": 2,
-            "time": 184944
+            "time": 142684
           },
           "symlinkSync": {
             "count": 3,
-            "time": 263322
+            "time": 234860
           },
           "realpathSync": {
             "count": 2,
-            "time": 608928
+            "time": 529619
           },
           "readlinkSync": {
             "count": 2,
-            "time": 46591
+            "time": 42832
           },
           "unlinkSync": {
             "count": 1,
-            "time": 66604
+            "time": 43940
           }
         }
       },
@@ -2390,7 +2389,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 90100
+          "self": 106839
         }
       },
       "children": [
@@ -2406,12 +2405,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3785916
+          "self": 4090654
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 25388
+            "time": 37477
           }
         }
       },
@@ -2428,20 +2427,20 @@
           "entries": 2,
           "walk": {
             "entries": 2,
-            "duration": "0.34 ms"
+            "duration": "0.35 ms"
           }
         },
         "time": {
-          "self": 532480
+          "self": 566918
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 128473
+            "time": 124653
           },
           "statSync": {
             "count": 2,
-            "time": 76893
+            "time": 66406
           }
         }
       },
@@ -2467,44 +2466,44 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 7139672
+          "self": 8688360
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 95207
+            "time": 95637
           },
           "readFileSync": {
             "count": 1,
-            "time": 179943
+            "time": 132769
           },
           "openSync": {
             "count": 2,
-            "time": 303317
+            "time": 272941
           },
           "fstatSync": {
             "count": 1,
-            "time": 11475
+            "time": 9262
           },
           "readSync": {
             "count": 1,
-            "time": 16903
+            "time": 12014
           },
           "closeSync": {
             "count": 2,
-            "time": 108860
+            "time": 70440
           },
           "readFile": {
             "count": 1,
-            "time": 25156
+            "time": 38796
           },
           "writeFileSync": {
             "count": 1,
-            "time": 364812
+            "time": 353340
           },
           "writeSync": {
             "count": 1,
-            "time": 23221
+            "time": 23789
           }
         }
       },
@@ -2519,40 +2518,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1490209
+          "self": 1640113
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 77910
+            "time": 75119
           },
           "mkdirSync": {
             "count": 3,
-            "time": 177118
+            "time": 167484
           },
           "lstatSync": {
             "count": 21,
-            "time": 164682
+            "time": 187089
           },
           "rmdirSync": {
             "count": 2,
-            "time": 78368
+            "time": 107191
           },
           "symlinkSync": {
             "count": 3,
-            "time": 141819
+            "time": 198459
           },
           "realpathSync": {
             "count": 2,
-            "time": 291258
+            "time": 347905
           },
           "readlinkSync": {
             "count": 2,
-            "time": 27243
+            "time": 25751
           },
           "unlinkSync": {
             "count": 1,
-            "time": 27951
+            "time": 30127
           }
         }
       },
@@ -2569,28 +2568,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 727316
+          "self": 835256
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 52591
+            "time": 45825
           },
           "mkdirSync": {
             "count": 3,
-            "time": 92605
+            "time": 125428
           },
           "lstatSync": {
             "count": 2,
-            "time": 19665
+            "time": 23710
           },
           "rmdirSync": {
             "count": 1,
-            "time": 37999
+            "time": 40300
           },
           "symlinkSync": {
             "count": 1,
-            "time": 49613
+            "time": 43259
           }
         }
       },
@@ -2609,40 +2608,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1650549
+          "self": 1823484
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 102318
+            "time": 95825
           },
           "mkdirSync": {
             "count": 3,
-            "time": 158443
+            "time": 157117
           },
           "lstatSync": {
             "count": 25,
-            "time": 196350
+            "time": 232516
           },
           "rmdirSync": {
             "count": 2,
-            "time": 94951
+            "time": 109522
           },
           "symlinkSync": {
             "count": 3,
-            "time": 197495
+            "time": 200391
           },
           "realpathSync": {
             "count": 2,
-            "time": 394717
+            "time": 466303
           },
           "readlinkSync": {
             "count": 2,
-            "time": 32507
+            "time": 33701
           },
           "unlinkSync": {
             "count": 1,
-            "time": 26674
+            "time": 36754
           }
         }
       },
@@ -2659,7 +2658,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 112649
+          "self": 153111
         }
       },
       "children": [
@@ -2675,12 +2674,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3799380
+          "self": 3924924
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 32360
+            "time": 34760
           }
         }
       },
@@ -2697,20 +2696,20 @@
           "entries": 9,
           "walk": {
             "entries": 9,
-            "duration": "0.51 ms"
+            "duration": "0.57 ms"
           }
         },
         "time": {
-          "self": 575789
+          "self": 635736
         },
         "fs": {
           "readdirSync": {
             "count": 3,
-            "time": 165259
+            "time": 198762
           },
           "statSync": {
             "count": 9,
-            "time": 280550
+            "time": 310471
           }
         }
       },
@@ -2736,44 +2735,44 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 9543580
+          "self": 12833413
         },
         "fs": {
           "mkdirSync": {
             "count": 2,
-            "time": 114114
+            "time": 129697
           },
           "readFileSync": {
             "count": 7,
-            "time": 770711
+            "time": 874189
           },
           "openSync": {
             "count": 14,
-            "time": 1567502
+            "time": 1664980
           },
           "fstatSync": {
             "count": 7,
-            "time": 97207
+            "time": 62872
           },
           "readSync": {
             "count": 7,
-            "time": 59118
+            "time": 217698
           },
           "closeSync": {
             "count": 14,
-            "time": 382221
+            "time": 411688
           },
           "readFile": {
             "count": 7,
-            "time": 122577
+            "time": 130586
           },
           "writeFileSync": {
             "count": 7,
-            "time": 1940358
+            "time": 2097608
           },
           "writeSync": {
             "count": 7,
-            "time": 133871
+            "time": 156858
           }
         }
       },
@@ -2788,40 +2787,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1372717
+          "self": 1579918
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 79416
+            "time": 74759
           },
           "mkdirSync": {
             "count": 3,
-            "time": 127090
+            "time": 133445
           },
           "lstatSync": {
             "count": 21,
-            "time": 138445
+            "time": 174744
           },
           "rmdirSync": {
             "count": 2,
-            "time": 82988
+            "time": 104238
           },
           "symlinkSync": {
             "count": 3,
-            "time": 136507
+            "time": 183458
           },
           "realpathSync": {
             "count": 2,
-            "time": 245691
+            "time": 294291
           },
           "readlinkSync": {
             "count": 2,
-            "time": 20380
+            "time": 21482
           },
           "unlinkSync": {
             "count": 1,
-            "time": 22490
+            "time": 22458
           }
         }
       },
@@ -2838,24 +2837,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 602268
+          "self": 543713
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 47337
+            "time": 33148
           },
           "mkdirSync": {
             "count": 2,
-            "time": 86089
+            "time": 58788
           },
           "lstatSync": {
             "count": 2,
-            "time": 26735
+            "time": 31069
           },
           "symlinkSync": {
             "count": 2,
-            "time": 84655
+            "time": 99696
           }
         }
       },
@@ -2875,28 +2874,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 789054
+          "self": 781775
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 66672
+            "time": 62208
           },
           "mkdirSync": {
             "count": 3,
-            "time": 154430
+            "time": 95251
           },
           "lstatSync": {
             "count": 2,
-            "time": 20502
+            "time": 23377
           },
           "rmdirSync": {
             "count": 1,
-            "time": 36713
+            "time": 38021
           },
           "symlinkSync": {
             "count": 1,
-            "time": 51749
+            "time": 124986
           }
         }
       },
@@ -2915,40 +2914,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2404072
+          "self": 2165801
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 111848
+            "time": 95115
           },
           "mkdirSync": {
             "count": 3,
-            "time": 181795
+            "time": 141395
           },
           "lstatSync": {
             "count": 25,
-            "time": 218959
+            "time": 192886
           },
           "rmdirSync": {
             "count": 2,
-            "time": 111213
+            "time": 148385
           },
           "symlinkSync": {
             "count": 3,
-            "time": 180181
+            "time": 201872
           },
           "realpathSync": {
             "count": 2,
-            "time": 420514
+            "time": 365644
           },
           "readlinkSync": {
             "count": 2,
-            "time": 32614
+            "time": 26037
           },
           "unlinkSync": {
             "count": 1,
-            "time": 34875
+            "time": 25564
           }
         }
       },
@@ -2965,7 +2964,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 69970
+          "self": 59237
         }
       },
       "children": [
@@ -2981,12 +2980,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2667318
+          "self": 2521082
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 28504
+            "time": 25440
           }
         }
       },
@@ -3003,20 +3002,20 @@
           "entries": 6,
           "walk": {
             "entries": 6,
-            "duration": "0.56 ms"
+            "duration": "0.60 ms"
           }
         },
         "time": {
-          "self": 618874
+          "self": 713465
         },
         "fs": {
           "readdirSync": {
             "count": 5,
-            "time": 273399
+            "time": 313755
           },
           "statSync": {
             "count": 6,
-            "time": 217496
+            "time": 217087
           }
         }
       },
@@ -3042,52 +3041,52 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 3463408
+          "self": 4580581
         },
         "fs": {
           "mkdirSync": {
             "count": 4,
-            "time": 223603
+            "time": 257495
           },
           "readFileSync": {
             "count": 1,
-            "time": 95447
+            "time": 135118
           },
           "openSync": {
             "count": 2,
-            "time": 240774
+            "time": 261405
           },
           "fstatSync": {
             "count": 1,
-            "time": 5501
+            "time": 8545
           },
           "readSync": {
             "count": 1,
-            "time": 9949
+            "time": 14481
           },
           "closeSync": {
             "count": 2,
-            "time": 62537
+            "time": 68849
           },
           "readFile": {
             "count": 1,
-            "time": 19359
+            "time": 20904
           },
           "writeFileSync": {
             "count": 1,
-            "time": 455276
+            "time": 516435
           },
           "writeSync": {
             "count": 1,
-            "time": 27648
+            "time": 33667
           },
           "lstatSync": {
             "count": 1,
-            "time": 37800
+            "time": 40318
           },
           "symlinkSync": {
             "count": 1,
-            "time": 78444
+            "time": 67679
           }
         }
       },
@@ -3102,28 +3101,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 992084
+          "self": 1552547
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 88259
+            "time": 116159
           },
           "mkdirSync": {
             "count": 3,
-            "time": 166290
+            "time": 178260
           },
           "lstatSync": {
             "count": 2,
-            "time": 27997
+            "time": 24318
           },
           "rmdirSync": {
             "count": 1,
-            "time": 42271
+            "time": 38989
           },
           "symlinkSync": {
             "count": 1,
-            "time": 62605
+            "time": 52355
           }
         }
       },
@@ -3142,28 +3141,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1167512
+          "self": 7282141
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 68813
+            "time": 89515
           },
           "mkdirSync": {
             "count": 3,
-            "time": 130220
+            "time": 161288
           },
           "lstatSync": {
             "count": 2,
-            "time": 34826
+            "time": 55178
           },
           "rmdirSync": {
             "count": 1,
-            "time": 64659
+            "time": 68063
           },
           "symlinkSync": {
             "count": 1,
-            "time": 67320
+            "time": 77942
           }
         }
       },
@@ -3182,40 +3181,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2332134
+          "self": 2610358
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 107610
+            "time": 128595
           },
           "mkdirSync": {
             "count": 5,
-            "time": 246308
+            "time": 285494
           },
           "lstatSync": {
             "count": 27,
-            "time": 309015
+            "time": 320492
           },
           "rmdirSync": {
             "count": 2,
-            "time": 123093
+            "time": 126359
           },
           "symlinkSync": {
             "count": 3,
-            "time": 203311
+            "time": 216007
           },
           "realpathSync": {
             "count": 2,
-            "time": 569552
+            "time": 636502
           },
           "readlinkSync": {
             "count": 2,
-            "time": 34880
+            "time": 62792
           },
           "unlinkSync": {
             "count": 1,
-            "time": 29597
+            "time": 45836
           }
         }
       },
@@ -3232,7 +3231,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 62079
+          "self": 69613
         }
       },
       "children": [
@@ -3248,12 +3247,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3086295
+          "self": 2984136
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 29356
+            "time": 39527
           }
         }
       },
@@ -3270,20 +3269,20 @@
           "entries": 4,
           "walk": {
             "entries": 4,
-            "duration": "0.69 ms"
+            "duration": "0.61 ms"
           }
         },
         "time": {
-          "self": 804141
+          "self": 714594
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 357529
+            "time": 327423
           },
           "statSync": {
             "count": 4,
-            "time": 258660
+            "time": 204914
           }
         }
       },
@@ -3309,44 +3308,44 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 48762182
+          "self": 35352305
         },
         "fs": {
           "mkdirSync": {
             "count": 3,
-            "time": 173986
+            "time": 152206
           },
           "readFileSync": {
             "count": 2,
-            "time": 8216405
+            "time": 8861824
           },
           "openSync": {
             "count": 3,
-            "time": 330975
+            "time": 259586
           },
           "fstatSync": {
             "count": 2,
-            "time": 26995
+            "time": 22160
           },
           "readSync": {
             "count": 2,
-            "time": 1195413
+            "time": 1927923
           },
           "closeSync": {
             "count": 3,
-            "time": 104488
+            "time": 89767
           },
           "readFile": {
             "count": 1,
-            "time": 28687
+            "time": 29448
           },
           "writeFileSync": {
             "count": 1,
-            "time": 3469116
+            "time": 262482
           },
           "writeSync": {
             "count": 1,
-            "time": 23046
+            "time": 19833
           }
         }
       },
@@ -3363,20 +3362,20 @@
           "entries": 4,
           "walk": {
             "entries": 4,
-            "duration": "0.43 ms"
+            "duration": "0.32 ms"
           }
         },
         "time": {
-          "self": 520823
+          "self": 427642
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 270912
+            "time": 176807
           },
           "statSync": {
             "count": 4,
-            "time": 110562
+            "time": 98105
           }
         }
       },
@@ -3402,44 +3401,44 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 3469555
+          "self": 2912241
         },
         "fs": {
           "mkdirSync": {
             "count": 3,
-            "time": 154364
+            "time": 123689
           },
           "readFileSync": {
             "count": 1,
-            "time": 100588
+            "time": 89084
           },
           "openSync": {
             "count": 2,
-            "time": 202493
+            "time": 216762
           },
           "fstatSync": {
             "count": 1,
-            "time": 8370
+            "time": 5504
           },
           "readSync": {
             "count": 1,
-            "time": 10437
+            "time": 11356
           },
           "closeSync": {
             "count": 2,
-            "time": 52532
+            "time": 44475
           },
           "readFile": {
             "count": 1,
-            "time": 17655
+            "time": 19633
           },
           "writeFileSync": {
             "count": 1,
-            "time": 274552
+            "time": 311401
           },
           "writeSync": {
             "count": 1,
-            "time": 20353
+            "time": 19940
           }
         }
       },
@@ -3456,16 +3455,16 @@
           "entries": 6
         },
         "time": {
-          "self": 994843
+          "self": 1013186
         },
         "fs": {
           "readdirSync": {
             "count": 8,
-            "time": 334536
+            "time": 327726
           },
           "statSync": {
             "count": 9,
-            "time": 237555
+            "time": 225940
           }
         }
       },
@@ -3488,32 +3487,32 @@
           "linked": 0
         },
         "time": {
-          "self": 1193551
+          "self": 1309802
         },
         "fs": {
           "mkdirSync": {
             "count": 3,
-            "time": 143831
+            "time": 176456
           },
           "lstatSync": {
             "count": 25,
-            "time": 291005
+            "time": 223270
           },
           "symlinkSync": {
             "count": 3,
-            "time": 177840
+            "time": 219588
           },
           "realpathSync": {
             "count": 1,
-            "time": 557620
+            "time": 598190
           },
           "statSync": {
             "count": 4,
-            "time": 98263
+            "time": 105963
           },
           "readlinkSync": {
             "count": 4,
-            "time": 47511
+            "time": 47363
           }
         }
       },
@@ -3530,16 +3529,16 @@
           "entries": 8
         },
         "time": {
-          "self": 981777
+          "self": 1188923
         },
         "fs": {
           "readdirSync": {
             "count": 12,
-            "time": 477588
+            "time": 538917
           },
           "statSync": {
             "count": 13,
-            "time": 353500
+            "time": 444383
           }
         }
       },
@@ -3562,32 +3561,32 @@
           "linked": 0
         },
         "time": {
-          "self": 1522288
+          "self": 1836976
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 76387
+            "time": 68788
           },
           "lstatSync": {
             "count": 41,
-            "time": 337375
+            "time": 452681
           },
           "symlinkSync": {
             "count": 7,
-            "time": 321129
+            "time": 372211
           },
           "realpathSync": {
             "count": 2,
-            "time": 873675
+            "time": 1124783
           },
           "statSync": {
             "count": 8,
-            "time": 222200
+            "time": 220709
           },
           "readlinkSync": {
             "count": 8,
-            "time": 99835
+            "time": 122758
           }
         }
       },
@@ -3602,76 +3601,76 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 49669221
+          "self": 84636688
         },
         "fs": {
           "statSync": {
             "count": 156,
-            "time": 5633536
+            "time": 9128295
           },
           "mkdirSync": {
             "count": 5,
-            "time": 172957
+            "time": 315438
           },
           "lstatSync": {
             "count": 12,
-            "time": 67179
+            "time": 74557
           },
           "rmdirSync": {
             "count": 1,
-            "time": 27778
+            "time": 33836
           },
           "realpathSync": {
             "count": 1,
-            "time": 240579
+            "time": 271546
           },
           "readlinkSync": {
             "count": 2,
-            "time": 25696
+            "time": 27025
           },
           "symlinkSync": {
             "count": 1,
-            "time": 45208
+            "time": 57312
           },
           "readdirSync": {
             "count": 37,
-            "time": 2484283
+            "time": 4731279
           },
           "lstat": {
             "count": 1,
-            "time": 20152
+            "time": 28567
           },
           "rmdir": {
             "count": 1,
-            "time": 10654
+            "time": 12400
           },
           "openSync": {
             "count": 114,
-            "time": 4585626
+            "time": 6022498
           },
           "fstatSync": {
             "count": 113,
-            "time": 614267
+            "time": 835319
           },
           "readSync": {
             "count": 113,
-            "time": 771954
+            "time": 1045452
           },
           "closeSync": {
             "count": 114,
-            "time": 809483
+            "time": 867939
           },
           "writeSync": {
             "count": 1,
-            "time": 265638
+            "time": 366887
           },
           "write": {
             "count": 1,
-            "time": 104120
+            "time": 157580
           },
           "close": {
             "count": 1,
-            "time": 63271
+            "time": 68359
           }
         }
       },
@@ -3688,28 +3687,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 866787
+          "self": 1509139
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 32436
+            "time": 40833
           },
           "mkdirSync": {
             "count": 2,
-            "time": 72463
+            "time": 84553
           },
           "lstatSync": {
             "count": 4,
-            "time": 38029
+            "time": 60751
           },
           "rmdirSync": {
             "count": 2,
-            "time": 61374
+            "time": 102130
           },
           "symlinkSync": {
             "count": 2,
-            "time": 87985
+            "time": 143283
           }
         }
       },
@@ -3724,7 +3723,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 63333
+          "self": 101956
         }
       },
       "children": [
@@ -3740,12 +3739,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3382207
+          "self": 3509159
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 42102
+            "time": 58117
           }
         }
       },
@@ -3760,24 +3759,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1745919
+          "self": 1422801
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 215510
+            "time": 71358
           },
           "mkdirSync": {
             "count": 2,
-            "time": 239871
+            "time": 150521
           },
           "lstatSync": {
             "count": 3,
-            "time": 78772
+            "time": 73104
           },
           "symlinkSync": {
             "count": 3,
-            "time": 257279
+            "time": 241712
           }
         }
       },
@@ -3798,7 +3797,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 98827
+          "self": 91669
         }
       },
       "children": [
@@ -3814,12 +3813,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2760472
+          "self": 2789736
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 55192
+            "time": 47729
           }
         }
       },
@@ -3834,28 +3833,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 11795257
+          "self": 3962133
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 94567
+            "time": 84812
           },
           "mkdirSync": {
             "count": 2,
-            "time": 156469
+            "time": 141114
           },
           "lstatSync": {
             "count": 2,
-            "time": 111457
+            "time": 55651
           },
           "rmdirSync": {
             "count": 1,
-            "time": 245194
+            "time": 92918
           },
           "symlinkSync": {
             "count": 1,
-            "time": 138956
+            "time": 95517
           }
         }
       },
@@ -3874,7 +3873,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 5174324
+          "self": 4126230
         },
         "fs": {
           "existsSync": {
@@ -3896,16 +3895,16 @@
           "entries": 2
         },
         "time": {
-          "self": 3989983
+          "self": 4299594
         },
         "fs": {
           "readdirSync": {
             "count": 1,
-            "time": 151228
+            "time": 134261
           },
           "statSync": {
             "count": 14,
-            "time": 755158
+            "time": 653280
           }
         }
       },
@@ -3928,20 +3927,20 @@
           "linked": 0
         },
         "time": {
-          "self": 788838
+          "self": 1041046
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 104107
+            "time": 114300
           },
           "lstatSync": {
             "count": 1,
-            "time": 29794
+            "time": 38990
           },
           "symlinkSync": {
             "count": 1,
-            "time": 68478
+            "time": 97924
           }
         }
       },
@@ -3956,7 +3955,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 118427
+          "self": 103918
         }
       },
       "children": [
@@ -3972,12 +3971,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2926083
+          "self": 3187934
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 31765
+            "time": 47516
           }
         }
       },
@@ -3994,16 +3993,16 @@
           "entries": 7
         },
         "time": {
-          "self": 608066
+          "self": 928207
         },
         "fs": {
           "readdirSync": {
             "count": 3,
-            "time": 164404
+            "time": 274968
           },
           "statSync": {
             "count": 7,
-            "time": 199368
+            "time": 280166
           }
         }
       },
@@ -4026,16 +4025,16 @@
           "linked": 0
         },
         "time": {
-          "self": 610074
+          "self": 840822
         },
         "fs": {
           "lstatSync": {
             "count": 7,
-            "time": 102885
+            "time": 150206
           },
           "symlinkSync": {
             "count": 7,
-            "time": 412873
+            "time": 509129
           }
         }
       },
@@ -4050,7 +4049,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 129575
+          "self": 108293
         }
       },
       "children": [
@@ -4066,12 +4065,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3236382
+          "self": 3722583
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 27127
+            "time": 33602
           }
         }
       },
@@ -4086,7 +4085,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 311662
+          "self": 121117
         }
       },
       "children": [
@@ -4102,12 +4101,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 4712398
+          "self": 3728484
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 77506
+            "time": 63602
           }
         }
       },
@@ -4122,7 +4121,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 213616
+          "self": 127021
         }
       },
       "children": [
@@ -4138,12 +4137,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 6833606
+          "self": 4830863
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 100639
+            "time": 65076
           }
         }
       },
@@ -4158,7 +4157,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 290536
+          "self": 111916
         }
       },
       "children": [
@@ -4174,12 +4173,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 6758470
+          "self": 5477026
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 102571
+            "time": 66649
           }
         }
       },
@@ -4194,7 +4193,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 102479
+          "self": 124498
         }
       },
       "children": [
@@ -4210,12 +4209,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 10308584
+          "self": 6472431
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 49305
+            "time": 67524
           }
         }
       },
@@ -4232,16 +4231,16 @@
           "entries": 16
         },
         "time": {
-          "self": 1900550
+          "self": 2555275
         },
         "fs": {
           "readdirSync": {
             "count": 9,
-            "time": 627488
+            "time": 675511
           },
           "statSync": {
             "count": 16,
-            "time": 818196
+            "time": 1346469
           }
         }
       },
@@ -4264,28 +4263,28 @@
           "linked": 0
         },
         "time": {
-          "self": 5637453
+          "self": 6971901
         },
         "fs": {
           "lstatSync": {
             "count": 121,
-            "time": 1252657
+            "time": 1418973
           },
           "symlinkSync": {
             "count": 16,
-            "time": 1187320
+            "time": 1290246
           },
           "realpathSync": {
             "count": 7,
-            "time": 3854249
+            "time": 4561587
           },
           "statSync": {
             "count": 21,
-            "time": 733378
+            "time": 1182225
           },
           "readlinkSync": {
             "count": 21,
-            "time": 406095
+            "time": 638794
           }
         }
       },
@@ -4302,16 +4301,16 @@
           "entries": 2
         },
         "time": {
-          "self": 293704
+          "self": 613564
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 112934
+            "time": 156255
           },
           "statSync": {
             "count": 2,
-            "time": 59772
+            "time": 280142
           }
         }
       },
@@ -4334,28 +4333,28 @@
           "linked": 0
         },
         "time": {
-          "self": 3196243
+          "self": 5098018
         },
         "fs": {
           "lstatSync": {
             "count": 24,
-            "time": 292211
+            "time": 238782
           },
           "realpathSync": {
             "count": 2,
-            "time": 2972971
+            "time": 912618
           },
           "statSync": {
             "count": 4,
-            "time": 93624
+            "time": 120502
           },
           "readlinkSync": {
             "count": 4,
-            "time": 51475
+            "time": 87003
           },
           "symlinkSync": {
             "count": 2,
-            "time": 116416
+            "time": 142836
           }
         }
       },
@@ -4370,28 +4369,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 789948
+          "self": 845663
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 51920
+            "time": 51848
           },
           "mkdirSync": {
             "count": 3,
-            "time": 111250
+            "time": 143201
           },
           "lstatSync": {
             "count": 2,
-            "time": 26041
+            "time": 17418
           },
           "rmdirSync": {
             "count": 1,
-            "time": 37339
+            "time": 38960
           },
           "symlinkSync": {
             "count": 1,
-            "time": 60203
+            "time": 60062
           }
         }
       },
@@ -4410,24 +4409,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 550099
+          "self": 638617
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 35917
+            "time": 33780
           },
           "mkdirSync": {
             "count": 2,
-            "time": 62898
+            "time": 66744
           },
           "lstatSync": {
             "count": 2,
-            "time": 27368
+            "time": 35899
           },
           "symlinkSync": {
             "count": 2,
-            "time": 99213
+            "time": 125508
           }
         }
       },
@@ -4447,40 +4446,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1218497
+          "self": 1633371
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 80594
+            "time": 93525
           },
           "mkdirSync": {
             "count": 3,
-            "time": 119241
+            "time": 140323
           },
           "lstatSync": {
             "count": 21,
-            "time": 116668
+            "time": 216240
           },
           "rmdirSync": {
             "count": 2,
-            "time": 66181
+            "time": 67866
           },
           "symlinkSync": {
             "count": 3,
-            "time": 118466
+            "time": 127113
           },
           "realpathSync": {
             "count": 2,
-            "time": 281545
+            "time": 412137
           },
           "readlinkSync": {
             "count": 2,
-            "time": 24405
+            "time": 23343
           },
           "unlinkSync": {
             "count": 1,
-            "time": 28582
+            "time": 27004
           }
         }
       },
@@ -4497,24 +4496,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1388637
+          "self": 1325616
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 65106
+            "time": 35140
           },
           "mkdirSync": {
             "count": 2,
-            "time": 119380
+            "time": 63361
           },
           "lstatSync": {
             "count": 7,
-            "time": 111729
+            "time": 104665
           },
           "symlinkSync": {
             "count": 7,
-            "time": 390000
+            "time": 434202
           }
         }
       },
@@ -4539,24 +4538,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 702718
+          "self": 651201
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 54137
+            "time": 30153
           },
           "mkdirSync": {
             "count": 2,
-            "time": 92925
+            "time": 70282
           },
           "lstatSync": {
             "count": 2,
-            "time": 56665
+            "time": 63165
           },
           "symlinkSync": {
             "count": 2,
-            "time": 166815
+            "time": 176090
           }
         }
       },
@@ -4576,7 +4575,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 92749
+          "self": 92310
         }
       },
       "children": [
@@ -4592,12 +4591,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3792268
+          "self": 4426072
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 33889
+            "time": 32926
           }
         }
       },
@@ -4612,7 +4611,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 99108
+          "self": 106443
         }
       },
       "children": [
@@ -4628,12 +4627,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 4103575
+          "self": 3441824
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 51812
+            "time": 57279
           }
         }
       },
@@ -4650,16 +4649,16 @@
           "entries": 3
         },
         "time": {
-          "self": 494069
+          "self": 534478
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 168003
+            "time": 240632
           },
           "statSync": {
             "count": 3,
-            "time": 146270
+            "time": 97971
           }
         }
       },
@@ -4682,16 +4681,16 @@
           "linked": 0
         },
         "time": {
-          "self": 335932
+          "self": 248621
         },
         "fs": {
           "lstatSync": {
             "count": 3,
-            "time": 75812
+            "time": 42589
           },
           "symlinkSync": {
             "count": 3,
-            "time": 189848
+            "time": 145850
           }
         }
       },
@@ -4706,7 +4705,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 245664
+          "self": 315012
         }
       },
       "children": [
@@ -4722,12 +4721,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3992448
+          "self": 3834380
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 40409
+            "time": 59270
           }
         }
       },
@@ -4742,7 +4741,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 104710
+          "self": 98172
         }
       },
       "children": [
@@ -4758,12 +4757,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 4216869
+          "self": 6754167
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 55133
+            "time": 60830
           }
         }
       },
@@ -4778,7 +4777,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 100807
+          "self": 126877
         }
       },
       "children": [
@@ -4794,12 +4793,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 5111817
+          "self": 4963891
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 55423
+            "time": 116057
           }
         }
       },
@@ -4814,7 +4813,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 99106
+          "self": 116482
         }
       },
       "children": [
@@ -4830,12 +4829,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 5757829
+          "self": 4253597
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 69878
+            "time": 66857
           }
         }
       },
@@ -4850,7 +4849,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 141368
+          "self": 153400
         }
       },
       "children": [
@@ -4866,12 +4865,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 7520869
+          "self": 6116102
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 59397
+            "time": 62653
           }
         }
       },
@@ -4886,28 +4885,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1325654
+          "self": 1673033
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 82268
+            "time": 86302
           },
           "mkdirSync": {
             "count": 2,
-            "time": 152016
+            "time": 178547
           },
           "lstatSync": {
             "count": 2,
-            "time": 44609
+            "time": 46895
           },
           "rmdirSync": {
             "count": 1,
-            "time": 62194
+            "time": 83482
           },
           "symlinkSync": {
             "count": 1,
-            "time": 78162
+            "time": 91013
           }
         }
       },
@@ -4927,16 +4926,16 @@
           "entries": 18
         },
         "time": {
-          "self": 4434838
+          "self": 5816065
         },
         "fs": {
           "readdirSync": {
             "count": 9,
-            "time": 737428
+            "time": 814060
           },
           "statSync": {
             "count": 22,
-            "time": 1053991
+            "time": 2622790
           }
         }
       },
@@ -4959,20 +4958,20 @@
           "linked": 0
         },
         "time": {
-          "self": 1906361
+          "self": 1819315
         },
         "fs": {
           "lstatSync": {
             "count": 11,
-            "time": 267074
+            "time": 271739
           },
           "symlinkSync": {
             "count": 11,
-            "time": 752915
+            "time": 702560
           },
           "mkdirSync": {
             "count": 7,
-            "time": 353379
+            "time": 316828
           }
         }
       },
@@ -4989,16 +4988,16 @@
           "entries": 27
         },
         "time": {
-          "self": 2743779
+          "self": 8296703
         },
         "fs": {
           "readdirSync": {
             "count": 16,
-            "time": 852680
+            "time": 1832255
           },
           "statSync": {
             "count": 33,
-            "time": 1168886
+            "time": 5356307
           }
         }
       },
@@ -5021,32 +5020,32 @@
           "linked": 0
         },
         "time": {
-          "self": 5750170
+          "self": 5925190
         },
         "fs": {
           "lstatSync": {
             "count": 122,
-            "time": 1357183
+            "time": 1427671
           },
           "realpathSync": {
             "count": 7,
-            "time": 2776673
+            "time": 3043453
           },
           "statSync": {
             "count": 21,
-            "time": 568298
+            "time": 685377
           },
           "readlinkSync": {
             "count": 21,
-            "time": 316152
+            "time": 426190
           },
           "symlinkSync": {
             "count": 24,
-            "time": 1195634
+            "time": 1288287
           },
           "mkdirSync": {
             "count": 3,
-            "time": 127946
+            "time": 133619
           }
         }
       },
@@ -5061,28 +5060,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 5670451
+          "self": 1097021
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 78357
+            "time": 48550
           },
           "mkdirSync": {
             "count": 3,
-            "time": 177381
+            "time": 86506
           },
           "lstatSync": {
             "count": 2,
-            "time": 44846
+            "time": 36379
           },
           "rmdirSync": {
             "count": 1,
-            "time": 58514
+            "time": 62307
           },
           "symlinkSync": {
             "count": 1,
-            "time": 69472
+            "time": 50999
           }
         }
       },
@@ -5101,24 +5100,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 788892
+          "self": 605128
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 75934
+            "time": 120848
           },
           "mkdirSync": {
             "count": 2,
-            "time": 123864
+            "time": 70673
           },
           "lstatSync": {
             "count": 2,
-            "time": 15190
+            "time": 28946
           },
           "symlinkSync": {
             "count": 2,
-            "time": 92272
+            "time": 138010
           }
         }
       },
@@ -5138,40 +5137,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1704065
+          "self": 1383834
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 123518
+            "time": 90092
           },
           "mkdirSync": {
             "count": 5,
-            "time": 264450
+            "time": 208139
           },
           "lstatSync": {
             "count": 21,
-            "time": 166103
+            "time": 130155
           },
           "rmdirSync": {
             "count": 2,
-            "time": 77262
+            "time": 73412
           },
           "symlinkSync": {
             "count": 3,
-            "time": 151889
+            "time": 133275
           },
           "realpathSync": {
             "count": 2,
-            "time": 358679
+            "time": 269263
           },
           "readlinkSync": {
             "count": 2,
-            "time": 27240
+            "time": 20704
           },
           "unlinkSync": {
             "count": 1,
-            "time": 27957
+            "time": 20479
           }
         }
       },
@@ -5188,16 +5187,16 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 500533
+          "self": 530324
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 54509
+            "time": 88405
           },
           "mkdirSync": {
             "count": 2,
-            "time": 93280
+            "time": 111265
           }
         }
       },
@@ -5217,7 +5216,7 @@
           "entries": 0
         },
         "time": {
-          "self": 180885
+          "self": 119858
         }
       },
       "children": []
@@ -5239,7 +5238,7 @@
           "linked": 0
         },
         "time": {
-          "self": 169810
+          "self": 139546
         }
       },
       "children": []
@@ -5253,24 +5252,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 583866
+          "self": 534969
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 45955
+            "time": 31432
           },
           "mkdirSync": {
             "count": 2,
-            "time": 90502
+            "time": 66128
           },
           "lstatSync": {
             "count": 2,
-            "time": 19138
+            "time": 28963
           },
           "symlinkSync": {
             "count": 2,
-            "time": 91443
+            "time": 150932
           }
         }
       },
@@ -5290,40 +5289,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1833877
+          "self": 1908399
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 120431
+            "time": 116360
           },
           "mkdirSync": {
             "count": 5,
-            "time": 255235
+            "time": 320738
           },
           "lstatSync": {
             "count": 23,
-            "time": 209807
+            "time": 231422
           },
           "rmdirSync": {
             "count": 2,
-            "time": 91718
+            "time": 89120
           },
           "symlinkSync": {
             "count": 3,
-            "time": 203596
+            "time": 199921
           },
           "realpathSync": {
             "count": 2,
-            "time": 450262
+            "time": 528597
           },
           "readlinkSync": {
             "count": 2,
-            "time": 37298
+            "time": 51510
           },
           "unlinkSync": {
             "count": 1,
-            "time": 32006
+            "time": 32445
           }
         }
       },
@@ -5340,7 +5339,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 54043
+          "self": 31431
         }
       },
       "children": []
@@ -5354,28 +5353,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1096160
+          "self": 902913
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 58125
+            "time": 37704
           },
           "mkdirSync": {
             "count": 2,
-            "time": 96222
+            "time": 118829
           },
           "lstatSync": {
             "count": 2,
-            "time": 70392
+            "time": 22922
           },
           "rmdirSync": {
             "count": 1,
-            "time": 55189
+            "time": 37733
           },
           "symlinkSync": {
             "count": 1,
-            "time": 78753
+            "time": 45428
           }
         }
       },
@@ -5395,16 +5394,16 @@
           "entries": 0
         },
         "time": {
-          "self": 1873598
+          "self": 2392627
         },
         "fs": {
           "readdirSync": {
             "count": 9,
-            "time": 442171
+            "time": 616378
           },
           "statSync": {
             "count": 22,
-            "time": 617414
+            "time": 661538
           }
         }
       },
@@ -5427,7 +5426,7 @@
           "linked": 0
         },
         "time": {
-          "self": 7019
+          "self": 12526
         }
       },
       "children": []
@@ -5443,16 +5442,16 @@
           "entries": 1
         },
         "time": {
-          "self": 159875
+          "self": 249332
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 88115
+            "time": 134004
           },
           "statSync": {
             "count": 1,
-            "time": 23665
+            "time": 40804
           }
         }
       },
@@ -5475,16 +5474,16 @@
           "linked": 0
         },
         "time": {
-          "self": 59429
+          "self": 107368
         },
         "fs": {
           "lstatSync": {
             "count": 1,
-            "time": 9560
+            "time": 19165
           },
           "symlinkSync": {
             "count": 1,
-            "time": 37636
+            "time": 61578
           }
         }
       },
@@ -5501,16 +5500,16 @@
           "entries": 5
         },
         "time": {
-          "self": 830818
+          "self": 1035289
         },
         "fs": {
           "readdirSync": {
             "count": 6,
-            "time": 375651
+            "time": 501200
           },
           "statSync": {
             "count": 7,
-            "time": 272179
+            "time": 280128
           }
         }
       },
@@ -5533,20 +5532,20 @@
           "linked": 0
         },
         "time": {
-          "self": 245888
+          "self": 275563
         },
         "fs": {
           "mkdirSync": {
             "count": 2,
-            "time": 69516
+            "time": 70083
           },
           "lstatSync": {
             "count": 3,
-            "time": 48007
+            "time": 46029
           },
           "symlinkSync": {
             "count": 3,
-            "time": 94171
+            "time": 117170
           }
         }
       },
@@ -5563,20 +5562,20 @@
           "entries": 6,
           "walk": {
             "entries": 6,
-            "duration": "0.51 ms"
+            "duration": "0.52 ms"
           }
         },
         "time": {
-          "self": 582163
+          "self": 589263
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 214888
+            "time": 216067
           },
           "statSync": {
             "count": 6,
-            "time": 241938
+            "time": 251323
           }
         }
       },
@@ -5602,52 +5601,52 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 45683390
+          "self": 64325918
         },
         "fs": {
           "mkdirSync": {
             "count": 3,
-            "time": 162816
+            "time": 141462
           },
           "readFileSync": {
             "count": 3,
-            "time": 7541263
+            "time": 9593372
           },
           "openSync": {
             "count": 5,
-            "time": 515397
+            "time": 588391
           },
           "fstatSync": {
             "count": 3,
-            "time": 26652
+            "time": 20740
           },
           "readSync": {
             "count": 3,
-            "time": 1227859
+            "time": 1246905
           },
           "closeSync": {
             "count": 5,
-            "time": 141974
+            "time": 167311
           },
           "readFile": {
             "count": 2,
-            "time": 44715
+            "time": 66200
           },
           "writeFileSync": {
             "count": 2,
-            "time": 518562
+            "time": 650329
           },
           "writeSync": {
             "count": 2,
-            "time": 39831
+            "time": 46417
           },
           "lstatSync": {
             "count": 1,
-            "time": 45787
+            "time": 73861
           },
           "symlinkSync": {
             "count": 1,
-            "time": 58479
+            "time": 76881
           }
         }
       },
@@ -5664,16 +5663,16 @@
           "entries": 18
         },
         "time": {
-          "self": 2036775
+          "self": 2262484
         },
         "fs": {
           "readdirSync": {
             "count": 8,
-            "time": 407800
+            "time": 532221
           },
           "statSync": {
             "count": 22,
-            "time": 764148
+            "time": 1316945
           }
         }
       },
@@ -5696,32 +5695,32 @@
           "linked": 0
         },
         "time": {
-          "self": 5104708
+          "self": 5004190
         },
         "fs": {
           "mkdirSync": {
             "count": 3,
-            "time": 183172
+            "time": 126516
           },
           "lstatSync": {
             "count": 184,
-            "time": 1191714
+            "time": 1202045
           },
           "realpathSync": {
             "count": 10,
-            "time": 3714944
+            "time": 3629199
           },
           "statSync": {
             "count": 39,
-            "time": 880717
+            "time": 854342
           },
           "readlinkSync": {
             "count": 39,
-            "time": 508933
+            "time": 451990
           },
           "symlinkSync": {
             "count": 15,
-            "time": 696466
+            "time": 736565
           }
         }
       },
@@ -5738,20 +5737,20 @@
           "entries": 38,
           "walk": {
             "entries": 38,
-            "duration": "2.17 ms"
+            "duration": "2.82 ms"
           }
         },
         "time": {
-          "self": 2218819
+          "self": 2885469
         },
         "fs": {
           "readdirSync": {
             "count": 12,
-            "time": 586562
+            "time": 699622
           },
           "statSync": {
             "count": 38,
-            "time": 1433699
+            "time": 1884091
           }
         }
       },
@@ -5777,68 +5776,68 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 57548703
+          "self": 56788987
         },
         "fs": {
           "mkdirSync": {
             "count": 11,
-            "time": 644428
+            "time": 646319
           },
           "readFileSync": {
             "count": 20,
-            "time": 2270870
+            "time": 2100175
           },
           "openSync": {
             "count": 40,
-            "time": 4609359
+            "time": 4245962
           },
           "fstatSync": {
             "count": 20,
-            "time": 149927
+            "time": 154587
           },
           "readSync": {
             "count": 20,
-            "time": 151285
+            "time": 181356
           },
           "closeSync": {
             "count": 40,
-            "time": 1101245
+            "time": 866642
           },
           "realpathSync": {
             "count": 8,
-            "time": 2762011
+            "time": 3123336
           },
           "statSync": {
             "count": 35,
-            "time": 742149
+            "time": 827131
           },
           "readdirSync": {
             "count": 2,
-            "time": 90135
+            "time": 113015
           },
           "readFile": {
             "count": 20,
-            "time": 445720
+            "time": 442230
           },
           "writeFileSync": {
             "count": 20,
-            "time": 5459538
+            "time": 5227786
           },
           "writeSync": {
             "count": 20,
-            "time": 617779
+            "time": 352312
           },
           "lstatSync": {
             "count": 126,
-            "time": 898132
+            "time": 1035507
           },
           "readlinkSync": {
             "count": 26,
-            "time": 316322
+            "time": 336153
           },
           "symlinkSync": {
             "count": 7,
-            "time": 399483
+            "time": 404001
           }
         }
       },
@@ -5853,28 +5852,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 798302
+          "self": 785734
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 40562
+            "time": 64378
           },
           "mkdirSync": {
             "count": 2,
-            "time": 71528
+            "time": 101312
           },
           "lstatSync": {
             "count": 2,
-            "time": 38075
+            "time": 28015
           },
           "rmdirSync": {
             "count": 1,
-            "time": 53810
+            "time": 38499
           },
           "symlinkSync": {
             "count": 1,
-            "time": 82932
+            "time": 47679
           }
         }
       },
@@ -5893,48 +5892,48 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 5097744
+          "self": 7790893
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 52109
+            "time": 68560
           },
           "mkdirSync": {
             "count": 3,
-            "time": 97274
+            "time": 144046
           },
           "lstatSync": {
             "count": 2,
-            "time": 21205
+            "time": 24869
           },
           "symlinkSync": {
             "count": 2,
-            "time": 85480
+            "time": 88601
           },
           "openSync": {
             "count": 22,
-            "time": 1406218
+            "time": 1525199
           },
           "fstatSync": {
             "count": 12,
-            "time": 54719
+            "time": 68539
           },
           "readSync": {
             "count": 12,
-            "time": 61816
+            "time": 244646
           },
           "closeSync": {
             "count": 22,
-            "time": 421325
+            "time": 396808
           },
           "writeSync": {
             "count": 10,
-            "time": 137458
+            "time": 151482
           },
           "readFileSync": {
             "count": 1,
-            "time": 59274
+            "time": 264772
           }
         }
       },
@@ -5951,7 +5950,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 15286
+          "self": 16675
         }
       },
       "children": []
@@ -5967,7 +5966,7 @@
           "entries": 10
         },
         "time": {
-          "self": 237574
+          "self": 227105
         }
       },
       "children": []
@@ -5989,20 +5988,20 @@
           "linked": 0
         },
         "time": {
-          "self": 923977
+          "self": 983582
         },
         "fs": {
           "mkdirSync": {
             "count": 2,
-            "time": 80126
+            "time": 84605
           },
           "lstatSync": {
             "count": 10,
-            "time": 131825
+            "time": 144247
           },
           "symlinkSync": {
             "count": 10,
-            "time": 479489
+            "time": 460542
           }
         }
       },
@@ -6019,16 +6018,16 @@
           "entries": 34
         },
         "time": {
-          "self": 2486022
+          "self": 2479683
         },
         "fs": {
           "readdirSync": {
             "count": 8,
-            "time": 564531
+            "time": 532303
           },
           "statSync": {
             "count": 36,
-            "time": 1130129
+            "time": 1083033
           }
         }
       },
@@ -6051,32 +6050,32 @@
           "linked": 0
         },
         "time": {
-          "self": 8705627
+          "self": 8383864
         },
         "fs": {
           "lstatSync": {
             "count": 327,
-            "time": 1948242
+            "time": 1953535
           },
           "realpathSync": {
             "count": 19,
-            "time": 5452959
+            "time": 5464115
           },
           "statSync": {
             "count": 63,
-            "time": 1326413
+            "time": 1200870
           },
           "readlinkSync": {
             "count": 63,
-            "time": 631411
+            "time": 599244
           },
           "symlinkSync": {
             "count": 32,
-            "time": 2370005
+            "time": 2056981
           },
           "mkdirSync": {
             "count": 2,
-            "time": 159508
+            "time": 85296
           }
         }
       },
@@ -6091,68 +6090,68 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 12179072
+          "self": 13963465
         },
         "fs": {
           "statSync": {
             "count": 47,
-            "time": 1998892
+            "time": 1984259
           },
           "mkdirSync": {
             "count": 5,
-            "time": 477048
+            "time": 574527
           },
           "lstatSync": {
             "count": 2,
-            "time": 26688
+            "time": 17788
           },
           "rmdirSync": {
             "count": 1,
-            "time": 63507
+            "time": 37082
           },
           "symlinkSync": {
             "count": 1,
-            "time": 108640
+            "time": 74669
           },
           "readdirSync": {
             "count": 14,
-            "time": 909849
+            "time": 1066966
           },
           "lstat": {
             "count": 1,
-            "time": 19105
+            "time": 23941
           },
           "rmdir": {
             "count": 1,
-            "time": 21265
+            "time": 10664
           },
           "openSync": {
             "count": 25,
-            "time": 1351453
+            "time": 1611480
           },
           "fstatSync": {
             "count": 24,
-            "time": 125196
+            "time": 125155
           },
           "readSync": {
             "count": 24,
-            "time": 197863
+            "time": 127372
           },
           "closeSync": {
             "count": 25,
-            "time": 162185
+            "time": 177559
           },
           "writeSync": {
             "count": 1,
-            "time": 21958
+            "time": 29951
           },
           "write": {
             "count": 1,
-            "time": 11032
+            "time": 14449
           },
           "close": {
             "count": 1,
-            "time": 6143
+            "time": 14313
           }
         }
       },
@@ -6169,24 +6168,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 550033
+          "self": 560331
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 35494
+            "time": 33386
           },
           "mkdirSync": {
             "count": 2,
-            "time": 163181
+            "time": 161250
           },
           "lstatSync": {
             "count": 2,
-            "time": 21255
+            "time": 19833
           },
           "symlinkSync": {
             "count": 2,
-            "time": 160482
+            "time": 162924
           }
         }
       },
@@ -6206,16 +6205,16 @@
           "entries": 30
         },
         "time": {
-          "self": 2063055
+          "self": 1952963
         },
         "fs": {
           "readdirSync": {
             "count": 6,
-            "time": 296708
+            "time": 297681
           },
           "statSync": {
             "count": 42,
-            "time": 1325857
+            "time": 1208948
           }
         }
       },
@@ -6238,32 +6237,32 @@
           "linked": 0
         },
         "time": {
-          "self": 9999941
+          "self": 10749458
         },
         "fs": {
           "lstatSync": {
             "count": 414,
-            "time": 2306130
+            "time": 2284471
           },
           "realpathSync": {
             "count": 27,
-            "time": 6733801
+            "time": 7368033
           },
           "statSync": {
             "count": 64,
-            "time": 1540984
+            "time": 1722083
           },
           "readlinkSync": {
             "count": 64,
-            "time": 1115139
+            "time": 1363866
           },
           "symlinkSync": {
             "count": 28,
-            "time": 2345311
+            "time": 2470434
           },
           "mkdirSync": {
             "count": 2,
-            "time": 147076
+            "time": 153378
           }
         }
       },
@@ -6280,16 +6279,16 @@
           "entries": 5
         },
         "time": {
-          "self": 516987
+          "self": 469050
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 197917
+            "time": 189750
           },
           "statSync": {
             "count": 6,
-            "time": 162347
+            "time": 143153
           }
         }
       },
@@ -6312,20 +6311,20 @@
           "linked": 0
         },
         "time": {
-          "self": 459830
+          "self": 509705
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 94683
+            "time": 105333
           },
           "lstatSync": {
             "count": 4,
-            "time": 45177
+            "time": 50220
           },
           "symlinkSync": {
             "count": 4,
-            "time": 285082
+            "time": 312335
           }
         }
       },
@@ -6340,24 +6339,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 950686
+          "self": 1130997
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 38377
+            "time": 38821
           },
           "mkdirSync": {
             "count": 2,
-            "time": 382397
+            "time": 451850
           },
           "lstatSync": {
             "count": 2,
-            "time": 19962
+            "time": 23480
           },
           "symlinkSync": {
             "count": 2,
-            "time": 163777
+            "time": 165815
           }
         }
       },
@@ -6377,28 +6376,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1151888
+          "self": 1215383
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 43667
+            "time": 57353
           },
           "mkdirSync": {
             "count": 2,
-            "time": 192985
+            "time": 231045
           },
           "lstatSync": {
             "count": 2,
-            "time": 18278
+            "time": 21551
           },
           "rmdirSync": {
             "count": 1,
-            "time": 35895
+            "time": 57028
           },
           "symlinkSync": {
             "count": 1,
-            "time": 68875
+            "time": 89031
           }
         }
       },
@@ -6417,24 +6416,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 743908
+          "self": 929758
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 53861
+            "time": 79199
           },
           "mkdirSync": {
             "count": 2,
-            "time": 217219
+            "time": 246387
           },
           "lstatSync": {
             "count": 2,
-            "time": 16759
+            "time": 19842
           },
           "symlinkSync": {
             "count": 2,
-            "time": 158203
+            "time": 228026
           }
         }
       },
@@ -6453,40 +6452,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1783000
+          "self": 2258169
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 75327
+            "time": 124992
           },
           "mkdirSync": {
             "count": 5,
-            "time": 364744
+            "time": 407268
           },
           "lstatSync": {
             "count": 23,
-            "time": 139546
+            "time": 178584
           },
           "rmdirSync": {
             "count": 2,
-            "time": 73868
+            "time": 99582
           },
           "symlinkSync": {
             "count": 3,
-            "time": 287649
+            "time": 290768
           },
           "realpathSync": {
             "count": 2,
-            "time": 275126
+            "time": 398208
           },
           "readlinkSync": {
             "count": 2,
-            "time": 23193
+            "time": 35951
           },
           "unlinkSync": {
             "count": 1,
-            "time": 25207
+            "time": 31486
           }
         }
       },
@@ -6503,7 +6502,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 27202
+          "self": 15897
         }
       },
       "children": []
@@ -6519,16 +6518,16 @@
           "entries": 3
         },
         "time": {
-          "self": 236258
+          "self": 366561
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 99689
+            "time": 151401
           },
           "statSync": {
             "count": 3,
-            "time": 70090
+            "time": 76817
           }
         }
       },
@@ -6551,28 +6550,28 @@
           "linked": 0
         },
         "time": {
-          "self": 807829
+          "self": 677767
         },
         "fs": {
           "lstatSync": {
             "count": 25,
-            "time": 145910
+            "time": 127896
           },
           "symlinkSync": {
             "count": 3,
-            "time": 312007
+            "time": 237632
           },
           "realpathSync": {
             "count": 2,
-            "time": 405261
+            "time": 369421
           },
           "statSync": {
             "count": 4,
-            "time": 77571
+            "time": 67822
           },
           "readlinkSync": {
             "count": 4,
-            "time": 40693
+            "time": 37343
           }
         }
       },
@@ -6589,16 +6588,16 @@
           "entries": 2
         },
         "time": {
-          "self": 394927
+          "self": 418465
         },
         "fs": {
           "readdirSync": {
             "count": 1,
-            "time": 88437
+            "time": 88360
           },
           "statSync": {
             "count": 1,
-            "time": 46214
+            "time": 53930
           }
         }
       },
@@ -6621,20 +6620,20 @@
           "linked": 0
         },
         "time": {
-          "self": 258663
+          "self": 232279
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 97618
+            "time": 85919
           },
           "lstatSync": {
             "count": 1,
-            "time": 21943
+            "time": 22355
           },
           "symlinkSync": {
             "count": 1,
-            "time": 90207
+            "time": 70746
           }
         }
       },
@@ -6649,56 +6648,56 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2199766
+          "self": 2444940
         },
         "fs": {
           "statSync": {
             "count": 5,
-            "time": 138237
+            "time": 149038
           },
           "mkdirSync": {
             "count": 5,
-            "time": 348488
+            "time": 381550
           },
           "lstatSync": {
             "count": 2,
-            "time": 32851
+            "time": 20108
           },
           "rmdirSync": {
             "count": 1,
-            "time": 48551
+            "time": 34353
           },
           "symlinkSync": {
             "count": 1,
-            "time": 89636
+            "time": 69883
           },
           "lstat": {
             "count": 1,
-            "time": 13734
+            "time": 15890
           },
           "rmdir": {
             "count": 1,
-            "time": 10684
+            "time": 12382
           },
           "openSync": {
             "count": 3,
-            "time": 243199
+            "time": 343059
           },
           "fstatSync": {
             "count": 2,
-            "time": 11193
+            "time": 13737
           },
           "readSync": {
             "count": 2,
-            "time": 11841
+            "time": 22547
           },
           "closeSync": {
             "count": 3,
-            "time": 49952
+            "time": 56189
           },
           "writeSync": {
             "count": 1,
-            "time": 16623
+            "time": 21101
           }
         }
       },
@@ -6715,16 +6714,16 @@
           "entries": 3
         },
         "time": {
-          "self": 385085
+          "self": 394096
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 165436
+            "time": 172955
           },
           "statSync": {
             "count": 4,
-            "time": 119560
+            "time": 119769
           }
         }
       },
@@ -6747,32 +6746,32 @@
           "linked": 0
         },
         "time": {
-          "self": 914811
+          "self": 984795
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 105184
+            "time": 85324
           },
           "lstatSync": {
             "count": 24,
-            "time": 153031
+            "time": 157304
           },
           "realpathSync": {
             "count": 1,
-            "time": 522960
+            "time": 541130
           },
           "statSync": {
             "count": 6,
-            "time": 134410
+            "time": 121605
           },
           "readlinkSync": {
             "count": 6,
-            "time": 66707
+            "time": 62683
           },
           "symlinkSync": {
             "count": 2,
-            "time": 203131
+            "time": 288528
           }
         }
       },
@@ -6787,28 +6786,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 917149
+          "self": 1065019
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 47695
+            "time": 64485
           },
           "mkdirSync": {
             "count": 2,
-            "time": 182700
+            "time": 209889
           },
           "lstatSync": {
             "count": 2,
-            "time": 25430
+            "time": 19972
           },
           "rmdirSync": {
             "count": 1,
-            "time": 66972
+            "time": 37537
           },
           "symlinkSync": {
             "count": 1,
-            "time": 97860
+            "time": 114821
           }
         }
       },
@@ -6828,16 +6827,16 @@
           "entries": 3
         },
         "time": {
-          "self": 614496
+          "self": 1174263
         },
         "fs": {
           "readdirSync": {
             "count": 1,
-            "time": 97474
+            "time": 89663
           },
           "statSync": {
             "count": 2,
-            "time": 82201
+            "time": 552030
           }
         }
       },
@@ -6860,20 +6859,20 @@
           "linked": 0
         },
         "time": {
-          "self": 591859
+          "self": 588379
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 92561
+            "time": 148024
           },
           "lstatSync": {
             "count": 2,
-            "time": 69325
+            "time": 134533
           },
           "symlinkSync": {
             "count": 2,
-            "time": 201970
+            "time": 210461
           }
         }
       },
@@ -6888,24 +6887,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1397829
+          "self": 1691648
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 62029
+            "time": 71698
           },
           "mkdirSync": {
             "count": 2,
-            "time": 190392
+            "time": 244079
           },
           "lstatSync": {
             "count": 2,
-            "time": 48864
+            "time": 63138
           },
           "symlinkSync": {
             "count": 2,
-            "time": 259381
+            "time": 362336
           }
         }
       },
@@ -6925,40 +6924,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2078315
+          "self": 2347417
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 90514
+            "time": 102908
           },
           "mkdirSync": {
             "count": 3,
-            "time": 264077
+            "time": 293256
           },
           "lstatSync": {
             "count": 25,
-            "time": 189579
+            "time": 230990
           },
           "rmdirSync": {
             "count": 2,
-            "time": 120994
+            "time": 154268
           },
           "symlinkSync": {
             "count": 3,
-            "time": 253763
+            "time": 264038
           },
           "realpathSync": {
             "count": 2,
-            "time": 333711
+            "time": 424666
           },
           "readlinkSync": {
             "count": 2,
-            "time": 23621
+            "time": 30434
           },
           "unlinkSync": {
             "count": 1,
-            "time": 26546
+            "time": 31549
           }
         }
       },
@@ -6975,7 +6974,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 54232
+          "self": 64725
         }
       },
       "children": [
@@ -6991,12 +6990,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3157683
+          "self": 3225946
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 145291
+            "time": 32444
           }
         }
       },
@@ -7011,7 +7010,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 87028
+          "self": 91755
         }
       },
       "children": [
@@ -7027,12 +7026,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2364357
+          "self": 5402960
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 26007
+            "time": 20330
           }
         }
       },
@@ -7049,16 +7048,16 @@
           "entries": 3
         },
         "time": {
-          "self": 754340
+          "self": 1038489
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 404397
+            "time": 186429
           },
           "statSync": {
             "count": 3,
-            "time": 177937
+            "time": 565982
           }
         }
       },
@@ -7081,28 +7080,28 @@
           "linked": 0
         },
         "time": {
-          "self": 981133
+          "self": 2228610
         },
         "fs": {
           "lstatSync": {
             "count": 16,
-            "time": 212581
+            "time": 209559
           },
           "symlinkSync": {
             "count": 3,
-            "time": 358585
+            "time": 661005
           },
           "realpathSync": {
             "count": 1,
-            "time": 483120
+            "time": 1094260
           },
           "statSync": {
             "count": 2,
-            "time": 71904
+            "time": 651028
           },
           "readlinkSync": {
             "count": 2,
-            "time": 51408
+            "time": 44101
           }
         }
       },
@@ -7117,48 +7116,48 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 4052844
+          "self": 4708402
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 132713
+            "time": 81394
           },
           "mkdirSync": {
             "count": 3,
-            "time": 263312
+            "time": 320984
           },
           "lstatSync": {
             "count": 2,
-            "time": 34117
+            "time": 37800
           },
           "symlinkSync": {
             "count": 2,
-            "time": 228624
+            "time": 254745
           },
           "openSync": {
             "count": 4,
-            "time": 510713
+            "time": 365161
           },
           "fstatSync": {
             "count": 3,
-            "time": 30875
+            "time": 29540
           },
           "readSync": {
             "count": 3,
-            "time": 37969
+            "time": 206781
           },
           "closeSync": {
             "count": 4,
-            "time": 95591
+            "time": 113147
           },
           "readFileSync": {
             "count": 1,
-            "time": 128840
+            "time": 329520
           },
           "writeSync": {
             "count": 1,
-            "time": 30468
+            "time": 24702
           }
         }
       },
@@ -7175,28 +7174,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1458913
+          "self": 1535130
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 72877
+            "time": 62430
           },
           "mkdirSync": {
             "count": 2,
-            "time": 187044
+            "time": 201465
           },
           "lstatSync": {
             "count": 2,
-            "time": 56406
+            "time": 45303
           },
           "rmdirSync": {
             "count": 1,
-            "time": 86758
+            "time": 69950
           },
           "symlinkSync": {
             "count": 1,
-            "time": 154624
+            "time": 145470
           }
         }
       },
@@ -7215,7 +7214,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 209216
+          "self": 336726
         }
       },
       "children": [
@@ -7231,12 +7230,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 5297266
+          "self": 3150655
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 49956
+            "time": 141374
           }
         }
       },
@@ -7253,7 +7252,7 @@
           "entries": 1
         },
         "time": {
-          "self": 253262
+          "self": 180923
         }
       },
       "children": []
@@ -7275,20 +7274,20 @@
           "linked": 0
         },
         "time": {
-          "self": 1989166
+          "self": 1658624
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 157595
+            "time": 83666
           },
           "lstatSync": {
             "count": 1,
-            "time": 48261
+            "time": 46270
           },
           "symlinkSync": {
             "count": 1,
-            "time": 207168
+            "time": 156660
           }
         }
       },
@@ -7303,24 +7302,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 4434495
+          "self": 4314722
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 75702
+            "time": 112482
           },
           "mkdirSync": {
             "count": 2,
-            "time": 187422
+            "time": 562958
           },
           "lstatSync": {
             "count": 2,
-            "time": 25510
+            "time": 19712
           },
           "symlinkSync": {
             "count": 2,
-            "time": 118517
+            "time": 168940
           }
         }
       },
@@ -7340,68 +7339,68 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 9450791
+          "self": 10816693
         },
         "fs": {
           "statSync": {
             "count": 48,
-            "time": 1758600
+            "time": 1562261
           },
           "mkdirSync": {
             "count": 5,
-            "time": 427347
+            "time": 455803
           },
           "lstatSync": {
             "count": 2,
-            "time": 30871
+            "time": 18733
           },
           "rmdirSync": {
             "count": 1,
-            "time": 52357
+            "time": 37738
           },
           "symlinkSync": {
             "count": 1,
-            "time": 113739
+            "time": 72680
           },
           "readdirSync": {
             "count": 16,
-            "time": 970609
+            "time": 1125711
           },
           "lstat": {
             "count": 1,
-            "time": 17252
+            "time": 26783
           },
           "rmdir": {
             "count": 1,
-            "time": 16063
+            "time": 11933
           },
           "openSync": {
             "count": 19,
-            "time": 965262
+            "time": 1386878
           },
           "fstatSync": {
             "count": 18,
-            "time": 81480
+            "time": 89598
           },
           "readSync": {
             "count": 18,
-            "time": 80008
+            "time": 88520
           },
           "closeSync": {
             "count": 19,
-            "time": 133707
+            "time": 178138
           },
           "writeSync": {
             "count": 1,
-            "time": 19957
+            "time": 23089
           },
           "write": {
             "count": 1,
-            "time": 12889
+            "time": 14514
           },
           "close": {
             "count": 1,
-            "time": 9987
+            "time": 13799
           }
         }
       },
@@ -7418,24 +7417,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1073336
+          "self": 950020
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 48254
+            "time": 31174
           },
           "mkdirSync": {
             "count": 2,
-            "time": 209766
+            "time": 122340
           },
           "lstatSync": {
             "count": 5,
-            "time": 51133
+            "time": 48020
           },
           "symlinkSync": {
             "count": 5,
-            "time": 376713
+            "time": 380127
           }
         }
       },
@@ -7457,28 +7456,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1230717
+          "self": 1032166
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 82528
+            "time": 61380
           },
           "mkdirSync": {
             "count": 3,
-            "time": 288900
+            "time": 220457
           },
           "lstatSync": {
             "count": 2,
-            "time": 21317
+            "time": 22113
           },
           "rmdirSync": {
             "count": 1,
-            "time": 35502
+            "time": 62899
           },
           "symlinkSync": {
             "count": 1,
-            "time": 89180
+            "time": 77566
           }
         }
       },
@@ -7497,40 +7496,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2252421
+          "self": 2400623
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 93399
+            "time": 101518
           },
           "mkdirSync": {
             "count": 5,
-            "time": 376202
+            "time": 533714
           },
           "lstatSync": {
             "count": 21,
-            "time": 156374
+            "time": 150277
           },
           "rmdirSync": {
             "count": 2,
-            "time": 115590
+            "time": 70803
           },
           "symlinkSync": {
             "count": 3,
-            "time": 246776
+            "time": 274922
           },
           "realpathSync": {
             "count": 2,
-            "time": 293302
+            "time": 383660
           },
           "readlinkSync": {
             "count": 2,
-            "time": 20008
+            "time": 36557
           },
           "unlinkSync": {
             "count": 1,
-            "time": 24851
+            "time": 55019
           }
         }
       },
@@ -7547,20 +7546,20 @@
           "entries": 16,
           "walk": {
             "entries": 16,
-            "duration": "1.30 ms"
+            "duration": "3.00 ms"
           }
         },
         "time": {
-          "self": 1411578
+          "self": 3074426
         },
         "fs": {
           "readdirSync": {
             "count": 7,
-            "time": 412455
+            "time": 436284
           },
           "statSync": {
             "count": 16,
-            "time": 508492
+            "time": 2212185
           }
         }
       },
@@ -7586,60 +7585,60 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 40742084
+          "self": 43210202
         },
         "fs": {
           "mkdirSync": {
             "count": 6,
-            "time": 476816
+            "time": 450144
           },
           "lstatSync": {
             "count": 4,
-            "time": 92211
+            "time": 94835
           },
           "symlinkSync": {
             "count": 4,
-            "time": 322633
+            "time": 433475
           },
           "readFileSync": {
             "count": 6,
-            "time": 609446
+            "time": 553642
           },
           "openSync": {
             "count": 12,
-            "time": 1476003
+            "time": 1496063
           },
           "fstatSync": {
             "count": 6,
-            "time": 76898
+            "time": 46979
           },
           "readSync": {
             "count": 6,
-            "time": 57039
+            "time": 52048
           },
           "closeSync": {
             "count": 12,
-            "time": 320303
+            "time": 258277
           },
           "statSync": {
             "count": 9,
-            "time": 190730
+            "time": 174931
           },
           "readdirSync": {
             "count": 2,
-            "time": 92471
+            "time": 92882
           },
           "readFile": {
             "count": 6,
-            "time": 96901
+            "time": 96587
           },
           "writeFileSync": {
             "count": 6,
-            "time": 2121911
+            "time": 1735877
           },
           "writeSync": {
             "count": 6,
-            "time": 118980
+            "time": 110147
           }
         }
       },
@@ -7654,28 +7653,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1079717
+          "self": 926162
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 132660
+            "time": 68732
           },
           "mkdirSync": {
             "count": 3,
-            "time": 332225
+            "time": 305540
           },
           "lstatSync": {
             "count": 2,
-            "time": 28247
+            "time": 17236
           },
           "rmdirSync": {
             "count": 1,
-            "time": 50356
+            "time": 32278
           },
           "symlinkSync": {
             "count": 1,
-            "time": 73395
+            "time": 77252
           }
         }
       },
@@ -7694,40 +7693,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1806809
+          "self": 1713216
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 130525
+            "time": 74393
           },
           "mkdirSync": {
             "count": 5,
-            "time": 398338
+            "time": 401796
           },
           "lstatSync": {
             "count": 21,
-            "time": 135780
+            "time": 135103
           },
           "rmdirSync": {
             "count": 2,
-            "time": 73808
+            "time": 69052
           },
           "symlinkSync": {
             "count": 3,
-            "time": 237883
+            "time": 240416
           },
           "realpathSync": {
             "count": 2,
-            "time": 348728
+            "time": 310405
           },
           "readlinkSync": {
             "count": 2,
-            "time": 36290
+            "time": 20780
           },
           "unlinkSync": {
             "count": 1,
-            "time": 35077
+            "time": 28248
           }
         }
       },
@@ -7744,52 +7743,52 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3787469
+          "self": 3812197
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 98520
+            "time": 49598
           },
           "mkdirSync": {
             "count": 3,
-            "time": 242437
+            "time": 186410
           },
           "lstatSync": {
             "count": 2,
-            "time": 47891
+            "time": 19378
           },
           "rmdirSync": {
             "count": 1,
-            "time": 50740
+            "time": 38721
           },
           "symlinkSync": {
             "count": 1,
-            "time": 98448
+            "time": 71678
           },
           "readdirSync": {
             "count": 1,
-            "time": 86218
+            "time": 96126
           },
           "readFileSync": {
             "count": 1,
-            "time": 155629
+            "time": 311640
           },
           "openSync": {
             "count": 1,
-            "time": 29255
+            "time": 36805
           },
           "fstatSync": {
             "count": 1,
-            "time": 7734
+            "time": 8027
           },
           "readSync": {
             "count": 1,
-            "time": 14807
+            "time": 190353
           },
           "closeSync": {
             "count": 1,
-            "time": 10588
+            "time": 13177
           }
         }
       },
@@ -7809,20 +7808,20 @@
           "entries": 18,
           "walk": {
             "entries": 18,
-            "duration": "0.90 ms"
+            "duration": "1.18 ms"
           }
         },
         "time": {
-          "self": 950413
+          "self": 1253754
         },
         "fs": {
           "readdirSync": {
             "count": 8,
-            "time": 324547
+            "time": 404126
           },
           "statSync": {
             "count": 18,
-            "time": 480430
+            "time": 539002
           }
         }
       },
@@ -7848,64 +7847,64 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 7424172
+          "self": 8790976
         },
         "fs": {
           "readFileSync": {
             "count": 4,
-            "time": 372334
+            "time": 430493
           },
           "openSync": {
             "count": 8,
-            "time": 855665
+            "time": 972984
           },
           "fstatSync": {
             "count": 4,
-            "time": 25180
+            "time": 37352
           },
           "readSync": {
             "count": 4,
-            "time": 33673
+            "time": 37300
           },
           "closeSync": {
             "count": 8,
-            "time": 170830
+            "time": 167326
           },
           "readFile": {
             "count": 4,
-            "time": 54202
+            "time": 64380
           },
           "writeFileSync": {
             "count": 4,
-            "time": 983011
+            "time": 1116154
           },
           "writeSync": {
             "count": 4,
-            "time": 65697
+            "time": 71197
           },
           "mkdirSync": {
             "count": 7,
-            "time": 503655
+            "time": 574948
           },
           "lstatSync": {
             "count": 105,
-            "time": 678939
+            "time": 690778
           },
           "realpathSync": {
             "count": 7,
-            "time": 2084131
+            "time": 2132097
           },
           "statSync": {
             "count": 21,
-            "time": 460849
+            "time": 454489
           },
           "readlinkSync": {
             "count": 21,
-            "time": 216179
+            "time": 206247
           },
           "symlinkSync": {
             "count": 7,
-            "time": 609743
+            "time": 589982
           }
         }
       },
@@ -7922,20 +7921,20 @@
           "entries": 20,
           "walk": {
             "entries": 20,
-            "duration": "1.15 ms"
+            "duration": "1.09 ms"
           }
         },
         "time": {
-          "self": 1194658
+          "self": 1132902
         },
         "fs": {
           "readdirSync": {
             "count": 10,
-            "time": 449686
+            "time": 426493
           },
           "statSync": {
             "count": 20,
-            "time": 602423
+            "time": 549260
           }
         }
       },
@@ -7961,68 +7960,68 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 30435023
+          "self": 37938792
         },
         "fs": {
           "mkdirSync": {
             "count": 9,
-            "time": 796704
+            "time": 765839
           },
           "readFileSync": {
             "count": 4,
-            "time": 321092
+            "time": 575967
           },
           "openSync": {
             "count": 8,
-            "time": 942425
+            "time": 1084391
           },
           "fstatSync": {
             "count": 4,
-            "time": 25980
+            "time": 37773
           },
           "readSync": {
             "count": 4,
-            "time": 28460
+            "time": 101052
           },
           "closeSync": {
             "count": 8,
-            "time": 193227
+            "time": 401055
           },
           "statSync": {
             "count": 30,
-            "time": 597469
+            "time": 580997
           },
           "readdirSync": {
             "count": 2,
-            "time": 80339
+            "time": 78953
           },
           "readFile": {
             "count": 4,
-            "time": 65961
+            "time": 88445
           },
           "writeFileSync": {
             "count": 4,
-            "time": 1146247
+            "time": 1614019
           },
           "writeSync": {
             "count": 4,
-            "time": 73927
+            "time": 190093
           },
           "lstatSync": {
             "count": 119,
-            "time": 777732
+            "time": 736818
           },
           "realpathSync": {
             "count": 7,
-            "time": 2219491
+            "time": 2183717
           },
           "readlinkSync": {
             "count": 21,
-            "time": 241937
+            "time": 200860
           },
           "symlinkSync": {
             "count": 7,
-            "time": 585136
+            "time": 597796
           }
         }
       },
@@ -8037,28 +8036,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 930786
+          "self": 1214236
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 55049
+            "time": 83975
           },
           "mkdirSync": {
             "count": 3,
-            "time": 242778
+            "time": 298220
           },
           "lstatSync": {
             "count": 2,
-            "time": 16993
+            "time": 18130
           },
           "rmdirSync": {
             "count": 1,
-            "time": 33386
+            "time": 33455
           },
           "symlinkSync": {
             "count": 1,
-            "time": 101391
+            "time": 90288
           }
         }
       },
@@ -8077,40 +8076,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1727187
+          "self": 1928279
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 138301
+            "time": 96146
           },
           "mkdirSync": {
             "count": 5,
-            "time": 368433
+            "time": 380122
           },
           "lstatSync": {
             "count": 21,
-            "time": 130965
+            "time": 132508
           },
           "rmdirSync": {
             "count": 2,
-            "time": 83130
+            "time": 70560
           },
           "symlinkSync": {
             "count": 3,
-            "time": 228612
+            "time": 259766
           },
           "realpathSync": {
             "count": 2,
-            "time": 286487
+            "time": 355900
           },
           "readlinkSync": {
             "count": 2,
-            "time": 21321
+            "time": 39661
           },
           "unlinkSync": {
             "count": 1,
-            "time": 25184
+            "time": 27836
           }
         }
       },
@@ -8127,52 +8126,52 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1425071
+          "self": 1531002
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 49957
+            "time": 56634
           },
           "mkdirSync": {
             "count": 3,
-            "time": 203826
+            "time": 185760
           },
           "lstatSync": {
             "count": 2,
-            "time": 21437
+            "time": 37557
           },
           "rmdirSync": {
             "count": 1,
-            "time": 34015
+            "time": 43489
           },
           "symlinkSync": {
             "count": 1,
-            "time": 84782
+            "time": 118132
           },
           "readdirSync": {
             "count": 1,
-            "time": 67244
+            "time": 64520
           },
           "readFileSync": {
             "count": 1,
-            "time": 66337
+            "time": 71411
           },
           "openSync": {
             "count": 1,
-            "time": 22762
+            "time": 21113
           },
           "fstatSync": {
             "count": 1,
-            "time": 5369
+            "time": 14706
           },
           "readSync": {
             "count": 1,
-            "time": 8896
+            "time": 10143
           },
           "closeSync": {
             "count": 1,
-            "time": 6420
+            "time": 6004
           }
         }
       },
@@ -8192,20 +8191,20 @@
           "entries": 14,
           "walk": {
             "entries": 14,
-            "duration": "0.59 ms"
+            "duration": "0.53 ms"
           }
         },
         "time": {
-          "self": 641466
+          "self": 586036
         },
         "fs": {
           "readdirSync": {
             "count": 5,
-            "time": 215795
+            "time": 182374
           },
           "statSync": {
             "count": 14,
-            "time": 296617
+            "time": 279562
           }
         }
       },
@@ -8231,52 +8230,52 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 6261026
+          "self": 6640881
         },
         "fs": {
           "lstatSync": {
             "count": 4,
-            "time": 79750
+            "time": 95516
           },
           "symlinkSync": {
             "count": 4,
-            "time": 427301
+            "time": 402225
           },
           "mkdirSync": {
             "count": 4,
-            "time": 361272
+            "time": 325243
           },
           "readFileSync": {
             "count": 6,
-            "time": 594453
+            "time": 490491
           },
           "openSync": {
             "count": 12,
-            "time": 1431425
+            "time": 1312649
           },
           "fstatSync": {
             "count": 6,
-            "time": 50203
+            "time": 61005
           },
           "readSync": {
             "count": 6,
-            "time": 51382
+            "time": 43029
           },
           "closeSync": {
             "count": 12,
-            "time": 290220
+            "time": 237252
           },
           "readFile": {
             "count": 6,
-            "time": 83472
+            "time": 75512
           },
           "writeFileSync": {
             "count": 6,
-            "time": 1650627
+            "time": 1586699
           },
           "writeSync": {
             "count": 6,
-            "time": 103537
+            "time": 104787
           }
         }
       },
@@ -8293,20 +8292,20 @@
           "entries": 16,
           "walk": {
             "entries": 16,
-            "duration": "0.92 ms"
+            "duration": "0.95 ms"
           }
         },
         "time": {
-          "self": 954820
+          "self": 1001937
         },
         "fs": {
           "readdirSync": {
             "count": 7,
-            "time": 354235
+            "time": 362764
           },
           "statSync": {
             "count": 16,
-            "time": 481892
+            "time": 490375
           }
         }
       },
@@ -8332,68 +8331,68 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 32069624
+          "self": 32992152
         },
         "fs": {
           "mkdirSync": {
             "count": 6,
-            "time": 536546
+            "time": 454664
           },
           "lstatSync": {
             "count": 68,
-            "time": 435015
+            "time": 434366
           },
           "realpathSync": {
             "count": 4,
-            "time": 1439958
+            "time": 1557849
           },
           "statSync": {
             "count": 25,
-            "time": 498116
+            "time": 506371
           },
           "readlinkSync": {
             "count": 16,
-            "time": 158769
+            "time": 181439
           },
           "symlinkSync": {
             "count": 4,
-            "time": 375204
+            "time": 393456
           },
           "readFileSync": {
             "count": 6,
-            "time": 504126
+            "time": 469623
           },
           "openSync": {
             "count": 12,
-            "time": 1565621
+            "time": 1349443
           },
           "fstatSync": {
             "count": 6,
-            "time": 42337
+            "time": 39097
           },
           "readSync": {
             "count": 6,
-            "time": 45533
+            "time": 42205
           },
           "closeSync": {
             "count": 12,
-            "time": 381610
+            "time": 282517
           },
           "readdirSync": {
             "count": 2,
-            "time": 81849
+            "time": 90093
           },
           "readFile": {
             "count": 6,
-            "time": 101596
+            "time": 88900
           },
           "writeFileSync": {
             "count": 6,
-            "time": 1970130
+            "time": 1627970
           },
           "writeSync": {
             "count": 6,
-            "time": 115886
+            "time": 111500
           }
         }
       },
@@ -8408,28 +8407,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1031632
+          "self": 2308173
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 57774
+            "time": 58208
           },
           "mkdirSync": {
             "count": 3,
-            "time": 229405
+            "time": 226938
           },
           "lstatSync": {
             "count": 2,
-            "time": 17049
+            "time": 16276
           },
           "rmdirSync": {
             "count": 1,
-            "time": 33516
+            "time": 32804
           },
           "symlinkSync": {
             "count": 1,
-            "time": 337064
+            "time": 77091
           }
         }
       },
@@ -8448,40 +8447,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3118596
+          "self": 1625637
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 78147
+            "time": 99814
           },
           "mkdirSync": {
             "count": 5,
-            "time": 296032
+            "time": 418205
           },
           "lstatSync": {
             "count": 21,
-            "time": 127140
+            "time": 114133
           },
           "rmdirSync": {
             "count": 2,
-            "time": 87180
+            "time": 66352
           },
           "symlinkSync": {
             "count": 3,
-            "time": 150290
+            "time": 208333
           },
           "realpathSync": {
             "count": 2,
-            "time": 298390
+            "time": 258187
           },
           "readlinkSync": {
             "count": 2,
-            "time": 19895
+            "time": 19040
           },
           "unlinkSync": {
             "count": 1,
-            "time": 29546
+            "time": 25350
           }
         }
       },
@@ -8498,52 +8497,52 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1936628
+          "self": 2072383
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 49327
+            "time": 46590
           },
           "mkdirSync": {
             "count": 3,
-            "time": 238072
+            "time": 194398
           },
           "lstatSync": {
             "count": 2,
-            "time": 21453
+            "time": 20514
           },
           "rmdirSync": {
             "count": 1,
-            "time": 33737
+            "time": 34716
           },
           "symlinkSync": {
             "count": 1,
-            "time": 81329
+            "time": 90242
           },
           "readdirSync": {
             "count": 3,
-            "time": 317023
+            "time": 343789
           },
           "readFileSync": {
             "count": 1,
-            "time": 62757
+            "time": 59149
           },
           "openSync": {
             "count": 1,
-            "time": 20423
+            "time": 19631
           },
           "fstatSync": {
             "count": 1,
-            "time": 5930
+            "time": 6117
           },
           "readSync": {
             "count": 1,
-            "time": 9323
+            "time": 7776
           },
           "closeSync": {
             "count": 1,
-            "time": 6738
+            "time": 5601
           }
         }
       },
@@ -8563,20 +8562,20 @@
           "entries": 6,
           "walk": {
             "entries": 6,
-            "duration": "0.51 ms"
+            "duration": "0.48 ms"
           }
         },
         "time": {
-          "self": 542673
+          "self": 516599
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 206065
+            "time": 199230
           },
           "statSync": {
             "count": 6,
-            "time": 242733
+            "time": 220060
           }
         }
       },
@@ -8602,20 +8601,20 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 1130017
+          "self": 880139
         },
         "fs": {
           "mkdirSync": {
             "count": 3,
-            "time": 343402
+            "time": 262766
           },
           "lstatSync": {
             "count": 3,
-            "time": 103476
+            "time": 70513
           },
           "symlinkSync": {
             "count": 3,
-            "time": 248281
+            "time": 237021
           }
         }
       },
@@ -8632,20 +8631,20 @@
           "entries": 8,
           "walk": {
             "entries": 8,
-            "duration": "0.65 ms"
+            "duration": "0.89 ms"
           }
         },
         "time": {
-          "self": 689340
+          "self": 941500
         },
         "fs": {
           "readdirSync": {
             "count": 6,
-            "time": 284805
+            "time": 380261
           },
           "statSync": {
             "count": 8,
-            "time": 299024
+            "time": 428679
           }
         }
       },
@@ -8671,32 +8670,32 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 3312936
+          "self": 2962036
         },
         "fs": {
           "mkdirSync": {
             "count": 5,
-            "time": 265861
+            "time": 394446
           },
           "lstatSync": {
             "count": 80,
-            "time": 657586
+            "time": 531100
           },
           "realpathSync": {
             "count": 3,
-            "time": 2214645
+            "time": 2011659
           },
           "statSync": {
             "count": 21,
-            "time": 583260
+            "time": 512697
           },
           "readlinkSync": {
             "count": 21,
-            "time": 284344
+            "time": 257113
           },
           "symlinkSync": {
             "count": 3,
-            "time": 531397
+            "time": 283618
           }
         }
       },
@@ -8713,16 +8712,16 @@
           "entries": 33
         },
         "time": {
-          "self": 2665528
+          "self": 3169697
         },
         "fs": {
           "readdirSync": {
             "count": 22,
-            "time": 865837
+            "time": 907106
           },
           "statSync": {
             "count": 49,
-            "time": 1275364
+            "time": 1586484
           }
         }
       },
@@ -8745,32 +8744,32 @@
           "linked": 0
         },
         "time": {
-          "self": 4262349
+          "self": 4304796
         },
         "fs": {
           "mkdirSync": {
             "count": 6,
-            "time": 505107
+            "time": 472371
           },
           "lstatSync": {
             "count": 103,
-            "time": 756474
+            "time": 760371
           },
           "realpathSync": {
             "count": 5,
-            "time": 1249396
+            "time": 1227097
           },
           "statSync": {
             "count": 10,
-            "time": 217088
+            "time": 204314
           },
           "readlinkSync": {
             "count": 10,
-            "time": 105195
+            "time": 101474
           },
           "symlinkSync": {
             "count": 27,
-            "time": 1942814
+            "time": 1993643
           }
         }
       },
@@ -8785,24 +8784,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 915059
+          "self": 1206922
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 56362
+            "time": 52070
           },
           "mkdirSync": {
             "count": 2,
-            "time": 239495
+            "time": 214978
           },
           "lstatSync": {
             "count": 3,
-            "time": 40769
+            "time": 35849
           },
           "symlinkSync": {
             "count": 3,
-            "time": 172886
+            "time": 227031
           }
         }
       },
@@ -8823,28 +8822,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 859546
+          "self": 707636
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 236417
+            "time": 43532
           },
           "mkdirSync": {
             "count": 2,
-            "time": 157432
+            "time": 175224
           },
           "lstatSync": {
             "count": 2,
-            "time": 29909
+            "time": 21025
           },
           "rmdirSync": {
             "count": 1,
-            "time": 37280
+            "time": 34572
           },
           "symlinkSync": {
             "count": 1,
-            "time": 81332
+            "time": 114809
           }
         }
       },
@@ -8863,7 +8862,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 17404
+          "self": 18259
         }
       },
       "children": []
@@ -8879,7 +8878,7 @@
           "entries": 1
         },
         "time": {
-          "self": 62760
+          "self": 68350
         }
       },
       "children": []
@@ -8901,16 +8900,16 @@
           "linked": 0
         },
         "time": {
-          "self": 133332
+          "self": 136756
         },
         "fs": {
           "lstatSync": {
             "count": 1,
-            "time": 19918
+            "time": 18764
           },
           "symlinkSync": {
             "count": 1,
-            "time": 78151
+            "time": 86213
           }
         }
       },
@@ -8925,68 +8924,68 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 24091033
+          "self": 22722059
         },
         "fs": {
           "statSync": {
             "count": 33,
-            "time": 1031875
+            "time": 946204
           },
           "mkdirSync": {
             "count": 5,
-            "time": 283846
+            "time": 360883
           },
           "lstatSync": {
             "count": 2,
-            "time": 18771
+            "time": 49725
           },
           "rmdirSync": {
             "count": 1,
-            "time": 41306
+            "time": 62742
           },
           "symlinkSync": {
             "count": 1,
-            "time": 49278
+            "time": 108922
           },
           "readdirSync": {
             "count": 6,
-            "time": 363455
+            "time": 346965
           },
           "lstat": {
             "count": 1,
-            "time": 18597
+            "time": 17615
           },
           "rmdir": {
             "count": 1,
-            "time": 10999
+            "time": 12684
           },
           "openSync": {
             "count": 30,
-            "time": 1458783
+            "time": 1343429
           },
           "fstatSync": {
             "count": 29,
-            "time": 159142
+            "time": 180400
           },
           "readSync": {
             "count": 29,
-            "time": 254373
+            "time": 1528193
           },
           "closeSync": {
             "count": 30,
-            "time": 297434
+            "time": 275760
           },
           "writeSync": {
             "count": 1,
-            "time": 179150
+            "time": 124820
           },
           "write": {
             "count": 1,
-            "time": 22565
+            "time": 25338
           },
           "close": {
             "count": 1,
-            "time": 10780
+            "time": 11400
           }
         }
       },
@@ -9003,24 +9002,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 582985
+          "self": 927103
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 32666
+            "time": 31092
           },
           "mkdirSync": {
             "count": 2,
-            "time": 128279
+            "time": 106187
           },
           "lstatSync": {
             "count": 4,
-            "time": 34559
+            "time": 38661
           },
           "symlinkSync": {
             "count": 4,
-            "time": 177422
+            "time": 333055
           }
         }
       },
@@ -9039,40 +9038,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1840320
+          "self": 2324899
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 78171
+            "time": 85441
           },
           "mkdirSync": {
             "count": 3,
-            "time": 261355
+            "time": 248821
           },
           "lstatSync": {
             "count": 21,
-            "time": 153541
+            "time": 403954
           },
           "rmdirSync": {
             "count": 2,
-            "time": 83241
+            "time": 148144
           },
           "symlinkSync": {
             "count": 3,
-            "time": 162697
+            "time": 298953
           },
           "realpathSync": {
             "count": 2,
-            "time": 467293
+            "time": 325624
           },
           "readlinkSync": {
             "count": 2,
-            "time": 21337
+            "time": 21371
           },
           "unlinkSync": {
             "count": 1,
-            "time": 27990
+            "time": 29556
           }
         }
       },
@@ -9089,28 +9088,28 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1119319
+          "self": 1265369
         },
         "fs": {
           "statSync": {
             "count": 3,
-            "time": 70007
+            "time": 105385
           },
           "mkdirSync": {
             "count": 3,
-            "time": 247231
+            "time": 326709
           },
           "lstatSync": {
             "count": 2,
-            "time": 45102
+            "time": 34304
           },
           "rmdirSync": {
             "count": 1,
-            "time": 70468
+            "time": 65712
           },
           "symlinkSync": {
             "count": 1,
-            "time": 125272
+            "time": 149797
           }
         }
       },
@@ -9129,24 +9128,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 660276
+          "self": 806202
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 32756
+            "time": 33483
           },
           "mkdirSync": {
             "count": 2,
-            "time": 117101
+            "time": 151715
           },
           "lstatSync": {
             "count": 2,
-            "time": 33570
+            "time": 29568
           },
           "symlinkSync": {
             "count": 2,
-            "time": 195581
+            "time": 243284
           }
         }
       },
@@ -9166,24 +9165,24 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 1170445
+          "self": 1088434
         },
         "fs": {
           "statSync": {
             "count": 2,
-            "time": 40270
+            "time": 34086
           },
           "mkdirSync": {
             "count": 2,
-            "time": 128627
+            "time": 132755
           },
           "lstatSync": {
             "count": 3,
-            "time": 81454
+            "time": 76210
           },
           "symlinkSync": {
             "count": 3,
-            "time": 385097
+            "time": 319953
           }
         }
       },
@@ -9204,7 +9203,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 191940
+          "self": 179411
         }
       },
       "children": [
@@ -9220,12 +9219,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3269967
+          "self": 3210451
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 27951
+            "time": 33741
           }
         }
       },
@@ -9240,7 +9239,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 89420
+          "self": 83135
         }
       },
       "children": [
@@ -9256,12 +9255,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2524295
+          "self": 3102029
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 53644
+            "time": 52995
           }
         }
       },
@@ -9276,7 +9275,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 97762
+          "self": 84587
         }
       },
       "children": [
@@ -9292,12 +9291,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2905750
+          "self": 2872759
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 50066
+            "time": 55211
           }
         }
       },
@@ -9314,16 +9313,16 @@
           "entries": 6
         },
         "time": {
-          "self": 1020316
+          "self": 1296470
         },
         "fs": {
           "readdirSync": {
             "count": 3,
-            "time": 315449
+            "time": 279175
           },
           "statSync": {
             "count": 6,
-            "time": 416866
+            "time": 577662
           }
         }
       },
@@ -9346,16 +9345,16 @@
           "linked": 0
         },
         "time": {
-          "self": 926313
+          "self": 955767
         },
         "fs": {
           "lstatSync": {
             "count": 6,
-            "time": 134692
+            "time": 168183
           },
           "symlinkSync": {
             "count": 6,
-            "time": 671510
+            "time": 621586
           }
         }
       },
@@ -9370,40 +9369,40 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 2956099
+          "self": 3213063
         },
         "fs": {
           "statSync": {
             "count": 4,
-            "time": 196197
+            "time": 170238
           },
           "mkdirSync": {
             "count": 5,
-            "time": 531609
+            "time": 523768
           },
           "lstatSync": {
             "count": 25,
-            "time": 328375
+            "time": 496191
           },
           "rmdirSync": {
             "count": 2,
-            "time": 128618
+            "time": 160960
           },
           "symlinkSync": {
             "count": 3,
-            "time": 347258
+            "time": 361336
           },
           "realpathSync": {
             "count": 2,
-            "time": 676014
+            "time": 682932
           },
           "readlinkSync": {
             "count": 2,
-            "time": 58000
+            "time": 56430
           },
           "unlinkSync": {
             "count": 1,
-            "time": 40284
+            "time": 57037
           }
         }
       },
@@ -9420,7 +9419,7 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 100485
+          "self": 97891
         }
       },
       "children": [
@@ -9436,12 +9435,12 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3432945
+          "self": 3632080
         },
         "fs": {
           "existsSync": {
             "count": 1,
-            "time": 46703
+            "time": 50790
           }
         }
       },
@@ -9458,16 +9457,16 @@
           "entries": 7
         },
         "time": {
-          "self": 919321
+          "self": 975119
         },
         "fs": {
           "readdirSync": {
             "count": 2,
-            "time": 191085
+            "time": 187958
           },
           "statSync": {
             "count": 7,
-            "time": 518640
+            "time": 509931
           }
         }
       },
@@ -9490,28 +9489,28 @@
           "linked": 0
         },
         "time": {
-          "self": 4777747
+          "self": 6289199
         },
         "fs": {
           "lstatSync": {
             "count": 103,
-            "time": 1111836
+            "time": 1199614
           },
           "symlinkSync": {
             "count": 7,
-            "time": 943912
+            "time": 1095110
           },
           "realpathSync": {
             "count": 6,
-            "time": 3330769
+            "time": 3865895
           },
           "statSync": {
             "count": 18,
-            "time": 743647
+            "time": 781677
           },
           "readlinkSync": {
             "count": 18,
-            "time": 358672
+            "time": 435329
           }
         }
       },
@@ -9528,20 +9527,20 @@
           "entries": 26,
           "walk": {
             "entries": 26,
-            "duration": "2.61 ms"
+            "duration": "5.80 ms"
           }
         },
         "time": {
-          "self": 2695107
+          "self": 5870155
         },
         "fs": {
           "readdirSync": {
             "count": 5,
-            "time": 543601
+            "time": 631360
           },
           "statSync": {
             "count": 26,
-            "time": 1860256
+            "time": 4883158
           }
         }
       },
@@ -9567,52 +9566,52 @@
           "persistentCachePrime": 0
         },
         "time": {
-          "self": 55069942
+          "self": 65534360
         },
         "fs": {
           "mkdirSync": {
             "count": 4,
-            "time": 428826
+            "time": 523030
           },
           "readFileSync": {
             "count": 22,
-            "time": 2240266
+            "time": 3307928
           },
           "openSync": {
             "count": 44,
-            "time": 5218553
+            "time": 6039088
           },
           "fstatSync": {
             "count": 22,
-            "time": 168243
+            "time": 345211
           },
           "readSync": {
             "count": 22,
-            "time": 165917
+            "time": 976452
           },
           "closeSync": {
             "count": 44,
-            "time": 983055
+            "time": 1109968
           },
           "statSync": {
             "count": 9,
-            "time": 583925
+            "time": 199212
           },
           "readdirSync": {
             "count": 2,
-            "time": 166799
+            "time": 98805
           },
           "readFile": {
             "count": 22,
-            "time": 303035
+            "time": 351873
           },
           "writeFileSync": {
             "count": 22,
-            "time": 5839717
+            "time": 6901543
           },
           "writeSync": {
             "count": 22,
-            "time": 372147
+            "time": 457135
           }
         }
       },
@@ -9629,16 +9628,16 @@
           "entries": 21
         },
         "time": {
-          "self": 1611331
+          "self": 1769791
         },
         "fs": {
           "readdirSync": {
             "count": 6,
-            "time": 281504
+            "time": 391092
           },
           "statSync": {
             "count": 22,
-            "time": 762751
+            "time": 890679
           }
         }
       },
@@ -9661,32 +9660,32 @@
           "linked": 0
         },
         "time": {
-          "self": 8766066
+          "self": 10492663
         },
         "fs": {
           "lstatSync": {
             "count": 301,
-            "time": 2455027
+            "time": 2729645
           },
           "realpathSync": {
             "count": 18,
-            "time": 6936073
+            "time": 7733527
           },
           "statSync": {
             "count": 61,
-            "time": 1370715
+            "time": 1377895
           },
           "readlinkSync": {
             "count": 61,
-            "time": 632348
+            "time": 659022
           },
           "symlinkSync": {
             "count": 20,
-            "time": 1151985
+            "time": 1982299
           },
           "mkdirSync": {
             "count": 1,
-            "time": 102779
+            "time": 61635
           }
         }
       },
@@ -9701,56 +9700,56 @@
       "stats": {
         "own": {},
         "time": {
-          "self": 3548836
+          "self": 4231369
         },
         "fs": {
           "statSync": {
             "count": 5,
-            "time": 274125
+            "time": 595929
           },
           "mkdirSync": {
             "count": 5,
-            "time": 446686
+            "time": 722021
           },
           "lstatSync": {
             "count": 2,
-            "time": 105121
+            "time": 36684
           },
           "rmdirSync": {
             "count": 1,
-            "time": 82723
+            "time": 49634
           },
           "symlinkSync": {
             "count": 1,
-            "time": 96457
+            "time": 129406
           },
           "lstat": {
             "count": 1,
-            "time": 19608
+            "time": 18268
           },
           "rmdir": {
             "count": 1,
-            "time": 8489
+            "time": 10902
           },
           "openSync": {
             "count": 3,
-            "time": 300333
+            "time": 327740
           },
           "fstatSync": {
             "count": 2,
-            "time": 13997
+            "time": 16080
           },
           "readSync": {
             "count": 2,
-            "time": 19153
+            "time": 281893
           },
           "closeSync": {
             "count": 3,
-            "time": 71077
+            "time": 59193
           },
           "writeSync": {
             "count": 1,
-            "time": 27323
+            "time": 18684
           }
         }
       },
@@ -9767,16 +9766,16 @@
           "entries": 5
         },
         "time": {
-          "self": 625080
+          "self": 784814
         },
         "fs": {
           "readdirSync": {
             "count": 5,
-            "time": 239963
+            "time": 241911
           },
           "statSync": {
             "count": 6,
-            "time": 171600
+            "time": 333441
           }
         }
       },
@@ -9799,32 +9798,32 @@
           "linked": 0
         },
         "time": {
-          "self": 1478819
+          "self": 1251602
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 59995
+            "time": 104419
           },
           "lstatSync": {
             "count": 20,
-            "time": 211094
+            "time": 178954
           },
           "symlinkSync": {
             "count": 4,
-            "time": 482018
+            "time": 400863
           },
           "realpathSync": {
             "count": 1,
-            "time": 781441
+            "time": 578362
           },
           "statSync": {
             "count": 3,
-            "time": 105991
+            "time": 76041
           },
           "readlinkSync": {
             "count": 3,
-            "time": 50750
+            "time": 34997
           }
         }
       },
@@ -9841,16 +9840,16 @@
           "entries": 7
         },
         "time": {
-          "self": 965507
+          "self": 602495
         },
         "fs": {
           "readdirSync": {
             "count": 4,
-            "time": 283709
+            "time": 186698
           },
           "statSync": {
             "count": 8,
-            "time": 349242
+            "time": 224345
           }
         }
       },
@@ -9873,32 +9872,32 @@
           "linked": 0
         },
         "time": {
-          "self": 4674620
+          "self": 2650859
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 73714
+            "time": 81933
           },
           "lstatSync": {
             "count": 69,
-            "time": 1002997
+            "time": 756772
           },
           "realpathSync": {
             "count": 4,
-            "time": 2492723
+            "time": 1881643
           },
           "statSync": {
             "count": 11,
-            "time": 385345
+            "time": 308319
           },
           "readlinkSync": {
             "count": 11,
-            "time": 221677
+            "time": 184848
           },
           "symlinkSync": {
             "count": 6,
-            "time": 1772595
+            "time": 543163
           }
         }
       },
@@ -9915,16 +9914,16 @@
           "entries": 20
         },
         "time": {
-          "self": 1824420
+          "self": 1852686
         },
         "fs": {
           "readdirSync": {
             "count": 11,
-            "time": 545860
+            "time": 557587
           },
           "statSync": {
             "count": 23,
-            "time": 738597
+            "time": 755608
           }
         }
       },
@@ -9947,32 +9946,32 @@
           "linked": 0
         },
         "time": {
-          "self": 11857622
+          "self": 20725489
         },
         "fs": {
           "mkdirSync": {
             "count": 1,
-            "time": 114452
+            "time": 122460
           },
           "lstatSync": {
             "count": 287,
-            "time": 2721559
+            "time": 2054462
           },
           "realpathSync": {
             "count": 17,
-            "time": 8284340
+            "time": 18228618
           },
           "statSync": {
             "count": 49,
-            "time": 1554574
+            "time": 1223710
           },
           "readlinkSync": {
             "count": 49,
-            "time": 720919
+            "time": 535200
           },
           "symlinkSync": {
             "count": 19,
-            "time": 2668463
+            "time": 1800783
           }
         }
       },
