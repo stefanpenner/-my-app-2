@@ -5,7 +5,6 @@ let _ = require('lodash');
 let MatcherCollection = require('matcher-collection');
 let tree = require('heimdalljs-tree');
 
-
 let fsReadPatterns = [
   'accessSync',
   'existsSync',
@@ -286,11 +285,10 @@ function printBuildSummary(json, options) {
 
 module.exports = {
   computeBuildSummary,
-}
+};
 
-
-let json = JSON.parse(fs.readFileSync('./broccoli-viz.0.json', 'UTF8'));
-printBuildSummary({
-  summary: json.summary,
-  buildTree: tree.loadFromFile('./broccoli-viz.0.json'),
-});
+// let json = JSON.parse(fs.readFileSync('./broccoli-viz.0.json', 'UTF8'));
+// printBuildSummary({
+//   summary: json.summary,
+//   buildTree: tree.loadFromFile('./broccoli-viz.0.json'),
+// });
