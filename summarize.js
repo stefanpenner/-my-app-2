@@ -251,13 +251,19 @@ function mostExpensive(items, options={}) {
   return until > -1 ? items.slice(0, until) : items.slice(0, 10);
 }
 
+function objectValues(o) {
+  return Object.keys(o).map(function (k) {
+    return o[k];
+  });
+}
+
 function computeBuildSummary(analytics, options) {
   let tree = analytics.buildTree;
   let totalTimeNS = sumStat(tree.preOrderIterator(), 'time.self');
   let totalTime = formatNs(totalTimeNS);
 
   let plugins = [...map(allPlugins(tree.preOrderIterator()), summarizePlugin)];
-  let pluginsByName = Object.values(mapValues(allPluginsGrouped(tree.preOrderIterator()), summarizePlugins));
+  let pluginsByName = objectValues(mapValues(allPluginsGrouped(tree.preOrderIterator()), summarizePlugins));
 
   return {
     totalTime,
